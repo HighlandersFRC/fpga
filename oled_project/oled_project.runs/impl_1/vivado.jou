@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Sun Jan 05 12:50:01 2014
+# Process ID: 2456
+# Log file: C:/vivado/oled_project/oled_project.runs/impl_1/main.rdi
+# Journal file: C:/vivado/oled_project/oled_project.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source main.tcl -notrace

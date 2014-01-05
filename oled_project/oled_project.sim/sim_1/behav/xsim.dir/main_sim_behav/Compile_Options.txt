@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "work" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "main_sim_behav" --prj "C:/vivado/oled_project/oled_project.sim/sim_1/behav/main_sim.prj" "work.main_sim" "work.glbl" 

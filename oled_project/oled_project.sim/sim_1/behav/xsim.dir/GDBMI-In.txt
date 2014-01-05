@@ -1,0 +1,70 @@
+1-mark-time
+2-target-exec-status
+3-target-exec-status
+4-ntrace-select -n 0 -on
+5-ntrace-select -n 1 -on
+6-ntrace-select -n 2 -on
+7-ntrace-select -n 3 -on
+8-ntrace-select -n 4 -on
+9-ntrace-select -n 0 -on
+10-ntrace-select -n 1 -on
+11-ntrace-select -n 2 -on
+12-ntrace-select -n 3 -on
+13-ntrace-select -n 4 -on
+14-target-exec-status
+15-target-exec-status
+16-get-values 0 0 4312 0 1 4320 
+17-get-values 0 0 752 0 1 760 
+18-get-values 0 0 928 0 1 936 
+19-get-values 0 0 1104 0 1 1112 
+20-get-values 0 0 1280 0 1 1288 
+21-get-values 0 0 8192 0 8 8200 
+22-get-values 0 0 8368 0 3 8376 
+23-target-exec-status
+24-target-exec-status
+25-exec-continue -time 1000000
+26-mark-time
+27-target-exec-status
+28-target-exec-status
+29-mark-time
+30-target-exec-status
+31-get-values 0 0 4312 0 1 4320 
+32-get-values 0 0 752 0 1 760 
+33-get-values 0 0 928 0 1 936 
+34-get-values 0 0 1104 0 1 1112 
+35-get-values 0 0 1280 0 1 1288 
+36-get-values 0 0 8192 0 8 8200 
+37-get-values 0 0 8368 0 3 8376 
+38-target-exec-status
+39-target-exec-status
+40-target-exec-status
+41-target-exec-status
+42-exec-continue -time 200000000000
+43-mark-time
+44-target-exec-status
+45-target-exec-status
+46-mark-time
+47-target-exec-status
+48-target-exec-status
+49-mark-time
+50-target-exec-status
+51-target-exec-status
+52-mark-time
+53-target-exec-status
+54-target-exec-status
+55-mark-time
+56-target-exec-status
+57-get-values 0 0 4312 0 1 4320 
+58-get-values 0 0 752 0 1 760 
+59-get-values 0 0 928 0 1 936 
+60-get-values 0 0 1104 0 1 1112 
+61-get-values 0 0 1280 0 1 1288 
+62-get-values 0 0 8192 0 8 8200 
+63-get-values 0 0 8368 0 3 8376 
+64-target-exec-status
+65-target-exec-status
+66-get-values 0 0 1280 0 1 1288 
+67-get-values 0 0 1280 0 1 1288 
+68-get-values 0 0 1280 0 1 1288 
+69-get-values 0 0 1280 0 1 1288 
+70-gdb-exit

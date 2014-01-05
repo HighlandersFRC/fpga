@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="9">
+	<Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z020clg484-1" LaunchPart="xc7z020clg484-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" Dir="$PRUNDIR/synth_1" LaunchTime="1388951283">
+		<File Type="RDS-UTIL" Name="main_utilization_synth.rpt"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
+		<File Type="RDS-UTIL-PB" Name="main_utilization_synth.pb"/>
+		<File Type="RDS-DCP" Name="main.dcp"/>
+		<File Type="VDS-TIMINGSUMMARY" Name="main_timing_summary_synth.rpt"/>
+		<File Type="VDS-TIMING-PB" Name="main_timing_summary_synth.pb"/>
+		<File Type="PA-TCL" Name="main.tcl"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
+		<File Type="RDS-RDS" Name="main.rds"/>
+	</Run>
+	<Run Id="impl_1" Type="Ft2:EntireDesign" SynthRun="synth_1" Part="xc7z020clg484-1" LaunchPart="xc7z020clg484-1" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current" Dir="$PRUNDIR/impl_1" LaunchTime="1388951283">
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+		<File Type="OPT-DRC" Name="main_drc_opted.rpt"/>
+		<File Type="PLACE-IO" Name="main_io_placed.rpt"/>
+		<File Type="PLACE-CLK" Name="main_clock_utilization_placed.rpt"/>
+		<File Type="PLACE-UTIL" Name="main_utilization_placed.rpt"/>
+		<File Type="PLACE-UTIL-PB" Name="main_utilization_placed.pb"/>
+		<File Type="PLACE-CTRL" Name="main_control_sets_placed.rpt"/>
+		<File Type="PLACE-SIMILARITY" Name="main_incremental_reuse_placed.rpt"/>
+		<File Type="PLACE-PRE-SIMILARITY" Name="main_incremental_reuse_pre_placed.rpt"/>
+		<File Type="PA-TCL" Name="main.tcl"/>
+		<File Type="ROUTE-DRC" Name="main_drc_routed.rpt"/>
+		<File Type="ROUTE-DRC-PB" Name="main_drc_routed.pb"/>
+		<File Type="ROUTE-PWR" Name="main_power_routed.rpt"/>
+		<File Type="ROUTE-PWR-SUM" Name="main_power_summary_routed.pb"/>
+		<File Type="ROUTE-STATUS" Name="main_route_status.rpt"/>
+		<File Type="ROUTE-STATUS-PB" Name="main_route_status.pb"/>
+		<File Type="ROUTE-DCP" Name="main_routed.dcp"/>
+		<File Type="ROUTE-TIMINGSUMMARY" Name="main_timing_summary_routed.rpt"/>
+		<File Type="ROUTE-TIMING-PB" Name="main_timing_summary_routed.pb"/>
+		<File Type="ROUTE-SIMILARITY" Name="main_incremental_reuse_routed.rpt"/>
+		<File Type="OPT-DCP" Name="main_opt.dcp"/>
+		<File Type="RDI-RDI" Name="main.rdi"/>
+		<File Type="PLACE-DCP" Name="main_placed.dcp"/>
+		<File Type="PWROPT-DCP" Name="main_pwropt.dcp"/>
+		<File Type="POSTPLACE-PWROPT-DCP" Name="main_postplace_pwropt.dcp"/>
+		<File Type="PWROPT-DRC" Name="main_drc_pwropted.rpt"/>
+		<File Type="PHYSOPT-DCP" Name="main_physopt.dcp"/>
+		<File Type="PHYSOPT-DRC" Name="main_drc_physopted.rpt"/>
+		<File Type="BG-BIT" Name="main.bit"/>
+		<File Type="BG-DRC" Name="main.drc"/>
+		<File Type="BG-BGN" Name="main.bgn"/>
+		<File Type="BG-BIN" Name="main.bin"/>
+		<File Type="BITSTR-MSK" Name="main.msk"/>
+		<File Type="BITSTR-RBT" Name="main.rbt"/>
+		<File Type="BITSTR-NKY" Name="main.nky"/>
+		<File Type="BITSTR-BMM" Name="main_bd.bmm"/>
+		<File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+	</Run>
+</Runs>
+

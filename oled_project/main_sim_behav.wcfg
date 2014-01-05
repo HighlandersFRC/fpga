@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="main_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="main_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/main_sim/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_sim/clk_recv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_recv</obj_property>
+      <obj_property name="ObjectShortName">clk_recv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_sim/data" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">data</obj_property>
+      <obj_property name="ObjectShortName">data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_sim/cmd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cmd</obj_property>
+      <obj_property name="ObjectShortName">cmd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_sim/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+</wave_config>

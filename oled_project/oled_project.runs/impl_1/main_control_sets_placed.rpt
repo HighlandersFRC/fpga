@@ -1,0 +1,87 @@
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------
+| Tool Version : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
+| Date         : Sun Jan 05 12:50:27 2014
+| Host         :  running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
+| Design       : main
+| Device       : xc7z020
+-----------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    34 |
+| Minimum Number of register sites lost to control set restrictions |    60 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             148 |           84 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             153 |           43 |
+| Yes          | No                    | No                     |             342 |           87 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              89 |           24 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+
+|                    Clock Signal                   |                                                              Enable Signal                                                              |                                                             Set/Reset Signal                                                            | Slice Load Count | Bel Load Count |
++---------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bresp_push   |                                                                                                                                         |                1 |              2 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/n_0_axlen_cnt[3]_i_1__1                                               |                                                                                                                                         |                2 |              4 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/n_0_axlen_cnt[3]_i_1__0                                               | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/n_0_axlen_cnt[7]_i_1__0                                               |                1 |              4 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 |                                                                                                                                         | cpu/zynq_1_i/axi_gpio_0/U0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/p_2_out                                                                   |                1 |              4 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/n_0_axlen_cnt[3]_i_1__0                                               |                                                                                                                                         |                2 |              4 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/n_0_axlen_cnt[3]_i_1                                                  |                                                                                                                                         |                1 |              4 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/proc_sys_reset_1/U0/SEQ/seq_cnt_en                                                                                         | cpu/zynq_1_i/proc_sys_reset_1/U0/clear                                                                                                  |                1 |              6 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/axi_gpio_0/U0/n_0_Not_Dual.gpio_Data_Out[0]_i_1                                                                            | cpu/zynq_1_i/axi_gpio_0/U0/bus2ip_reset                                                                                                 |                2 |              7 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/n_0_axlen_cnt[7]_i_1                                                  |                                                                                                                                         |                3 |              8 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 |                                                                                                                                         | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/n_0_areset_d1_i_1                                                     |                5 |              8 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/mhandshake_r | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/s_bresp_acc0 |                2 |              8 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/n_0_axaddr_incr[0]_i_1__0                                             |                                                                                                                                         |                3 |             12 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/n_0_axaddr_incr[0]_i_1                                                |                                                                                                                                         |                3 |             12 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/n_0_wrap_boundary_axaddr_r[11]_i_1                                    |                                                                                                                                         |                6 |             12 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/n_0_wrap_boundary_axaddr_r[11]_i_1__0                                 |                                                                                                                                         |                4 |             12 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/n_0_axaddr_wrap[11]_i_1__0                                            |                                                                                                                                         |                4 |             12 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/n_0_axaddr_wrap[11]_i_1                                               |                                                                                                                                         |                3 |             12 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/r_push_r     |                                                                                                                                         |                4 |             13 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/b_pipe/p_1_in        |                                                                                                                                         |                3 |             14 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/si_rs_bready                |                                                                                                                                         |                4 |             14 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/b_push                      |                                                                                                                                         |                3 |             20 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/s_axi_awready                                                         |                                                                                                                                         |                6 |             32 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/s_axi_arready                                                         |                                                                                                                                         |                6 |             32 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/p_1_in       |                                                                                                                                         |                8 |             32 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/axi_gpio_0/U0/n_0_Not_Dual.gpio_OE[0]_i_1                                                                                  | cpu/zynq_1_i/axi_gpio_0/U0/bus2ip_reset                                                                                                 |               10 |             32 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/axi_gpio_0/U0/n_0_s_axi_rdata_i[31]_i_1                                                                                    | cpu/zynq_1_i/axi_gpio_0/U0/bus2ip_reset                                                                                                 |                8 |             32 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 |                                                                                                                                         | cpu/zynq_1_i/axi_gpio_0/U0/gpio_core_1/Read_Reg_Rst                                                                                     |               11 |             32 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/p_1_in       |                                                                                                                                         |                8 |             32 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/wr_en0       |                                                                                                                                         |                9 |             34 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 |                                                                                                                                         | cpu/zynq_1_i/axi_gpio_0/U0/bus2ip_reset                                                                                                 |                9 |             38 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/r_pipe/p_1_in        |                                                                                                                                         |               10 |             47 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/si_rs_rready                |                                                                                                                                         |               11 |             47 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 |                                                                                                                                         | cpu/zynq_1_i/processing_system7_1_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/areset_d1                   |               17 |             71 |
+|  cpu/zynq_1_i/processing_system7_1/inst/FCLK_CLK0 |                                                                                                                                         |                                                                                                                                         |               85 |            149 |
++---------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+
+
+

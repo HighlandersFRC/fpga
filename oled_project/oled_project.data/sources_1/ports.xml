@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="2">
+	<Ifc Id="ROOT" Top="1">
+		<Port Id="clk_in" Dir="IN"/>
+		<Port Id="reset" Dir="OUT"/>
+		<Port Id="sclk" Dir="OUT"/>
+		<Port Id="sdata" Dir="OUT"/>
+		<Port Id="scmd" Dir="OUT"/>
+		<Port Id="vbat" Dir="OUT"/>
+		<Port Id="vdd" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

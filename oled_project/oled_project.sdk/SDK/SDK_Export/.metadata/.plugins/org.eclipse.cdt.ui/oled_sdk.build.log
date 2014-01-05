@@ -1,0 +1,23 @@
+14:32:24 **** Auto Build of configuration Debug for project oled_sdk ****
+make all 
+'Building file: ../src/main.cc'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -I../../oled_sdk_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'char* munchingsquares(int)':
+../src/main.cc:153:1: warning: no return statement in function returning non-void [-Wreturn-type]
+'Finished building: ../src/main.cc'
+' '
+'Building target: oled_sdk.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../oled_sdk_bsp/ps7_cortexa9_0/lib -o "oled_sdk.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: oled_sdk.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size oled_sdk.elf  |tee "oled_sdk.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34172	   2160	  29868	  66200	  10298	oled_sdk.elf
+'Finished building: oled_sdk.elf.size'
+' '
+
+14:32:24 Build Finished (took 514ms)
+
