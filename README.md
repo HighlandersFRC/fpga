@@ -20,6 +20,7 @@ Some handy links:
   *  [Packaging and Pinout](http://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf)
   
 * Vivado
+  * [Install Guide](http://www.xilinx.com/support/documentation/sw_manuals/xilinx2013_2/ug973-vivado-release-notes-install-license.pdf)
   * [Getting Started](http://www.xilinx.com/support/documentation/sw_manuals/xilinx2013_2/ug910-vivado-getting-started.pdf)
   * [Design Flows Overview](http://www.xilinx.com/support/documentation/sw_manuals/xilinx2013_2/ug888-vivado-design-flows-overview-tutorial.pdf)
   
