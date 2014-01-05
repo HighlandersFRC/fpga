@@ -8,6 +8,7 @@ Our intention is to experiment with FPGAs for use in high performance applicatio
 Zedboard
 --------
 
+
 Our initial development was done on a [Zedboard](http://www.zedboard.org/product/zedboard) development board.
 
 Some handy links:
