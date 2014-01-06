@@ -32,6 +32,6 @@ Our initial development is being done on a [Zedboard](http://www.zedboard.org/pr
 Background Info
 ---------------
 
-Developing on the Zedboard is a bit more low-level than the system-level software many programmers are used to writing. It requires detailed knowledge of which integrated circuits (ICs) are used on the Zedboard and how they communicate.  Below is a list of links that provide some of this information.
+Developing on the Zedboard is a bit more low-level than the system-level software many programmers are used to writing. It requires detailed knowledge of the integrated circuits (ICs) used on the Zedboard and how they communicate.  Below is a list of links that provide some of this information.
 
 * [Introduction to SPI and I2C](http://www.byteparadigm.com/applications/introduction-to-i2c-and-spi-protocols/?/article/AA-00255/22/Introduction-to-SPI-and-IC-protocols.html)
