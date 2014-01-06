@@ -34,16 +34,4 @@ Background Info
 
 Developing on the Zedboard is a bit more low-level than the system-level software many programmers are used to writing. It requires detailed knowledge of which integrated circuits (ICs) are used on the Zedboard and how they communicate.  Below is a list of links that provide some of this information.
 
-* [Introduction to SPI and I2C](Some handy links for the Zynq and Xilinx's design tool Vivado:
-
-*  [Xilinx Zynq Docs](http://www.xilinx.com/support/index.html/content/xilinx/en/supportNav/silicon_devices/soc/zynq-7000.html)
-  *  [Overview](http://www.xilinx.com/support/documentation/data_sheets/ds190-Zynq-7000-Overview.pdf)
-  *  [Technical Reference](http://www.xilinx.com/support/documentation/user_guides/ug585-Zynq-7000-TRM.pdf)
-  *  [Clocking User Guide](http://www.xilinx.com/support/documentation/user_guides/ug472_7Series_Clocking.pdf)
-  *  [Memory User Guide](http://www.xilinx.com/support/documentation/user_guides/ug473_7Series_Memory_Resources.pdf)
-  *  [Packaging and Pinout](http://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf)
-  
-* [Vivado Design Suite](http://www.xilinx.com/products/design-tools/vivado/)
-  * [Install Guide](http://www.xilinx.com/support/documentation/sw_manuals/xilinx2013_2/ug973-vivado-release-notes-install-license.pdf)
-  * [Getting Started](http://www.xilinx.com/support/documentation/sw_manuals/xilinx2013_2/ug910-vivado-getting-started.pdf)
-  * [Design Flows Overview](http://www.byteparadigm.com/applications/introduction-to-i2c-and-spi-protocols/?/article/AA-00255/22/Introduction-to-SPI-and-IC-protocols.html)
+* [Introduction to SPI and I2C](http://www.byteparadigm.com/applications/introduction-to-i2c-and-spi-protocols/?/article/AA-00255/22/Introduction-to-SPI-and-IC-protocols.html)
