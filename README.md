@@ -1,7 +1,7 @@
 FPGA
 ====
 
-This repository holds all the projects and docs relating to our work with the Xilinx Zynq 7000 series FPGAs.  These chips are part of Xilinx's system-on-a-chip (SOC) product line.  This means that they not only contain programmable logic (PL), but they also have an embedded processing system (PS) consisting of a dual core ARM cortex processor running at 667 MHZ.
+This repository holds all the projects and docs relating to our work with the Xilinx Zynq 7000 series FPGAs.  These chips are part of Xilinx's system-on-a-chip (SOC) product line.  This means that they not only contain programmable logic (PL), but they also have an embedded processing system (PS) consisting of a dual core ARM Cortex processor running at 667 MHZ.
 
 Our intention is to experiment with FPGAs for use in high performance applications such as image processing, computer vision, and drive system monitoring.
 
