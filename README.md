@@ -5,6 +5,20 @@ This repository holds all the projects and docs relating to our work with the Xi
 
 Our intention is to experiment with FPGAs for use in high performance applications such as image processing, computer vision, and drive system monitoring.
 
+Zedboard
+--------
+
+Our initial development is being done on a [Zedboard](http://www.zedboard.org/product/zedboard) development board.
+
+* Zedboard links
+  * [Getting Started](http://www.zedboard.org/sites/default/files/documentations/GS-AES-Z7EV-7Z020-G-14.1-V6%5B1%5D.pdf)
+  * [Hardware Guide](http://zedboard.org/sites/default/files/ZedBoard_HW_UG_v1_1.pdf)
+  * [Tutorials](http://zedboard.org/design/1521/11)
+  * [Schematics](http://www.zedboard.org/sites/default/files/documentations/ZedBoard_RevD.2_Schematic_130516.pdf)
+
+Xilinx Zync 7000
+----------------
+
 Some handy links for the Zynq chip and its associated Vivado design software:
 
 *  [Xilinx Zynq Docs](http://www.xilinx.com/support/index.html/content/xilinx/en/supportNav/silicon_devices/soc/zynq-7000.html)
@@ -19,16 +33,6 @@ Some handy links for the Zynq chip and its associated Vivado design software:
   * [Getting Started](http://www.xilinx.com/support/documentation/sw_manuals/xilinx2013_2/ug910-vivado-getting-started.pdf)
   * [Design Flows Overview](http://www.xilinx.com/support/documentation/sw_manuals/xilinx2013_2/ug888-vivado-design-flows-overview-tutorial.pdf)
 
-Zedboard
---------
-
-Our initial development is being done on a [Zedboard](http://www.zedboard.org/product/zedboard) development board.
-
-* Zedboard links
-  * [Getting Started](http://www.zedboard.org/sites/default/files/documentations/GS-AES-Z7EV-7Z020-G-14.1-V6%5B1%5D.pdf)
-  * [Hardware Guide](http://zedboard.org/sites/default/files/ZedBoard_HW_UG_v1_1.pdf)
-  * [Tutorials](http://zedboard.org/design/1521/11)
-  * [Schematics](http://www.zedboard.org/sites/default/files/documentations/ZedBoard_RevD.2_Schematic_130516.pdf)
 
 Background Info
 ---------------
