@@ -26,6 +26,7 @@ Our initial development is being done on a [Zedboard](http://www.zedboard.org/pr
 
 * Zedboard links
   * [Getting Started](http://www.zedboard.org/sites/default/files/documentations/GS-AES-Z7EV-7Z020-G-14.1-V6%5B1%5D.pdf)
+  * [Hardware Guide](http://zedboard.org/sites/default/files/ZedBoard_HW_UG_v1_1.pdf)
   * [Tutorials](http://zedboard.org/design/1521/11)
   * [Schematics](http://www.zedboard.org/sites/default/files/documentations/ZedBoard_RevD.2_Schematic_130516.pdf)
 
