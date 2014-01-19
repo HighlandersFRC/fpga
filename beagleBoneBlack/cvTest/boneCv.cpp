@@ -85,17 +85,8 @@ int main()
 		}
 		printf("rectangles filtered at %d\n", currentTimeMillis());
 		printf("%d rectangles found\n", rects.size());
-		for (int n = 0; n < rects.size(); ++n) {
-			Rect r1(rects[n][0], rects[n][1]), r2(rects[n][2], rects[n][3]);
-			Rect bounds = r1 | r2;
-			double ar = bounds.height / bounds.width;
-			if (ar > 0.12 & ar < 2.2) {
-				printf("target found at (%d, %d)", bounds.x, bounds.y);
-			}
-		}
-		printf("end of frame %d at %d\n", framenum, currentTimeMillis());
-		Scalar contourcolor(0, 0, 255);
 		draw = frame.clone();
+		Scalar contourcolor(0, 0, 255);
 		drawContours(draw, contours, -1, contourcolor);
 		Scalar polycolor(255, 0, 0);
 		drawContours(draw, polys, -1, polycolor);
@@ -103,6 +94,18 @@ int main()
 		drawContours(draw, quads, -1, quadcolor);
 		Scalar rectcolor(0, 255, 0);
 		drawContours(draw, rects, -1, rectcolor, 3);
+		Scalar targetcolor(255, 255, 255);
+		for (int n = 0; n < rects.size(); ++n) {
+			Rect r1(rects[n][0], rects[n][1]), r2(rects[n][2], rects[n][3]);
+			Rect bounds = r1 | r2;
+			double ar = bounds.height / (double)bounds.width;
+			printf("rectangle %d has aspect ratio %f\n", n, ar);
+			if (ar > 0.12 & ar < 0.37) {
+				printf("target found at (%d, %d)\n", bounds.x, bounds.y);
+				drawContours(draw, rects, n, targetcolor, 2);
+			}
+		}
+		printf("end of frame %d at %d\n", framenum, currentTimeMillis());
 		vidwrite.write(draw);
 		//imwrite("draw.png", draw);
     }
