@@ -11,3 +11,6 @@
 *.lai
 *.la
 *.a
+
+# cv video out
+/beagleBoneBlack/cvTest/videoOutput.*

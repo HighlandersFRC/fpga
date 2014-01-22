@@ -1,3 +1,5 @@
 #!/bin/bash
 
-g++ -O2 `pkg-config --cflags --libs opencv` boneCv.cpp -o boneCv
+g++ -O2 `pkg-config --cflags --libs opencv` -pthread -I"../NetTablesTest/networktables" -I"../NetTablesTest/networktables2" -I"../NetTablesTest/networktablesshim" -I"../NetTablesTest" "../cvTest/NetTables.a" boneCv.cpp -o boneCv
+
+g++ -O2 `pkg-config --cflags --libs opencv` captureManipTest.cpp -o captureManipTest
