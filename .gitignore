@@ -14,3 +14,6 @@
 
 # cv video out
 /beagleBoneBlack/cvTest/videoOutput.*
+
+# cv other files
+/beagleBoneBlack/cvTest/mathexout.*
