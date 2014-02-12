@@ -8,6 +8,7 @@
 #include<sys/time.h>
 #include<math.h>
 #include<iostream>
+#include<fstream>
 #include<pthread.h>
 #include<unistd.h>
 #include<opencv2/opencv.hpp>
@@ -28,9 +29,45 @@ pthread_mutex_t framelock = PTHREAD_MUTEX_INITIALIZER;
 pthread_cond_t frameCond;
 pthread_mutex_t frameCondLock;
 
+struct interpPoint {
+  double theta;
+  double mag;
+  double elev;
+  double power;
+};
+
+vector< interpPoint > shotLookup;
+
+ifstream conf("config.txt");
+
+double goalHeight;
 double pixelSqAngle(1.19e-6);
 double pixelAngle(0.001462);
 int nearVertThresh(20);
+int aspectRatioMin(15);
+int aspectRatioMax(27);
+
+ITable* table;
+
+void readconfig() {
+  //conf.open("config.txt");
+  while (conf.good()) {
+    double temptheta;
+    double tempmag;
+    double tempelev;
+    double temppower;
+    conf >> temptheta;
+    conf >> tempmag;
+    conf >> tempelev;
+    conf >> temppower;
+    interpPoint * temppoint;
+    temppoint->theta = temptheta;
+    temppoint->mag = tempmag;
+    temppoint->elev = tempelev;
+    temppoint->power = temppower;
+    shotLookup.push_back(*temppoint);
+  }
+}
 
 int calcQuadArea(vector<Point> points) {
   int crosssum = 0;
@@ -50,8 +87,8 @@ void *readVideo(void *arg) {
   if(!capture.isOpened()){
     cout << "Failed to connect to the camera." << endl;
   }
-  capture.set(CV_CAP_PROP_FRAME_WIDTH,640);
-  capture.set(CV_CAP_PROP_FRAME_HEIGHT,480);
+  capture.set(CV_CAP_PROP_FRAME_WIDTH,800);
+  capture.set(CV_CAP_PROP_FRAME_HEIGHT,600);
   cout << "capture set up\n";
   while (true) {
     capture >> tempFrame;
@@ -66,19 +103,78 @@ void *readVideo(void *arg) {
   }
 }
 
+double calcdist(double x, double y) {
+  return sqrt(x*x+y*y);
+}
+
+void targetShot(double range) {
+  double theta, mag;
+  double vx = 4.90333 * goalHeight * 0.451601 * sqrt(range) / range;
+  double vy = 9.80665 * 0.451601 * sqrt(range);
+  vx = vx - table->GetNumber("RobotVelocity", 0);
+  theta = atan2(vy, vx);
+  mag = calcdist(vx, vy);
+  interpPoint * p1 = NULL;
+  interpPoint * p2 = NULL;
+  interpPoint * p3 = NULL;
+  for (int n = 0; n < shotLookup.size(); ++n) {
+    if (p1 == NULL) {
+      p1 = &shotLookup[n];
+    } else {
+      if (calcdist(theta - shotLookup[n].theta, mag - shotLookup[n].mag) > calcdist(theta - p1->theta, mag - p1->mag)) {
+	if (p2 == NULL) {
+	  p2 = &shotLookup[n];
+	} else {
+	  if (calcdist(theta - shotLookup[n].theta, mag - shotLookup[n].mag) > calcdist(theta - p2->theta, mag - p2->mag)) {
+	    double slope1 = atan2(p1->theta - p2->theta, p1->mag - p2->mag);
+	    double slope2 = atan2(p1->theta - shotLookup[n].theta, p1->mag - shotLookup[n].mag);
+	    if (slope1 - slope2 > 0.001) {
+	      if (p3 == NULL) {
+		p3 = &shotLookup[n];
+	      } else {
+		if (calcdist(theta - shotLookup[n].theta, mag - shotLookup[n].mag) > calcdist(theta - p3->theta, mag - p3->mag)) {
+		  //discard point
+		} else {
+		  p3 = &shotLookup[n];
+		}
+	      }
+	    }
+	  } else {
+	    p2 = &shotLookup[n];
+	  }
+	}
+      } else {
+	p1 = &shotLookup[n];
+      }
+    }
+  }
+  double r1 = calcdist(theta - p1->theta, mag - p1->mag);
+  double r2 = calcdist(theta - p2->theta, mag - p2->mag);
+  double r3 = calcdist(theta - p3->theta, mag - p3->mag);
+  double elev = (p1->elev * r1 + p2->elev * r2 + p3->elev * r3)/(r1 + r2 + r3);
+  double power = (p1->power * r1 + p2->power * r2 + p3->power * r3)/(r1 + r2 + r3);
+  table->PutNumber("shotTheta", theta);
+  table->PutNumber("shotMag", mag);
+  table->PutNumber("shotElevation", elev);
+  table->PutNumber("shotPower", power);
+}
+
 int main()
 {
   printf("starting at %lu\n", currentTimeMillis());
   cout << "gui mode enabled\n";
+  readconfig();
   pthread_cond_init(&frameCond, NULL);
   pthread_mutex_init(&frameCondLock, NULL);
   pthread_t readerThread;
   int rc(pthread_create(&readerThread, NULL, readVideo, (void *)0));
   VideoWriter vidwrite("videoOutput.mpeg", CV_FOURCC('M', 'P', 'E', 'G'), 30, Size(800,600));
-  ITable* table = NetworkTableTools::GetClientTable("10.44.99.2", "SmartDashboard");
+  table = NetworkTableTools::GetClientTable("10.44.99.2", "SmartDashboard");
   namedWindow("processed_output", 1);
   namedWindow("raw_input", 1);
   createTrackbar("nearVertThresh", "processed_output", &nearVertThresh, 100);
+  createTrackbar("aspectRatioMin", "processed_output", &aspectRatioMin, 100);
+  createTrackbar("aspectRatioMax", "processed_output", &aspectRatioMax, 100);
   Mat frame, blue, green, red, gray, edge, draw;
   vector<Mat> planes(3);
   planes[0] = blue;
@@ -116,7 +212,7 @@ int main()
     //printf("contours found at %lu\n", currentTimeMillis());
     vector<vector<Point> > polys(contours.size());
     for (int n = 0; n < contours.size(); ++n) {
-      approxPolyDP(contours[n], polys[n], 4, true);
+      approxPolyDP(contours[n], polys[n], 6, true);
     }
     draw = frame.clone();
     Scalar quadcolor(0, 255, 255);
@@ -187,7 +283,8 @@ int main()
 	  xcoord2 = rects[n][s].x;
 	}
       }
-      if (ydiffm1 < abs(xcoord1-xcoord2)) {
+      double ar = ydiffm1 /double(abs(xcoord1-xcoord2));
+      if (aspectRatioMin/100.0 < ar && aspectRatioMax/100.0 > ar) {
 	//double newrange((1/tan(sqrt(calcQuadArea(rects[n]) * pixelSqAngle))) * 9.695);
 	double newrange(4/tan(ydiffm1*pixelAngle));
 	printf("target found at (%d, %d) with ydiff %d and range %f\n", rects[n][0].x, rects[n][0].y, ydiffm1, newrange);
@@ -202,8 +299,7 @@ int main()
     }
     if (detected) {
       table->PutNumber("Vision_Range", range);
-      //table->PutNumber("Vision_X", targetx);
-      //table->PutNumber("Vision_Y", targety);
+      targetShot(range * 0.0254);
     } else {
       table->PutNumber("Vision_Range", -1);
     }
