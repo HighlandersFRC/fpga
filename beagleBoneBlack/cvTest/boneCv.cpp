@@ -50,23 +50,31 @@ int aspectRatioMax(27);
 ITable* table;
 
 void readconfig() {
+  cout << "starting read config\n";
   //conf.open("config.txt");
   while (conf.good()) {
+    cout << "entered loop\n";
     double temptheta;
     double tempmag;
     double tempelev;
     double temppower;
+    cout << "input operators\n";
     conf >> temptheta;
     conf >> tempmag;
     conf >> tempelev;
     conf >> temppower;
-    interpPoint * temppoint;
+    cout << "end input operators\n";
+    interpPoint * temppoint = new interpPoint();
+    cout << "setting up point\n";
     temppoint->theta = temptheta;
     temppoint->mag = tempmag;
     temppoint->elev = tempelev;
     temppoint->power = temppower;
+    cout << "adding point\n";
     shotLookup.push_back(*temppoint);
+    printf("read config entry: (%f, %f) => (%f, %f)", temptheta, tempmag, tempelev, temppower);
   }
+  cout << "read config file\n";
 }
 
 int calcQuadArea(vector<Point> points) {
