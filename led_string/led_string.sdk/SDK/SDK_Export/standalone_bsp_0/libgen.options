@@ -1,0 +1,3 @@
+PROCESSOR=ps7_cortexa9_0
+REPOSITORIES=-lp C:/Users/dgronlund/Downloads/edk_user_repository
+HWSPEC=../hw_platform_0/system.xml

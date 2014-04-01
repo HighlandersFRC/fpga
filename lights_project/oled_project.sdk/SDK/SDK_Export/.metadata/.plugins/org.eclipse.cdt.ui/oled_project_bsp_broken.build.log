@@ -1,0 +1,6 @@
+17:56:18 **** Build of project oled_project_bsp_broken ****
+make -k all 
+'Finished building libraries'
+
+17:56:19 Build Finished (took 78ms)
+

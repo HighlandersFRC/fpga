@@ -1,0 +1,6 @@
+16:14:54 **** Auto Build of project petalinux_bsp_1 ****
+make -k all 
+make: *** No rule to make target `all'.
+
+16:14:54 Build Finished (took 75ms)
+

@@ -1,0 +1,18 @@
+/*
+ * Oled.cpp
+ *
+ *  Created on: Jan 10, 2014
+ *      Author: DGronlund
+ */
+
+#include "Oled.h"
+
+Oled::Oled() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Oled::~Oled() {
+	// TODO Auto-generated destructor stub
+}
+

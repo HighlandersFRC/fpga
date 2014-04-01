@@ -1,0 +1,62 @@
+/*
+ * Interrupts.cpp
+ *
+ *  Created on: Jan 11, 2014
+ *      Author: DGronlund
+ */
+
+#include "Interrupts.h"
+
+Interrupts::Interrupts() {
+
+
+}
+
+Interrupts::~Interrupts() {
+	// TODO Auto-generated destructor stub
+}
+
+void Interrupts::register_timer(void (*handler)(void*), s32 time_millis) {
+
+}
+
+int Interrupts::setup_timer(u32 device_id, bool auto_reload, u32 time) {
+	/*
+	 * Initialize the Scu Private Timer driver.
+	 */
+	XScuTimer_Config *config = XScuTimer_LookupConfig(XPAR_XSCUTIMER_0_DEVICE_ID);
+	timer = new XScuTimer();
+
+	/*
+	 * This is where the virtual address would be used, this example
+	 * uses physical address.
+	 */
+	if (XScuTimer_CfgInitialize(timer, config, config->BaseAddr) != XST_SUCCESS) {
+		print("Timer Initialize Failure!");
+	}
+
+	/*
+	 * Perform a self-test to ensure that the hardware was built correctly.
+	 */
+	if (XScuTimer_SelfTest(timer) != XST_SUCCESS) {
+		print("Timer Self Test Failure!");
+	}
+
+	/*
+	 * Enable Auto reload mode.
+	 */
+	XScuTimer_EnableAutoReload(timer);
+
+	/*
+	 * Load the timer counter register.
+	 */
+	XScuTimer_LoadTimer(timer, XPAR_CPU_CORTEXA9_0_CPU_CLK_FREQ_HZ / 2);
+
+	/*
+	 * Start the timer counter and then wait for it
+	 * to timeout a number of times.
+	 */
+	XScuTimer_Start(timer);
+
+	return timer;
+}

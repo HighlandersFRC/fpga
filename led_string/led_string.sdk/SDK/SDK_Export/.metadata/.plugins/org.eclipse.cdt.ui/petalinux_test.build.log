@@ -1,0 +1,11 @@
+16:15:37 **** Auto Build of configuration Debug for project petalinux_test ****
+make all 
+'Building target: petalinux_test.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -L"C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\petalinux_test_bsp\ps7_cortexa9_0\lib" -L../../petalinux_test_bsp/ps7_cortexa9_0/lib -o "petalinux_test.elf"  ./main.o   -lxil
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: cannot find -lxil
+collect2.exe: error: ld returned 1 exit status
+make: *** [petalinux_test.elf] Error 1
+
+16:15:38 Build Finished (took 230ms)
+

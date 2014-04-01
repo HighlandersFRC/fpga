@@ -1,0 +1,9 @@
+/*
+ * Empty C++ Application
+ */
+
+int main()
+{
+	print("Hello");
+	return 0;
+}

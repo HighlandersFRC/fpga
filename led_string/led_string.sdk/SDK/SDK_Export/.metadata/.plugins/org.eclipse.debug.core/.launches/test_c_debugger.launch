@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.xilinx.sdk.tcf.debug.LaunchConfigurationType">
+<stringAttribute key="com.xilinx.sdk.tcf.debug.uidebug.type" value="LINUX_APPLICATION_DEBUG"/>
+<stringAttribute key="com.xilinx.sdk.tcf.debug.uihw.bit.file" value=""/>
+<stringAttribute key="com.xilinx.sdk.tcf.debug.uihw.init.tcl" value="ps7_init.tcl"/>
+<stringAttribute key="com.xilinx.sdk.tcf.debug.uihw_platform.name" value="hw_platform_0"/>
+<stringAttribute key="com.xilinx.sdk.tcf.debug.uilinux.host" value="10.44.99.51"/>
+<stringAttribute key="com.xilinx.sdk.tcf.debug.uilinux.port" value="1534"/>
+<booleanAttribute key="com.xilinx.sdk.tcf.debug.uimonitor" value="false"/>
+<stringAttribute key="com.xilinx.sdk.tcf.debug.uiproc.appl.map" value="{}"/>
+<booleanAttribute key="com.xilinx.sdk.tcf.debug.uiprogram.fpga" value="false"/>
+<booleanAttribute key="com.xilinx.sdk.tcf.debug.uips7.init" value="true"/>
+<booleanAttribute key="com.xilinx.sdk.tcf.debug.uips7.post" value="true"/>
+<booleanAttribute key="com.xilinx.sdk.tcf.debug.uireset.system" value="false"/>
+<stringAttribute key="org.eclipse.debug.core.source_locator_id" value="org.eclipse.tcf.debug.SourceLocator"/>
+<stringAttribute key="org.eclipse.debug.core.source_locator_memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;&gt;&#13;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;directory nest=&amp;quot;true&amp;quot; path=&amp;quot;C:\Users\dgronlund\Documents\linux_sdk_share\petalinux_bsp_0\ps7_cortexa9_0\libsrc&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot; typeId=&quot;org.eclipse.debug.core.containerType.directory&quot;/&gt;&#13;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;default/&amp;gt;&amp;#13;&amp;#10;&quot; typeId=&quot;org.eclipse.debug.core.containerType.default&quot;/&gt;&#13;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;mapping name=&amp;quot;Found Mappings&amp;quot;&amp;gt;&amp;#13;&amp;#10;&amp;lt;mapEntry memento=&amp;quot;&amp;amp;lt;?xml version=&amp;amp;quot;1.0&amp;amp;quot; encoding=&amp;amp;quot;UTF-8&amp;amp;quot; standalone=&amp;amp;quot;no&amp;amp;quot;?&amp;amp;gt;&amp;amp;#13;&amp;amp;#10;&amp;amp;lt;mapEntry backendPath=&amp;amp;quot;\home\dgronlund\Documents\sdk\petalinux_bsp_0\ps7_cortexa9_0\libsrc\petalinux_v2_00_a\src&amp;amp;quot; localPath=&amp;amp;quot;C:\Users\dgronlund\Documents\linux_sdk_share\petalinux_bsp_0\ps7_cortexa9_0\libsrc\petalinux_v2_00_a\src&amp;amp;quot;/&amp;amp;gt;&amp;amp;#13;&amp;amp;#10;&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&amp;lt;/mapping&amp;gt;&amp;#13;&amp;#10;&quot; typeId=&quot;org.eclipse.cdt.debug.core.containerType.mapping&quot;/&gt;&#13;&#10;&lt;/sourceContainers&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;"/>
+<booleanAttribute key="org.eclipse.tcf.debug.AttachChildren" value="true"/>
+<stringAttribute key="org.eclipse.tcf.debug.LocalProgramFile" value="Debug/test_c.elf"/>
+<stringAttribute key="org.eclipse.tcf.debug.ProgramFile" value="/home/c_app"/>
+<stringAttribute key="org.eclipse.tcf.debug.ProjectName" value="test_c"/>
+<booleanAttribute key="org.eclipse.tcf.debug.StopAtEntry" value="false"/>
+<booleanAttribute key="org.eclipse.tcf.debug.StopAtMain" value="false"/>
+</launchConfiguration>

@@ -1,0 +1,6 @@
+17:50:16 **** Auto Build of configuration Debug for project fsbl ****
+make all 
+make: Nothing to be done for `all'.
+
+17:50:16 Build Finished (took 272ms)
+

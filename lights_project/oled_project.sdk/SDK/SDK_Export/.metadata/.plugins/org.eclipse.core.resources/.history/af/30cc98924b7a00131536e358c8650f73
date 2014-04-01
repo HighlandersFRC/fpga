@@ -1,0 +1,17 @@
+/*
+ * Oled.h
+ *
+ *  Created on: Jan 10, 2014
+ *      Author: DGronlund
+ */
+
+#ifndef OLED_H_
+#define OLED_H_
+
+class Oled {
+public:
+	Oled();
+	virtual ~Oled();
+};
+
+#endif /* OLED_H_ */

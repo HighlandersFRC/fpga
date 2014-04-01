@@ -1,0 +1,79 @@
+20:03:29 **** Incremental Build of configuration Debug for project fsbl ****
+make all 
+make: Nothing to be done for `all'.
+20:18:47 **** Incremental Build of configuration Debug for project fsbl ****
+make all 
+make: Nothing to be done for `all'.
+20:18:47 **** Incremental Build of configuration Debug for project linux_test ****
+make all 
+make: Nothing to be done for `all'.
+20:18:49 **** Incremental Build of configuration Debug for project simple_test ****
+make all 
+make: Nothing to be done for `all'.
+20:19:21 **** Auto Build of configuration Debug for project linux_test ****
+make all 
+'Building file: ../src/main.cc'
+'Invoking: ARM Linux g++ compiler'
+arm-xilinx-linux-gnueabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+'Finished building: ../src/main.cc'
+' '
+'Building target: linux_test.elf'
+'Invoking: ARM Linux g++ linker'
+arm-xilinx-linux-gnueabi-g++ -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "linux_test.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-linux-gnueabi/4.7.3/../../../../arm-xilinx-linux-gnueabi/bin/ld.exe: warning: ../../standalone_bsp_0/ps7_cortexa9_0/lib\libxil.a(abort.o) uses variable-size enums yet the output is to use 32-bit enums; use of enum values across objects may fail
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-linux-gnueabi/4.7.3/../../../../arm-xilinx-linux-gnueabi/bin/ld.exe: warning: ../../standalone_bsp_0/ps7_cortexa9_0/lib\libxil.a(_exit.o) uses variable-size enums yet the output is to use 32-bit enums; use of enum values across objects may fail
+'Finished building target: linux_test.elf'
+' '
+'Invoking: ARM Linux Print Size'
+arm-xilinx-linux-gnueabi-size linux_test.elf  |tee "linux_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   1831	    320	    148	   2299	    8fb	linux_test.elf
+'Finished building: linux_test.elf.size'
+' '
+20:19:27 **** Incremental Build of configuration Debug for project fsbl ****
+make all 
+make: Nothing to be done for `all'.
+20:19:27 **** Incremental Build of configuration Debug for project simple_test ****
+make all 
+make: Nothing to be done for `all'.
+20:19:28 **** Incremental Build of configuration Debug for project linux_test ****
+make all 
+make: Nothing to be done for `all'.
+20:20:21 **** Incremental Build of configuration Debug for project fsbl ****
+make all 
+make: Nothing to be done for `all'.
+20:20:22 **** Incremental Build of configuration Debug for project simple_test ****
+make all 
+make: Nothing to be done for `all'.
+20:20:22 **** Incremental Build of configuration Debug for project linux_test ****
+make all 
+make: Nothing to be done for `all'.
+20:22:42 **** Incremental Build of configuration Debug for project fsbl ****
+make all 
+make: Nothing to be done for `all'.
+20:22:42 **** Incremental Build of configuration Debug for project simple_test ****
+make all 
+make: Nothing to be done for `all'.
+20:22:43 **** Incremental Build of configuration Debug for project linux_test ****
+make all 
+make: Nothing to be done for `all'.
+20:44:31 **** Auto Build of configuration Debug for project linux_test ****
+make all 
+'Building file: ../src/main.cc'
+'Invoking: ARM Linux g++ compiler'
+arm-xilinx-linux-gnueabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+'Finished building: ../src/main.cc'
+' '
+'Building target: linux_test.elf'
+'Invoking: ARM Linux g++ linker'
+arm-xilinx-linux-gnueabi-g++ -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "linux_test.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-linux-gnueabi/4.7.3/../../../../arm-xilinx-linux-gnueabi/bin/ld.exe: warning: ../../standalone_bsp_0/ps7_cortexa9_0/lib\libxil.a(abort.o) uses variable-size enums yet the output is to use 32-bit enums; use of enum values across objects may fail
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-linux-gnueabi/4.7.3/../../../../arm-xilinx-linux-gnueabi/bin/ld.exe: warning: ../../standalone_bsp_0/ps7_cortexa9_0/lib\libxil.a(_exit.o) uses variable-size enums yet the output is to use 32-bit enums; use of enum values across objects may fail
+'Finished building target: linux_test.elf'
+' '
+'Invoking: ARM Linux Print Size'
+arm-xilinx-linux-gnueabi-size linux_test.elf  |tee "linux_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   1831	    320	    148	   2299	    8fb	linux_test.elf
+'Finished building: linux_test.elf.size'
+' '

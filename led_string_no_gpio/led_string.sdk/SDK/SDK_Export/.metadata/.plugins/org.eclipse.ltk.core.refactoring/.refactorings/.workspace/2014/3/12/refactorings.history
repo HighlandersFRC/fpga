@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;hw_platform_0&apos; to &apos;hw_platform_1&apos;" description="Rename resource &apos;hw_platform_0&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/hw_platform_0" name="hw_platform_1" stamp="1395516348544" updateReferences="true"/>
+</session>

@@ -1,0 +1,36 @@
+/*
+ * Oled.h
+ *
+ *  Created on: Jan 10, 2014
+ *      Author: DGronlund
+ */
+
+#ifndef OLED_H_
+#define OLED_H_
+
+#include "xgpio.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+
+class Oled {
+public:
+	Oled();
+	virtual ~Oled();
+
+private:
+	XGpio gpio;
+	int data;
+	void delay(int time);
+	u8 oled_byte(u8 in);
+	void vdd(bool value);
+	void vbat(bool value);
+	void reset(bool value);
+	void sclk(bool value);
+	void sdata(bool value);
+	void scmd(bool value);
+	void spi_delay();
+	void spi_write(u8 data, bool cmd);
+
+};
+
+#endif /* OLED_H_ */

@@ -1,0 +1,127 @@
+/*
+ * Empty C++ Application
+ */
+
+#include "xgpio.h"
+#include "xil_printf.h"
+#include "xscutimer.h"
+#include "xparameters.h"
+#include "unistd.h"
+#include "Oled.h"
+
+XGpio Gpio;
+
+/*
+ * Simple delay function
+ */
+void delay(int time) {
+	for (int i = 0; i < time * 50000; i++) {
+	}
+}
+
+int timer_init() {
+	int LastTimerExpired = 0;
+
+	/*
+	 * Initialize the Scu Private Timer driver.
+	 */
+	XScuTimer_Config *config = XScuTimer_LookupConfig(XPAR_XSCUTIMER_0_DEVICE_ID);
+	XScuTimer *timer = new XScuTimer();
+
+	/*
+	 * This is where the virtual address would be used, this example
+	 * uses physical address.
+	 */
+	if (XScuTimer_CfgInitialize(timer, config, config->BaseAddr) != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	/*
+	 * Perform a self-test to ensure that the hardware was built correctly.
+	 */
+	if (XScuTimer_SelfTest(timer) != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	/*
+	 * Enable Auto reload mode.
+	 */
+	XScuTimer_EnableAutoReload(timer);
+
+	/*
+	 * Load the timer counter register.
+	 */
+	XScuTimer_LoadTimer(timer, XPAR_CPU_CORTEXA9_0_CPU_CLK_FREQ_HZ / 2);
+
+	/*
+	 * Start the timer counter and then wait for it
+	 * to timeout a number of times.
+	 */
+	XScuTimer_Start(timer);
+
+	while (1) {
+		/*
+		 * Wait for the first timer counter to expire as indicated by
+		 * the shared variable which the handler will increment.
+		 */
+		while (TimerExpired == LastTimerExpired) {
+		}
+
+		LastTimerExpired = TimerExpired;
+		/*
+		 * If it has expired a number of times, then stop the timer
+		 * counter and stop this example.
+		 */
+		if (TimerExpired == 3) {
+			XScuTimer_Stop(TimerInstancePtr);
+			break;
+		}
+	}
+	/*
+	 * Disable and disconnect the interrupt system.
+	 */
+	TimerDisableIntrSystem(IntcInstancePtr, TimerIntrId);
+
+	return XST_SUCCESS;
+}
+
+void interrupt_init() {
+
+}
+
+XScuTimer *timer(u32 seconds) {
+	XScuTimer *timer = new XScuTimer();
+	XScuTimer_Config *timer_config = XScuTimer_LookupConfig(XPAR_XSCUTIMER_0_DEVICE_ID);
+	XScuTimer_CfgInitialize(timer, timer_config, timer_config->BaseAddr);
+	XScuTimer_Stop(timer);
+	XScuTimer_LoadTimer(timer, XPAR_CPU_CORTEXA9_0_CPU_CLK_FREQ_HZ * seconds);
+	XScuTimer_Start(timer);
+	while (true) {
+		if (XScuTimer_GetCounterValue(timer) == 0) {
+			XScuTimer_Stop(timer);
+			XScuTimer_LoadTimer(timer, XPAR_CPU_CORTEXA9_0_CPU_CLK_FREQ_HZ * seconds / 2);
+			XScuTimer_Start(timer);
+		}
+	}
+	print("Done");
+	return timer;
+}
+
+Oled *oled;
+
+int main() {
+//	oled = new Oled();
+//	u8 temp = 0;
+//	while (1) {
+//		for (int i = 0; i < 64 * 16; i++) {
+//			oled->write4Pixels(temp);
+//		}
+//		temp++;
+//		delay(500);
+//	}
+
+	timer(1);
+
+	return 0;
+}
+

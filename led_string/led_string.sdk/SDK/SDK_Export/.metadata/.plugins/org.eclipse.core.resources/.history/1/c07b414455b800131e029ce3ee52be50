@@ -1,0 +1,25 @@
+/*
+ * block_ram.c
+ *
+ *  Created on: Mar 30, 2014
+ *      Author: DGronlund
+ */
+
+#include "block_ram.h"
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <fcntl.h>
+#include <sys/mman.h>
+
+static int block_ram_created = -1;
+static void *mapped_base, *mapped_dev_base;
+
+int init_block_ram() {
+	if (block_ram_created != -1) {
+		return BLOCK_RAM_FAILURE;
+	}
+	block_ram_created = 0;
+
+	off_t dev_base = BLOCK_RAM_BASE_ADDRESS
+}

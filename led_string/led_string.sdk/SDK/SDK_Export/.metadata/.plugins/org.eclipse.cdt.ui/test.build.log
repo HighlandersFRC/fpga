@@ -1,0 +1,28 @@
+16:14:48 **** Incremental Build of configuration Debug for project test ****
+make all 
+'Building target: test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../petalinux_test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/helloworld.o ./src/platform.o   
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: warning: cannot find entry symbol _vector_table; defaulting to 00100000
+./src/platform.o: In function `disable_caches':
+C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\test\Debug/../src/platform.c:78: undefined reference to `Xil_DCacheDisable'
+C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\test\Debug/../src/platform.c:79: undefined reference to `Xil_ICacheDisable'
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib\libc.a(lib_a-sbrkr.o): In function `_sbrk_r':
+sbrkr.c:(.text+0x1c): undefined reference to `_sbrk'
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib\libc.a(lib_a-writer.o): In function `_write_r':
+writer.c:(.text+0x24): undefined reference to `_write'
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib\libc.a(lib_a-closer.o): In function `_close_r':
+closer.c:(.text+0x1c): undefined reference to `_close'
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib\libc.a(lib_a-fstatr.o): In function `_fstat_r':
+fstatr.c:(.text+0x20): undefined reference to `_fstat'
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib\libc.a(lib_a-isattyr.o): In function `_isatty_r':
+isattyr.c:(.text+0x1c): undefined reference to `_isatty'
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib\libc.a(lib_a-lseekr.o): In function `_lseek_r':
+lseekr.c:(.text+0x24): undefined reference to `_lseek'
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib\libc.a(lib_a-readr.o): In function `_read_r':
+readr.c:(.text+0x24): undefined reference to `_read'
+collect2.exe: error: ld returned 1 exit status
+make: *** [test.elf] Error 1
+
+16:14:48 Build Finished (took 270ms)
+

@@ -1,0 +1,21 @@
+/*
+ * Interrupts.cpp
+ *
+ *  Created on: Jan 11, 2014
+ *      Author: DGronlund
+ */
+
+#include "Interrupts.h"
+
+Interrupts::Interrupts() {
+
+
+}
+
+Interrupts::~Interrupts() {
+	// TODO Auto-generated destructor stub
+}
+
+void Interrupts::register_timer(void (*handler)(void*), s32 time_millis) {
+
+}

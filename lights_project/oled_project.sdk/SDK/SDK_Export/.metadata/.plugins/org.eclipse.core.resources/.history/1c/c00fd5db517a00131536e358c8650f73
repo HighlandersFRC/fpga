@@ -1,0 +1,70 @@
+/*
+ * Empty C++ Application
+ */
+
+#include "xgpio.h"
+#include "xil_printf.h"
+#include "xscutimer.h"
+#include "xparameters.h"
+#include "unistd.h"
+#include "Oled.h"
+
+//#include "lwip/opt.h"
+//#include "lwip/stats.h"
+//#include "lwip/sys.h"
+//#include "lwip/pbuf.h"
+//#include "lwip/udp.h"
+//#include "lwip/tcp.h"
+//#include "lwip/dns.h"
+//#include "lwip/dhcp.h"
+//#include "lwip/init.h"
+//#include "lwip/netif.h"
+//#include "netif/etharp.h"
+
+XGpio Gpio;
+
+/*
+ * Simple delay function
+ */
+void delay(int time) {
+	for (int i = 0; i < time * 50000; i++) {
+	}
+}
+
+#define chillax(time) usleep(time)
+#define relax_man(time) sleep(time)
+
+XScuTimer *timer(u32 seconds) {
+	XScuTimer *timer = new XScuTimer;
+	XScuTimer_Config *timer_config = XScuTimer_LookupConfig(XPAR_XSCUTIMER_0_DEVICE_ID);
+	XScuTimer_CfgInitialize(timer, timer_config, timer_config->BaseAddr);
+	XScuTimer_Stop(timer);
+	XScuTimer_LoadTimer(timer, XPAR_CPU_CORTEXA9_0_CPU_CLK_FREQ_HZ * seconds);
+	print("Starting Timer\n");
+	XScuTimer_Start(timer);
+	while (XScuTimer_GetCounterValue(timer) != 0) {
+	}
+	print("Done");
+	return timer;
+}
+
+Oled *oled;
+
+int main() {
+
+	oled = new Oled();
+
+	u8 temp = 0;
+	while (1) {
+		for (int i = 0; i < 64 * 16; i++) {
+			oled->write4Pixels(oled_byte(temp), 1);
+		}
+		temp++;
+		delay(1000);
+	}
+
+	sleep(5);
+
+	return 0;
+}
+

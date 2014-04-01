@@ -1,0 +1,22 @@
+19:22:05 **** Incremental Build of configuration Debug for project oled_project ****
+make all 
+'Building target: oled_project.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -s -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "oled_project.elf"  ./src/GraphicsDisplay.o ./src/graphics.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib\libc.a(lib_a-writer.o): In function `_write_r':
+writer.c:(.text+0x24): undefined reference to `_write'
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib\libc.a(lib_a-closer.o): In function `_close_r':
+closer.c:(.text+0x1c): undefined reference to `_close'
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib\libc.a(lib_a-fstatr.o): In function `_fstat_r':
+fstatr.c:(.text+0x20): undefined reference to `_fstat'
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib\libc.a(lib_a-isattyr.o): In function `_isatty_r':
+isattyr.c:(.text+0x1c): undefined reference to `_isatty'
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib\libc.a(lib_a-lseekr.o): In function `_lseek_r':
+lseekr.c:(.text+0x24): undefined reference to `_lseek'
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/lib\libc.a(lib_a-readr.o): In function `_read_r':
+readr.c:(.text+0x24): undefined reference to `_read'
+collect2.exe: error: ld returned 1 exit status
+make: *** [oled_project.elf] Error 1
+
+19:22:06 Build Finished (took 281ms)
+

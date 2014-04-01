@@ -1,0 +1,22 @@
+/*
+ * spi.h
+ *
+ *  Created on: Mar 29, 2014
+ *      Author: DGronlund
+ */
+
+#ifndef SPI_H_
+#define SPI_H_
+
+#define SPI_BASE_ADDRESS 0x41E00000
+
+#define SPI_DATA_OFFSET      0
+#define SPI_DIRECTION_OFFSET 4
+
+#define SPI_MAP_SIZE 4096UL
+#define SPI_MAP_MASK (MAP_SIZE - 1)
+
+#define SPI_SUCCESS 1
+#define SPI_FAILURE 0
+
+#endif /* SPI_H_ */

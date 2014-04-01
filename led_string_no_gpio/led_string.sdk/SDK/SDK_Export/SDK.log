@@ -1,0 +1,11 @@
+13:24:36.282 INFO  - Project 'hw_platform_0' created. You can now create BSPs and application projects targeting this hardware platform. 
+13:25:51.249 ERROR - Exception while attemping to 'diff' hardware specification files. 
+13:25:51.316 INFO  - Project hw_platform_1's source hardware specification located at C:\Users\dgronlund\fpga\led_string_no_gpio\led_string.sdk\SDK\SDK_Export\hw\zynq_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+13:25:54.304 ERROR - Unable to save current hardware specification file in a temporary location. 
+13:25:54.318 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string_no_gpio\led_string.sdk\SDK\SDK_Export\hw\zynq_1.xml into \hw_platform_1\system.xml. 
+13:25:54.388 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string_no_gpio\led_string.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_1\ps7_init.c. 
+13:25:54.391 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string_no_gpio\led_string.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_1\ps7_init.h. 
+13:25:54.400 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string_no_gpio\led_string.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_1\ps7_init.html. 
+13:25:54.401 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string_no_gpio\led_string.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_1\ps7_summary.html. 
+13:25:54.405 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string_no_gpio\led_string.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_1\ps7_init.tcl. 

@@ -1,0 +1,12 @@
+/*
+ * block_ram.c
+ *
+ *  Created on: Mar 30, 2014
+ *      Author: DGronlund
+ */
+
+#include "block_ram.h"
+
+int init_block_ram() {
+
+}

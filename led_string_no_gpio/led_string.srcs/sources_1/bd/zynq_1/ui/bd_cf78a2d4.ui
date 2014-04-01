@@ -1,0 +1,17 @@
+{
+   guistr: "# # String gsaved with Nlview version 6.3.3  2013-08-16 bk=1.2871 VDI=33 GEI=35
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 250 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 270 -defaultsOSRD
+preplace inst processing_system7_1 -pg 1 -lvl 1 -y 320 -defaultsOSRD
+preplace inst proc_sys_reset_1 -pg 1 -lvl 1 -y 100 -defaultsOSRD
+preplace netloc processing_system7_1_ddr 1 1 1 N
+preplace netloc processing_system7_1_fclk_clk0 1 0 2 30 450 410
+preplace netloc processing_system7_1_fixed_io 1 1 1 N
+preplace netloc processing_system7_1_fclk_reset0_n 1 0 2 20 10 420
+levelinfo -pg 1 0 220 440
+",
+}
+{
+   da_axi4_cnt: "1",
+}

@@ -1,0 +1,26 @@
+16:42:11 **** Build of configuration Debug for project linux_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../linux_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../linux_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: linux_test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../linux_test_bsp/ps7_cortexa9_0/lib -o "linux_test.elf"  ./src/helloworld.o ./src/platform.o   
+c:/xilinx/sdk/2013.4/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: warning: cannot find entry symbol _vector_table; defaulting to 00100000
+./src/helloworld.o: In function `main':
+C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\linux_test\Debug/../src/helloworld.c:43: undefined reference to `print'
+./src/platform.o: In function `disable_caches':
+C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\linux_test\Debug/../src/platform.c:78: undefined reference to `Xil_DCacheDisable'
+C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\linux_test\Debug/../src/platform.c:79: undefined reference to `Xil_ICacheDisable'
+collect2.exe: error: ld returned 1 exit status
+make: *** [linux_test.elf] Error 1
+
+16:42:12 Build Finished (took 967ms)
+

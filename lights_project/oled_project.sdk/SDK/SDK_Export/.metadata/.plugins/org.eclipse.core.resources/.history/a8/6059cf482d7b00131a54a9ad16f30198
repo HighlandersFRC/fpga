@@ -1,0 +1,25 @@
+/*
+ * Interrupts.h
+ *
+ *  Created on: Jan 11, 2014
+ *      Author: DGronlund
+ */
+
+#ifndef INTERRUPTS_H_
+#define INTERRUPTS_H_
+
+#include "xil_types.h"
+#include "xscutimer.h"
+#include "xscugic.h"
+
+class Interrupts {
+public:
+	Interrupts();
+	virtual ~Interrupts();
+	void register_timer(void (*handler)(void*), s32 time_millis);
+
+private:
+	int setup_timer(u32 device_id, bool auto_reload, u32 time);
+};
+
+#endif /* INTERRUPTS_H_ */

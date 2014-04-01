@@ -1,0 +1,56 @@
+20:13:46 **** Build of project ethernet_test_bsp ****
+make -k all 
+libgen -hw ../hw_ps7/system.xml\
+	       \
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 2013.2 Build EDK_P.68d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_ps7/system.xml -pe ps7_cortexa9_0 -log libgen.log
+system.mss 
+
+
+Staging source files.
+Running DRCs.
+Runnning DRC for lwIP library... 
+
+
+
+lwIP can be used with the following EMAC peripherals found in your system:
+ps7_ethernet_0
+
+Running generate.
+Little Endian system
+
+Running post_generate.
+Running include - 'make -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'make -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+"Compiling common"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Compiling xadc"
+"Compiling standalone"
+"Compiling lwIP"
+"Compiling lwIP adapter for Xilinx MAC"
+"Creating archive liblwip4.a"
+"Compiling gpio"
+"Compiling devcfg"
+"Compiling dmaps"
+"Compiling emacps"
+"Compiling scugic"
+"Compiling scutimer"
+"Compiling scuwdt"
+"Compiling uartps"
+"Compiling cpu_cortexa9"
+Running execs_generate.
+'Finished building libraries'
+
+20:14:04 Build Finished (took 17s.323ms)
+

@@ -1,0 +1,153 @@
+/*
+ * Oled.cpp
+ *
+ *  Created on: Jan 10, 2014
+ *      Author: DGronlund
+ */
+
+#include "Oled.h"
+
+Oled::Oled() {
+
+
+}
+
+Oled::~Oled() {
+	// TODO Auto-generated destructor stub
+}
+
+// Oled control data buffer
+int Oled::data = 64;
+
+u8 Oled::oled_byte(u8 in) {
+	return ((in & 8) << 3) | ((in & 4) << 2) | ((in & 2) << 1) | (in & 1);
+}
+
+void Oled::vdd(bool value) {
+	if (value) {
+		data &= ~0x01;
+	} else {
+		data |= 0x01;
+	}
+	XGpio_DiscreteWrite(&Gpio, 1, data);
+}
+
+void Oled::vbat(bool value) {
+	if (value) {
+		data &= ~0x02;
+	} else {
+		data |= 0x02;
+	}
+	XGpio_DiscreteWrite(&Gpio, 1, data);
+}
+
+void Oled::reset(bool value) {
+	if (value) {
+		data |= 0x04;
+	} else {
+		data &= ~0x04;
+	}
+	XGpio_DiscreteWrite(&Gpio, 1, data);
+}
+
+void Oled::sclk(bool value) {
+	if (value) {
+		data |= 0x08;
+	} else {
+		data &= ~0x08;
+	}
+	XGpio_DiscreteWrite(&Gpio, 1, data);
+}
+
+void Oled::sdata(bool value) {
+	if (value) {
+		data |= 0x10;
+	} else {
+		data &= ~0x10;
+	}
+	XGpio_DiscreteWrite(&Gpio, 1, data);
+}
+
+void Oled::scmd(bool value) {
+	if (value) {
+		data |= 0x20;
+	} else {
+		data &= ~0x20;
+	}
+	XGpio_DiscreteWrite(&Gpio, 1, data);
+}
+
+void Oled::spi_delay() {
+	for (int i = 0; i < 0; i++) {
+	}
+}
+
+void Oled::spi_write(u8 data, bool cmd) {
+	scmd(cmd);
+	sclk(false);
+	for (int i = 7; i >= 0; i--) {
+		sdata((data >> i) & 1);
+		sclk(true);
+		spi_delay();
+		sclk(false);
+	}
+}
+
+int main() {
+
+	/*
+	 * Initialize the GPIO driver
+	 */
+	int status = XGpio_Initialize(&Gpio, 0);
+	if (status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	/*
+	 * Set the direction of all port to be outputs
+	 */
+	XGpio_SetDataDirection(&Gpio, 1, 0);
+
+	print("Power Up Sequence Start\n");
+	xil_printf("Hex: %x", oled_byte(0xF));
+	vdd(true);
+	delay(5);
+	reset(false);
+	delay(5);
+	reset(true);
+	delay(5);
+	vbat(true);
+	print("Power Up Sequence Done\n");
+
+	spi_write(0xAE, 0); // Display Off
+	spi_write(0x8D, 0); // Pump 1
+	spi_write(0x14, 0);
+	spi_write(0xD9, 0); // Precharge
+	spi_write(0xF1, 0);
+	spi_write(0x81, 0); // Contrast
+	spi_write(0xFF, 0);
+	spi_write(0xA4, 0); // Display from RAM
+	spi_write(0xAF, 0); // Display On
+
+	delay(5);
+
+	spi_write(0x20, 0); // Vertical Addressing
+	spi_write(0x01, 0);
+
+	spi_write(0xFF, 1);
+
+	timer(5);
+
+	u8 temp = 0;
+	while (1) {
+		for (int i = 0; i < 64 * 16; i++) {
+			spi_write(oled_byte(temp), 1);
+		}
+		temp++;
+		delay(1000);
+	}
+
+	sleep(5);
+
+	return 0;
+}

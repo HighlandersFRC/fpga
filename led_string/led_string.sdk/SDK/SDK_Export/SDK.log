@@ -1,0 +1,277 @@
+15:03:14.555 INFO  - Processing command line option -hwspec C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/hw/zynq_1.xml. 
+15:08:42.636 INFO  - Invoking Bootgen:  
+15:08:43.166 INFO  - Bootgen command execution is done. 
+16:30:02.839 INFO  - Invoking Bootgen:  
+16:30:03.379 INFO  - Bootgen command execution is done. 
+16:32:59.449 INFO  - Invoking Bootgen:  
+16:32:59.999 INFO  - Bootgen command execution is done. 
+16:35:49.510 INFO  - Invoking Bootgen:  
+16:35:50.050 INFO  - Bootgen command execution is done. 
+16:39:53.738 INFO  - Invoking Bootgen:  
+16:39:54.268 INFO  - Bootgen command execution is done. 
+16:42:05.117 INFO  - Invoking Bootgen:  
+16:42:05.647 INFO  - Bootgen command execution is done. 
+17:44:27.403 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Function "exit" not found in Elf file "C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/linux_test/Debug/linux_test.elf"
+
+Symbol Not Found in Elf File
+    Symbol exit in Elf C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/linux_test/Debug/linux_test.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+17:45:53.824 ERROR - Port COM3 is already in use. 
+17:45:54.523 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Function "exit" not found in Elf file "C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/linux_test/Debug/linux_test.elf"
+
+Symbol Not Found in Elf File
+    Symbol exit in Elf C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/linux_test/Debug/linux_test.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+18:10:20.449 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+18:10:49.284 WARN  - Unexpected exception while copying file C:\Xilinx\SDK\2013.4\sw\lib\hwplatform_templates\zed_hw_platform\ps7_summary.html: java.io.FileNotFoundException: C:\Xilinx\SDK\2013.4\sw\lib\hwplatform_templates\zed_hw_platform\ps7_summary.html (The system cannot find the file specified) 
+18:20:26.880 INFO  - Invoking Bootgen:  
+18:20:39.870 INFO  - Bootgen command execution is done. 
+18:31:34.381 INFO  - Invoking Bootgen:  
+18:31:38.088 INFO  - Bootgen command execution is done. 
+18:36:34.273 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Function "exit" not found in Elf file "C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/linux_test/Debug/linux_test.elf"
+
+Symbol Not Found in Elf File
+    Symbol exit in Elf C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/linux_test/Debug/linux_test.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+20:27:44.193 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/RemoteSystemsTempFiles' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:521)
+
+20:33:24.457 ERROR - Unexpected exception while attempting to connect. java.lang.NullPointerException
+	at com.xilinx.sdk.launch.remote.RSEHelper.getConnectedShellService(Unknown Source)
+	at com.xilinx.sdk.launch.remote.internal.RemoteLaunchDelegate.launch(Unknown Source)
+
+20:33:24.459 ERROR - Unable to obtain RSE Shell Service. 
+20:34:56.211 ERROR - Unexpected exception while attempting to connect. java.lang.NullPointerException
+	at com.xilinx.sdk.launch.remote.RSEHelper.getConnectedShellService(Unknown Source)
+	at com.xilinx.sdk.launch.remote.internal.RemoteLaunchDelegate.launch(Unknown Source)
+
+20:34:56.212 ERROR - Unable to obtain RSE Shell Service. 
+16:08:22.382 INFO  - Invoking Bootgen:  
+16:08:22.927 INFO  - Bootgen command execution is done. 
+19:54:13.727 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:49:31.473 INFO  - Saving repository preferences. 
+17:49:31.561 INFO  - Reading in cores from local repositories: 
+		 C:\Users\dgronlund\Downloads\edk_user_repository 
+17:49:31.575 INFO  - Updating libgen.options on all BSP projects. 
+17:49:31.586 INFO  - Cleaning BSP projects in the workspace. 
+17:52:17.917 WARN  - Unable to determine location of documentation for OS petalinux. 
+18:02:20.689 INFO  - Settings changed on project petalinux_bsp_0. Triggering a rebuild... 
+18:04:06.136 INFO  - Settings changed on project petalinux_bsp_0. Triggering a rebuild... 
+14:24:14.990 WARN  - Unable to determine location of documentation for OS petalinux. 
+14:26:52.499 WARN  - Unable to determine location of documentation for OS petalinux. 
+16:12:44.001 INFO  - Project hw_platform_0's source hardware specification located at C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/hw/zynq_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+16:13:05.268 INFO  - Copied contents of C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/hw/zynq_1.xml into \hw_platform_0\system.xml. 
+16:13:05.321 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+16:13:05.323 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+16:13:05.331 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+16:13:05.332 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+16:13:05.336 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+16:13:05.428 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+16:13:06.397 INFO  - Updating MSS for Board Support Package Project: fs-boot_0_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: ps7_sd_0, driver: sdps_v1_00_a.
+ 
+16:13:07.180 INFO  - Updating MSS for Board Support Package Project: fsbl_test_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: ps7_sd_0, driver: sdps_v1_00_a.
+ 
+16:13:07.971 INFO  - Updating MSS for Board Support Package Project: petalinux_bsp_0.
+		 The following new driver assignments were made:
+			Peripheral Instance: ps7_sd_0, driver: sdps_v1_00_a.
+ 
+16:13:22.582 INFO  - Updating hardware inferred compiler options for fs-boot_0. 
+16:13:23.335 INFO  - Updating hardware inferred compiler options for fsbl_test. 
+16:13:24.088 INFO  - Updating hardware inferred compiler options for linux_test. 
+16:13:24.122 INFO  - Clearing existing target manager status. 
+16:13:37.633 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw_platform_0\ps7_init.c into \fs-boot_0\src\ps7_init.c. 
+16:13:37.636 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw_platform_0\ps7_init.h into \fs-boot_0\src\ps7_init.h. 
+16:13:37.643 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw_platform_0\ps7_init.html into \fs-boot_0\src\ps7_init.html. 
+16:13:37.644 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw_platform_0\ps7_summary.html into \fs-boot_0\src\ps7_summary.html. 
+16:13:37.649 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw_platform_0\ps7_init.tcl into \fs-boot_0\src\ps7_init.tcl. 
+16:13:37.652 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+16:14:51.645 ERROR - Unable to read in MSS file C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\petalinux_bsp_1\unknown.mss. 
+16:15:09.518 INFO  - Project fs-boot_0_bsp was a BSP project. Please update references. 
+16:15:09.519 ERROR - SDK has detected that project fs-boot_0_bsp has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references. 
+16:15:33.471 INFO  - Project fsbl_test_bsp was a BSP project. Please update references. 
+16:15:33.472 ERROR - SDK has detected that project fsbl_test_bsp has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references. 
+12:45:44.147 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+15:00:57.521 INFO  - Restoring local repository preferences: 
+		 C:\Users\dgronlund\Downloads\edk_user_repository 
+18:11:01.837 INFO  - Project hw_platform_0's source hardware specification located at C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/hw/zynq_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+18:23:57.158 INFO  - Copied contents of C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/hw/zynq_1.xml into \hw_platform_0\system.xml. 
+18:23:57.236 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+18:23:57.239 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+18:23:57.247 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+18:23:57.248 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+18:23:57.252 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+18:23:57.475 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+18:23:57.517 INFO  - Clearing existing target manager status. 
+18:24:00.991 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+18:26:53.852 INFO  - Project hw_platform_0's source hardware specification located at C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/hw/zynq_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+18:26:57.225 INFO  - Copied contents of C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/hw/zynq_1.xml into \hw_platform_0\system.xml. 
+18:26:57.274 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+18:26:57.277 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+18:26:57.283 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+18:26:57.285 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+18:26:57.288 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+18:26:57.379 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+18:26:57.484 INFO  - Clearing existing target manager status. 
+18:26:58.484 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+18:30:06.278 INFO  - Project hw_platform_0's source hardware specification located at C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/hw/zynq_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+18:30:10.486 INFO  - Copied contents of C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/hw/zynq_1.xml into \hw_platform_0\system.xml. 
+18:30:10.544 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+18:30:10.547 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+18:30:10.555 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+18:30:10.556 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+18:30:10.559 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+18:30:10.650 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+18:30:10.679 INFO  - Clearing existing target manager status. 
+18:30:11.680 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+18:35:31.523 INFO  - Project hw_platform_0's source hardware specification located at C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/hw/zynq_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+18:35:39.794 INFO  - Copied contents of C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/hw/zynq_1.xml into \hw_platform_0\system.xml. 
+18:35:39.845 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+18:35:39.848 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+18:35:39.855 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+18:35:39.856 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+18:35:39.860 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+18:35:39.955 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+18:35:39.985 INFO  - Clearing existing target manager status. 
+18:35:40.985 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+13:23:19.717 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:41:12.856 INFO  - Restoring local repository preferences: 
+		 C:\Users\dgronlund\Downloads\edk_user_repository 
+16:41:49.782 WARN  - Unable to determine location of documentation for OS petalinux. 
+16:42:32.651 INFO  - Project linux_test_bsp was a BSP project. Please update references. 
+16:42:32.651 ERROR - SDK has detected that project linux_test_bsp has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references. 
+16:43:04.428 WARN  - Unable to determine location of documentation for OS petalinux. 
+14:12:38.003 INFO  - Settings changed on project petalinux_test_bsp. Triggering a rebuild... 
+14:12:39.088 INFO  - Refreshed build settings on project petalinux_test 
+14:12:39.121 INFO  - Refreshed build settings on project petalinux_test_2 
+14:13:16.798 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+16:15:32.853 INFO  - Project petalinux_test_bsp was a BSP project. Please update references. 
+16:15:32.853 ERROR - SDK has detected that project petalinux_test_bsp has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references. 
+16:52:01.437 INFO  - Project hw_platform_0's source hardware specification located at C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/hw/zynq_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+16:52:59.516 INFO  - Copied contents of C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/hw/zynq_1.xml into \hw_platform_0\system.xml. 
+16:52:59.576 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+16:52:59.579 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+16:52:59.586 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+16:52:59.586 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+16:52:59.591 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+16:52:59.706 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+16:52:59.744 INFO  - Clearing existing target manager status. 
+16:53:00.744 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+20:00:45.209 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+15:48:14.977 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:11:39.463 INFO  - Restoring local repository preferences: 
+		 C:\Users\dgronlund\Downloads\edk_user_repository 
+16:43:02.793 INFO  - Project hw_platform_0's source hardware specification located at C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/hw/zynq_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+16:43:06.468 INFO  - Copied contents of C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/hw/zynq_1.xml into \hw_platform_0\system.xml. 
+16:43:06.547 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+16:43:06.550 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+16:43:06.557 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+16:43:06.558 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+16:43:06.561 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+16:43:06.735 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+16:43:08.620 INFO  - Updating hardware inferred compiler options for oled_project. 
+16:43:08.622 INFO  - Clearing existing target manager status. 
+16:43:08.628 INFO  - Closing and re-opening the MSS file of ther project standalone_bsp_0 
+16:43:09.782 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+17:46:13.086 INFO  - Attempting to launch Hardware server... 
+17:46:13.508 INFO  - Hardware server is launched successfully. 
+18:17:24.618 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+19:12:52.596 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/standalone_bsp_0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+19:12:52.608 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/standalone_bsp_0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+19:12:52.609 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/standalone_bsp_0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+19:12:52.610 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/standalone_bsp_0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+19:37:23.006 ERROR - Unexpected error while obtaining referenced H/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/hw_platform_0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+19:37:23.008 ERROR - Unexpected error while obtaining referenced H/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/hw_platform_0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+19:37:23.179 ERROR - Unexpected error while obtaining referenced H/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/hw_platform_0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+19:37:23.183 ERROR - Unexpected error while obtaining referenced H/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/hw_platform_0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+19:37:32.239 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:02:34.666 INFO  - Project hw_platform_0's source hardware specification located at C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/hw/zynq_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+17:02:37.492 INFO  - Copied contents of C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/hw/zynq_1.xml into \hw_platform_0\system.xml. 
+17:02:37.562 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+17:02:37.566 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+17:02:37.573 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+17:02:37.575 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+17:02:37.578 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+17:02:38.292 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+17:02:39.212 INFO  - Restoring local repository preferences: 
+		 C:\Users\dgronlund\Downloads\edk_user_repository 
+17:02:39.275 INFO  - Clearing existing target manager status. 
+17:02:39.276 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/oled_project' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:521)
+
+17:02:40.276 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+17:24:45.169 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:21:24.222 INFO  - Project hw_platform_0's source hardware specification located at C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/hw/zynq_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+14:21:38.665 INFO  - Copied contents of C:/Users/dgronlund/fpga/led_string/led_string.sdk/SDK/SDK_Export/hw/zynq_1.xml into \hw_platform_0\system.xml. 
+14:21:38.975 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+14:21:38.978 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+14:21:38.986 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+14:21:38.987 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+14:21:38.990 INFO  - Copied contents of C:\Users\dgronlund\fpga\led_string\led_string.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+14:21:39.190 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:21:39.237 INFO  - Clearing existing target manager status. 
+14:21:39.238 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/oled_project' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:521)
+
+14:21:39.239 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/standalone_bsp_0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:521)
+
+14:21:40.239 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 

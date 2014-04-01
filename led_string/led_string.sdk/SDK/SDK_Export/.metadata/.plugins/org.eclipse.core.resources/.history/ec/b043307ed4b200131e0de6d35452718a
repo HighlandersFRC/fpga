@@ -1,0 +1,12 @@
+/*
+ * Empty C++ Application
+ */
+
+#include <stdio.h>
+#include "xil_printf.h"
+
+int main()
+{
+	printf("hello");
+	return 0;
+}

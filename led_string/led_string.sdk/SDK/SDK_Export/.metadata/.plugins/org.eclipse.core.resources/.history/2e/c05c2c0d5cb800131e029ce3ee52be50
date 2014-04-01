@@ -1,0 +1,22 @@
+/*
+ * block_ram.h
+ *
+ *  Created on: Mar 30, 2014
+ *      Author: DGronlund
+ */
+
+#ifndef BLOCK_RAM_H_
+#define BLOCK_RAM_H_
+
+#define BLOCK_RAM_BASE_ADDRESS 0x41E00000
+#define BLOCK_RAM_MAP_SIZE 4096UL
+
+#define BLOCK_RAM_SUCCESS 1
+#define BLOCK_RAM_FAILURE 0
+
+int block_ram_init();
+int block_ram_close();
+void write_register(int address, int value);
+int read_register(int address);
+
+#endif /* BLOCK_RAM_H_ */

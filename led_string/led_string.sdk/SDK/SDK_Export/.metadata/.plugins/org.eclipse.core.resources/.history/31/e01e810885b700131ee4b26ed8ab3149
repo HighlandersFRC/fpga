@@ -1,0 +1,16 @@
+/*
+ * gpio.h
+ *
+ *  Created on: Mar 26, 2014
+ *      Author: DGronlund
+ */
+
+#ifndef GPIO_H_
+#define GPIO_H_
+
+int gpio_init();
+void gpio_write(int value);
+int gpio_read_out();
+int gpio_close();
+
+#endif /* GPIO_H_ */
