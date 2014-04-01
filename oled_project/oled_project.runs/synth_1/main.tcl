@@ -3,7 +3,6 @@
 # 
 
   set_param gui.test TreeTableDev
-set_msg_config -id {Common-41} -limit 4294967295
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
 set_msg_config -id {Labtools 27-147} -limit 4294967295
@@ -12,31 +11,31 @@ set_property target_language Verilog [current_project]
 set_property board em.avnet.com:zynq:zed:d [current_project]
 set_param project.compositeFile.enableAutoGeneration 0
 
-add_files C:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/zynq_1.bd
-set_property used_in_implementation false [get_files -all c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/zynq_1_proc_sys_reset_1_0.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/zynq_1_proc_sys_reset_1_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/zynq_1_proc_sys_reset_1_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/zynq_1_axi_gpio_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/zynq_1_axi_gpio_0_0.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/zynq_1_axi_gpio_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/zynq_1_auto_pc_2_ooc.xdc]
-set_property used_in_implementation false [get_files -all C:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/zynq_1_ooc.xdc]
+add_files C:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/zynq_1.bd
+set_property used_in_implementation false [get_files -all c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/zynq_1_proc_sys_reset_1_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/zynq_1_proc_sys_reset_1_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/zynq_1_proc_sys_reset_1_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/zynq_1_axi_gpio_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/zynq_1_axi_gpio_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/zynq_1_axi_gpio_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/zynq_1_auto_pc_9_ooc.xdc]
+set_property used_in_implementation false [get_files -all C:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/zynq_1_ooc.xdc]
 set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property is_locked true [get_files C:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/zynq_1.bd]
+set_property is_locked true [get_files C:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/zynq_1.bd]
 
 read_verilog {
-  C:/vivado/oled_project/oled_project.srcs/sources_1/imports/hdl/zynq_1_wrapper.v
-  C:/vivado/oled_project/oled_project.srcs/sources_1/new/main.v
+  C:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/imports/hdl/zynq_1_wrapper.v
+  C:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/new/main.v
 }
-read_xdc C:/vivado/oled_project/oled_project.srcs/constrs_1/new/contrs.xdc
-set_property used_in_implementation false [get_files C:/vivado/oled_project/oled_project.srcs/constrs_1/new/contrs.xdc]
+read_xdc C:/Users/dgronlund/fpga/oled_project/oled_project.srcs/constrs_1/new/contrs.xdc
+set_property used_in_implementation false [get_files C:/Users/dgronlund/fpga/oled_project/oled_project.srcs/constrs_1/new/contrs.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/vivado/oled_project/oled_project.data/wt [current_project]
-set_property parent.project_dir C:/vivado/oled_project [current_project]
+set_property webtalk.parent_dir C:/Users/dgronlund/fpga/oled_project/oled_project.data/wt [current_project]
+set_property parent.project_dir C:/Users/dgronlund/fpga/oled_project [current_project]
 synth_design -top main -part xc7z020clg484-1
 write_checkpoint main.dcp
 report_utilization -file main_utilization_synth.rpt -pb main_utilization_synth.pb

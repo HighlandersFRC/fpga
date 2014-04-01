@@ -235,7 +235,7 @@ module s00_couplers_imp_DV8YS4
   assign s00_couplers_to_auto_pc_WLAST = S_AXI_wlast;
   assign s00_couplers_to_auto_pc_WSTRB = S_AXI_wstrb[3:0];
   assign s00_couplers_to_auto_pc_WVALID = S_AXI_wvalid;
-zynq_1_auto_pc_3 auto_pc
+zynq_1_auto_pc_9 auto_pc
        (.aclk(S_ACLK_1),
         .aresetn(S_ARESETN_1),
         .m_axi_araddr(auto_pc_to_s00_couplers_ARADDR),
@@ -479,15 +479,6 @@ zynq_1_processing_system7_1_0 processing_system7_1
         .DDR_VRN(FIXED_IO_ddr_vrn),
         .DDR_VRP(FIXED_IO_ddr_vrp),
         .DDR_WEB(DDR_we_n),
-        .ENET0_EXT_INTIN(GND_1),
-        .ENET0_GMII_COL(GND_1),
-        .ENET0_GMII_CRS(GND_1),
-        .ENET0_GMII_RXD({GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1,GND_1}),
-        .ENET0_GMII_RX_CLK(GND_1),
-        .ENET0_GMII_RX_DV(GND_1),
-        .ENET0_GMII_RX_ER(GND_1),
-        .ENET0_GMII_TX_CLK(GND_1),
-        .ENET0_MDIO_I(GND_1),
         .FCLK_CLK0(processing_system7_1_fclk_clk0),
         .FCLK_RESET0_N(processing_system7_1_fclk_reset0_n),
         .MIO(FIXED_IO_mio[53:0]),

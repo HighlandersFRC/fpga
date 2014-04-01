@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
-| Date             : Sun Jan 05 12:50:50 2014
+| Date             : Thu Feb 20 18:15:37 2014
 | Host             : HighlandersPC running 64-bit Service Pack 1  (build 7601)
 | Command          : report_power -file main_power_routed.rpt -pb main_power_summary_routed.pb
 | Design           : main
@@ -30,13 +30,13 @@ Table of Contents
 ----------
 
 +--------------------------+--------+
-| Total On-Chip Power (W)  | 1.460  |
-| Dynamic (W)              | 1.314  |
+| Total On-Chip Power (W)  | 1.465  |
+| Dynamic (W)              | 1.319  |
 | Device Static (W)        | 0.146  |
 | Total Off-Chip Power (W) | 0.121  |
 | Effective TJA (C/W)      | 11.5   |
-| Max Ambient (C)          | 68.2   |
-| Junction Temperature (C) | 41.8   |
+| Max Ambient (C)          | 68.1   |
+| Junction Temperature (C) | 41.9   |
 | Confidence Level         | Medium |
 | Setting File             | ---    |
 | Simulation Activity File | ---    |
@@ -59,9 +59,9 @@ Table of Contents
 |   Others                |     0.000 |      141 |       --- |             --- |
 | Signals                 |    <0.001 |     1074 |       --- |             --- |
 | I/O                     |     0.001 |        8 |       200 |            4.00 |
-| PS7                     |     1.303 |        1 |       --- |             --- |
+| PS7                     |     1.308 |        1 |       --- |             --- |
 | Static Power            |     0.146 |          |           |                 |
-| Total                   |     1.460 |          |           |                 |
+| Total                   |     1.465 |          |           |                 |
 +-------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -85,11 +85,11 @@ Table of Contents
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
 | MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vccpint   |       1.000 |     0.418 |       0.390 |      0.028 |
-| Vccpaux   |       1.800 |     0.044 |       0.033 |      0.010 |
+| Vccpaux   |       1.800 |     0.044 |       0.034 |      0.010 |
 | Vccpll    |       1.800 |     0.120 |       0.117 |      0.003 |
 | Vcco_ddr  |       1.500 |     0.511 |       0.509 |      0.002 |
 | Vcco_mio0 |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vcco_mio1 |       1.800 |     0.001 |       0.000 |      0.001 |
+| Vcco_mio1 |       1.800 |     0.003 |       0.002 |      0.001 |
 | Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
 +-----------+-------------+-----------+-------------+------------+
 
@@ -149,15 +149,15 @@ Table of Contents
 +---------------------------------------+-----------+
 | Name                                  | Power (W) |
 +---------------------------------------+-----------+
-| main                                  |     1.314 |
-|   cpu                                 |     1.313 |
-|     zynq_1_i                          |     1.313 |
+| main                                  |     1.319 |
+|   cpu                                 |     1.317 |
+|     zynq_1_i                          |     1.317 |
 |       axi_gpio_0                      |     0.002 |
 |         U0                            |     0.002 |
 |       proc_sys_reset_1                |    <0.001 |
 |         U0                            |    <0.001 |
-|       processing_system7_1            |     1.304 |
-|         inst                          |     1.304 |
+|       processing_system7_1            |     1.309 |
+|         inst                          |     1.309 |
 |       processing_system7_1_axi_periph |     0.007 |
 |         s00_couplers/auto_pc          |     0.007 |
 +---------------------------------------+-----------+

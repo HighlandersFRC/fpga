@@ -53,9 +53,12 @@ R
 Œ
 òWebTalk data collection is mandatory for users of free Webpack licenses. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
 120*projectZ1-120
-s
-ZWebTalk report has not been sent to Xilinx. Please check your network and proxy settings.
-185*commonZ17-185
+‰
+†'%s' has been successfully sent to Xilinx on %s. For additional details about this file, please refer to the Webtalk help file at %s.
+186*common2n
+ZC:/Users/dgronlund/fpga/oled_project/oled_project.runs/impl_1/usage_statistics_webtalk.xml2default:default2,
+Thu Feb 20 18:15:58 20142default:default2I
+5C:/Xilinx/Vivado/2013.4/doc/webtalk_introduction.html2default:defaultZ17-186
 Q
 Releasing license: %s
 83*common2"
@@ -65,9 +68,9 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2%
 write_bitstream: 2default:default2
 00:00:172default:default2
-00:00:212default:default2
-1282.5392default:default2
-195.2382default:defaultZ17-268
+00:00:202default:default2
+1281.7582default:default2
+194.2272default:defaultZ17-268
 
 
 End Record

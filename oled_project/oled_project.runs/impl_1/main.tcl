@@ -42,7 +42,6 @@ proc step_failed { step } {
   close $ch
 }
 
-set_msg_config -id {Common-41} -limit 4294967295
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
 set_msg_config -id {Labtools 27-147} -limit 4294967295
@@ -54,15 +53,15 @@ set rc [catch {
   create_project -in_memory -part xc7z020clg484-1
   set_property board em.avnet.com:zynq:zed:d [current_project]
   set_property design_mode GateLvl [current_fileset]
-  set_property webtalk.parent_dir C:/vivado/oled_project/oled_project.data/wt [current_project]
-  set_property parent.project_dir C:/vivado/oled_project [current_project]
-  add_files C:/vivado/oled_project/oled_project.runs/synth_1/main.dcp
-  read_xdc -ref zynq_1_processing_system7_1_0 -cells inst c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc
-  read_xdc -ref zynq_1_proc_sys_reset_1_0 -cells U0 c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/zynq_1_proc_sys_reset_1_0.xdc
-  read_xdc -prop_thru_buffers -ref zynq_1_proc_sys_reset_1_0 -cells U0 c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/zynq_1_proc_sys_reset_1_0_board.xdc
-  read_xdc -ref zynq_1_axi_gpio_0_0 -cells U0 c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/zynq_1_axi_gpio_0_0.xdc
-  read_xdc -prop_thru_buffers -ref zynq_1_axi_gpio_0_0 -cells U0 c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/zynq_1_axi_gpio_0_0_board.xdc
-  read_xdc C:/vivado/oled_project/oled_project.srcs/constrs_1/new/contrs.xdc
+  set_property webtalk.parent_dir C:/Users/dgronlund/fpga/oled_project/oled_project.data/wt [current_project]
+  set_property parent.project_dir C:/Users/dgronlund/fpga/oled_project [current_project]
+  add_files C:/Users/dgronlund/fpga/oled_project/oled_project.runs/synth_1/main.dcp
+  read_xdc -ref zynq_1_processing_system7_1_0 -cells inst c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc
+  read_xdc -ref zynq_1_proc_sys_reset_1_0 -cells U0 c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/zynq_1_proc_sys_reset_1_0.xdc
+  read_xdc -prop_thru_buffers -ref zynq_1_proc_sys_reset_1_0 -cells U0 c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/zynq_1_proc_sys_reset_1_0_board.xdc
+  read_xdc -ref zynq_1_axi_gpio_0_0 -cells U0 c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/zynq_1_axi_gpio_0_0.xdc
+  read_xdc -prop_thru_buffers -ref zynq_1_axi_gpio_0_0 -cells U0 c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/zynq_1_axi_gpio_0_0_board.xdc
+  read_xdc C:/Users/dgronlund/fpga/oled_project/oled_project.srcs/constrs_1/new/contrs.xdc
   link_design -top main -part xc7z020clg484-1
   close_msg_db -file init_design.pb
 } RESULT]

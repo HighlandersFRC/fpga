@@ -55,18 +55,6 @@ h
 Starting synthesis...
 
 3*	vivadotclZ4-3
-Ù
-¢The '%s' target of the sub-design '%s' is stale, please manually generate the synthesis target first by executing the command: generate_target {%s} [get_files %s]106*	vivadotcl2
-	Synthesis2default:default2
-zynq_12default:default2
-	Synthesis2default:default2Z
-FC:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/zynq_1.bd2default:defaultZ4-250
-˛
-¢The '%s' target of the sub-design '%s' is stale, please manually generate the synthesis target first by executing the command: generate_target {%s} [get_files %s]106*	vivadotcl2"
-Implementation2default:default2
-zynq_12default:default2"
-Implementation2default:default2Z
-FC:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/zynq_1.bd2default:defaultZ4-250
 ï
 @Attempting to get a license for feature '%s' and/or device '%s'
 308*common2
@@ -79,22 +67,22 @@ FC:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/zynq_1.bd2default
 xc7z0202default:defaultZ17-349
 ú
 %s*synth2å
-xStarting RTL Elaboration : Time (s): cpu = 00:00:51 ; elapsed = 00:00:58 . Memory (MB): peak = 272.316 ; gain = 119.441
+xStarting RTL Elaboration : Time (s): cpu = 00:00:51 ; elapsed = 00:00:58 . Memory (MB): peak = 272.363 ; gain = 119.430
 2default:default
-º
+ 
 synthesizing module '%s'638*oasys2
-main2default:default2S
-=C:/vivado/oled_project/oled_project.srcs/sources_1/new/main.v2default:default2
+main2default:default2a
+KC:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/new/main.v2default:default2
 232default:default8@Z8-638
-◊
+Â
 synthesizing module '%s'638*oasys2"
-zynq_1_wrapper2default:default2e
-OC:/vivado/oled_project/oled_project.srcs/sources_1/imports/hdl/zynq_1_wrapper.v2default:default2
+zynq_1_wrapper2default:default2s
+]C:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/imports/hdl/zynq_1_wrapper.v2default:default2
 32default:default8@Z8-638
-À
+Ÿ
 synthesizing module '%s'638*oasys2
-zynq_12default:default2_
-IC:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/hdl/zynq_1.v2default:default2
+zynq_12default:default2m
+WC:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/hdl/zynq_1.v2default:default2
 2992default:default8@Z8-638
 µ
 synthesizing module '%s'638*oasys2
@@ -120,10 +108,10 @@ IC:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/hdl/zynq_1.v2de
 12default:default2K
 5C:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 357482default:default8@Z8-256
-Ä
+é
 synthesizing module '%s'638*oasys2'
-zynq_1_axi_gpio_0_02default:default2á
-qc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/synth/zynq_1_axi_gpio_0_0.vhd2default:default2
+zynq_1_axi_gpio_0_02default:default2ï
+c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/synth/zynq_1_axi_gpio_0_0.vhd2default:default2
 862default:default8@Z8-638
 V
 %s*synth2G
@@ -185,19 +173,19 @@ n
 %s*synth2_
 K	Parameter C_TRI_DEFAULT_2 bound to: 32'b11111111111111111111111111111111 
 2default:default
-â
+¶
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
-axi_gpio2default:default2è
-{c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_gpio_v2_0/hdl/src/vhdl/axi_gpio.vhd2default:default2
+axi_gpio2default:default2û
+âc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_gpio_v2_0/hdl/src/vhdl/axi_gpio.vhd2default:default2
 1902default:default2
 U02default:default2
-axi_gpio2default:default2á
-qc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/synth/zynq_1_axi_gpio_0_0.vhd2default:default2
+axi_gpio2default:default2ï
+c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/synth/zynq_1_axi_gpio_0_0.vhd2default:default2
 1672default:default8@Z8-3491
-ê
+ü
 synthesizing module '%s'638*oasys2,
-axi_gpio__parameterized02default:default2ë
-{c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_gpio_v2_0/hdl/src/vhdl/axi_gpio.vhd2default:default2
+axi_gpio__parameterized02default:default2†
+âc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_gpio_v2_0/hdl/src/vhdl/axi_gpio.vhd2default:default2
 2832default:default8@Z8-638
 V
 %s*synth2G
@@ -259,24 +247,24 @@ U
 %s*synth2M
 9	Parameter C_TRI_DEFAULT_2 bound to: -1 - type: integer 
 2default:default
-≠
+º
 &Detected and applied attribute %s = %s3620*oasys2
 
 max_fanout2default:default2
-100002default:default2ë
-{c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_gpio_v2_0/hdl/src/vhdl/axi_gpio.vhd2default:default2
+100002default:default2†
+âc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_gpio_v2_0/hdl/src/vhdl/axi_gpio.vhd2default:default2
 2202default:default8@Z8-4472
-≠
+º
 &Detected and applied attribute %s = %s3620*oasys2
 
 max_fanout2default:default2
-100002default:default2ë
-{c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_gpio_v2_0/hdl/src/vhdl/axi_gpio.vhd2default:default2
+100002default:default2†
+âc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_gpio_v2_0/hdl/src/vhdl/axi_gpio.vhd2default:default2
 2212default:default8@Z8-4472
-ê
+û
 synthesizing module '%s'638*oasys2!
-axi_lite_ipif2default:default2ú
-Öc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_lite_ipif_v2_0/hdl/src/vhdl/axi_lite_ipif.vhd2default:default2
+axi_lite_ipif2default:default2™
+ìc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_lite_ipif_v2_0/hdl/src/vhdl/axi_lite_ipif.vhd2default:default2
 2532default:default8@Z8-638
 _
 %s*synth2P
@@ -310,10 +298,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-ñ
+§
 synthesizing module '%s'638*oasys2$
-slave_attachment2default:default2ü
-àc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_lite_ipif_v2_0/hdl/src/vhdl/slave_attachment.vhd2default:default2
+slave_attachment2default:default2≠
+ñc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_lite_ipif_v2_0/hdl/src/vhdl/slave_attachment.vhd2default:default2
 2432default:default8@Z8-638
 ÿ
 %s*synth2»
@@ -347,10 +335,10 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-î
+¢
 synthesizing module '%s'638*oasys2#
-address_decoder2default:default2û
-ác:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_lite_ipif_v2_0/hdl/src/vhdl/address_decoder.vhd2default:default2
+address_decoder2default:default2¨
+ïc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_lite_ipif_v2_0/hdl/src/vhdl/address_decoder.vhd2default:default2
 1882default:default8@Z8-638
 X
 %s*synth2I
@@ -372,10 +360,10 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-å
+ö
 synthesizing module '%s'638*oasys2
-	pselect_f2default:default2ú
-Öc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/pselect_f.vhd2default:default2
+	pselect_f2default:default2™
+ìc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -393,17 +381,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-«
+’
 %done synthesizing module '%s' (%s#%s)256*oasys2
 	pselect_f2default:default2
 32default:default2
-12default:default2ú
-Öc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/pselect_f.vhd2default:default2
+12default:default2™
+ìc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-ú
+™
 synthesizing module '%s'638*oasys2-
-pselect_f__parameterized02default:default2ú
-Öc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/pselect_f.vhd2default:default2
+pselect_f__parameterized02default:default2™
+ìc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -421,17 +409,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-◊
+Â
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 pselect_f__parameterized02default:default2
 32default:default2
-12default:default2ú
-Öc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/pselect_f.vhd2default:default2
+12default:default2™
+ìc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-ú
+™
 synthesizing module '%s'638*oasys2-
-pselect_f__parameterized12default:default2ú
-Öc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/pselect_f.vhd2default:default2
+pselect_f__parameterized12default:default2™
+ìc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -449,17 +437,17 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-◊
+Â
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 pselect_f__parameterized12default:default2
 32default:default2
-12default:default2ú
-Öc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/pselect_f.vhd2default:default2
+12default:default2™
+ìc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-ú
+™
 synthesizing module '%s'638*oasys2-
-pselect_f__parameterized22default:default2ú
-Öc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/pselect_f.vhd2default:default2
+pselect_f__parameterized22default:default2™
+ìc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-638
 P
 %s*synth2A
@@ -477,42 +465,42 @@ Z
 %s*synth2K
 7	Parameter C_FAMILY bound to: nofamily - type: string 
 2default:default
-◊
+Â
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 pselect_f__parameterized22default:default2
 32default:default2
-12default:default2ú
-Öc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/pselect_f.vhd2default:default2
+12default:default2™
+ìc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/pselect_f.vhd2default:default2
 1692default:default8@Z8-256
-œ
+›
 %done synthesizing module '%s' (%s#%s)256*oasys2#
 address_decoder2default:default2
 42default:default2
-12default:default2û
-ác:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_lite_ipif_v2_0/hdl/src/vhdl/address_decoder.vhd2default:default2
+12default:default2¨
+ïc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_lite_ipif_v2_0/hdl/src/vhdl/address_decoder.vhd2default:default2
 1882default:default8@Z8-256
-Û
-default block is never used226*oasys2ü
-àc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_lite_ipif_v2_0/hdl/src/vhdl/slave_attachment.vhd2default:default2
+Å
+default block is never used226*oasys2≠
+ñc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_lite_ipif_v2_0/hdl/src/vhdl/slave_attachment.vhd2default:default2
 4012default:default8@Z8-226
-—
+ﬂ
 %done synthesizing module '%s' (%s#%s)256*oasys2$
 slave_attachment2default:default2
 52default:default2
-12default:default2ü
-àc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_lite_ipif_v2_0/hdl/src/vhdl/slave_attachment.vhd2default:default2
+12default:default2≠
+ñc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_lite_ipif_v2_0/hdl/src/vhdl/slave_attachment.vhd2default:default2
 2432default:default8@Z8-256
-À
+Ÿ
 %done synthesizing module '%s' (%s#%s)256*oasys2!
 axi_lite_ipif2default:default2
 62default:default2
-12default:default2ú
-Öc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_lite_ipif_v2_0/hdl/src/vhdl/axi_lite_ipif.vhd2default:default2
+12default:default2™
+ìc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_lite_ipif_v2_0/hdl/src/vhdl/axi_lite_ipif.vhd2default:default2
 2532default:default8@Z8-256
-Ç
+ë
 synthesizing module '%s'638*oasys2
-	GPIO_Core2default:default2í
-|c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_gpio_v2_0/hdl/src/vhdl/gpio_core.vhd2default:default2
+	GPIO_Core2default:default2°
+äc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_gpio_v2_0/hdl/src/vhdl/gpio_core.vhd2default:default2
 1732default:default8@Z8-638
 Q
 %s*synth2B
@@ -562,14 +550,14 @@ V
 %s*synth2G
 3	Parameter C_FAMILY bound to: zynq - type: string 
 2default:default
-Ê
-default block is never used226*oasys2í
-|c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_gpio_v2_0/hdl/src/vhdl/gpio_core.vhd2default:default2
+ı
+default block is never used226*oasys2°
+äc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_gpio_v2_0/hdl/src/vhdl/gpio_core.vhd2default:default2
 3462default:default8@Z8-226
-ä
+ò
 synthesizing module '%s'638*oasys2
-cdc_sync2default:default2õ
-Ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/cdc_sync.vhd2default:default2
+cdc_sync2default:default2©
+íc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/cdc_sync.vhd2default:default2
 1042default:default8@Z8-638
 V
 %s*synth2G
@@ -595,83 +583,83 @@ Y
 %s*synth2J
 6	Parameter C_MTBF_STAGES bound to: 4 - type: integer 
 2default:default
-µ
+√
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2õ
-Ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/cdc_sync.vhd2default:default2
+true2default:default2©
+íc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/cdc_sync.vhd2default:default2
 3852default:default8@Z8-4472
-µ
+√
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2õ
-Ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/cdc_sync.vhd2default:default2
+true2default:default2©
+íc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/cdc_sync.vhd2default:default2
 3872default:default8@Z8-4472
-µ
+√
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2õ
-Ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/cdc_sync.vhd2default:default2
+true2default:default2©
+íc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/cdc_sync.vhd2default:default2
 3882default:default8@Z8-4472
-µ
+√
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2õ
-Ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/cdc_sync.vhd2default:default2
+true2default:default2©
+íc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/cdc_sync.vhd2default:default2
 3892default:default8@Z8-4472
-µ
+√
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2õ
-Ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/cdc_sync.vhd2default:default2
+true2default:default2©
+íc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/cdc_sync.vhd2default:default2
 3902default:default8@Z8-4472
-µ
+√
 &Detected and applied attribute %s = %s3620*oasys2
 	async_reg2default:default2
-true2default:default2õ
-Ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/cdc_sync.vhd2default:default2
+true2default:default2©
+íc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/cdc_sync.vhd2default:default2
 3912default:default8@Z8-4472
-≈
+”
 %done synthesizing module '%s' (%s#%s)256*oasys2
 cdc_sync2default:default2
 72default:default2
-12default:default2õ
-Ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/cdc_sync.vhd2default:default2
+12default:default2©
+íc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_common_v4_0/hdl/src/vhdl/cdc_sync.vhd2default:default2
 1042default:default8@Z8-256
-Ω
+Ã
 %done synthesizing module '%s' (%s#%s)256*oasys2
 	GPIO_Core2default:default2
 82default:default2
-12default:default2í
-|c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_gpio_v2_0/hdl/src/vhdl/gpio_core.vhd2default:default2
+12default:default2°
+äc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_gpio_v2_0/hdl/src/vhdl/gpio_core.vhd2default:default2
 1732default:default8@Z8-256
-À
+⁄
 %done synthesizing module '%s' (%s#%s)256*oasys2,
 axi_gpio__parameterized02default:default2
 92default:default2
-12default:default2ë
-{c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_gpio_v2_0/hdl/src/vhdl/axi_gpio.vhd2default:default2
+12default:default2†
+âc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_gpio_v2_0/hdl/src/vhdl/axi_gpio.vhd2default:default2
 2832default:default8@Z8-256
-º
+ 
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 zynq_1_axi_gpio_0_02default:default2
 102default:default2
-12default:default2á
-qc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/synth/zynq_1_axi_gpio_0_0.vhd2default:default2
+12default:default2ï
+c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/synth/zynq_1_axi_gpio_0_0.vhd2default:default2
 862default:default8@Z8-256
-◊
+Â
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2
 
 axi_gpio_02default:default2'
 zynq_1_axi_gpio_0_02default:default2
 222default:default2
-212default:default2_
-IC:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/hdl/zynq_1.v2default:default2
+212default:default2m
+WC:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/hdl/zynq_1.v2default:default2
 4342default:default8@Z8-350
-í
+°
 synthesizing module '%s'638*oasys2-
-zynq_1_proc_sys_reset_1_02default:default2ì
-}c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/synth/zynq_1_proc_sys_reset_1_0.vhd2default:default2
+zynq_1_proc_sys_reset_1_02default:default2¢
+ãc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/synth/zynq_1_proc_sys_reset_1_0.vhd2default:default2
 712default:default8@Z8-638
 V
 %s*synth2G
@@ -709,19 +697,19 @@ C	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer
 %s*synth2O
 ;	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
 2default:default
-¥
+—
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2"
-proc_sys_reset2default:default2¢
-çc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
+proc_sys_reset2default:default2∞
+õc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
 1402default:default2
 U02default:default2"
-proc_sys_reset2default:default2ì
-}c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/synth/zynq_1_proc_sys_reset_1_0.vhd2default:default2
+proc_sys_reset2default:default2¢
+ãc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/synth/zynq_1_proc_sys_reset_1_0.vhd2default:default2
 1172default:default8@Z8-3491
-©
+∑
 synthesizing module '%s'638*oasys22
-proc_sys_reset__parameterized02default:default2§
-çc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
+proc_sys_reset__parameterized02default:default2≤
+õc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
 1992default:default8@Z8-638
 V
 %s*synth2G
@@ -759,10 +747,10 @@ C	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer
 %s*synth2O
 ;	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
 2default:default
-É
+ë
 synthesizing module '%s'638*oasys2
-lpf2default:default2ô
-Çc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd2default:default2
+lpf2default:default2ß
+êc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd2default:default2
 1362default:default8@Z8-638
 [
 %s*synth2L
@@ -780,14 +768,14 @@ O
 %s*synth2@
 ,	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
 2default:default
-◊
+Â
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 SRL162default:default2I
 5C:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 347842default:default2
 	POR_SRL_I2default:default2
-SRL162default:default2ô
-Çc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd2default:default2
+SRL162default:default2ß
+êc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd2default:default2
 1882default:default8@Z8-3491
 ∏
 synthesizing module '%s'638*oasys2
@@ -805,72 +793,72 @@ S
 12default:default2K
 5C:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 347842default:default8@Z8-256
-ø
+Õ
 %done synthesizing module '%s' (%s#%s)256*oasys2
 lpf2default:default2
 122default:default2
-12default:default2ô
-Çc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd2default:default2
+12default:default2ß
+êc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/lpf.vhd2default:default2
 1362default:default8@Z8-256
-ç
+õ
 synthesizing module '%s'638*oasys2
-sequence2default:default2û
-ác:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
+sequence2default:default2¨
+ïc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
 1462default:default8@Z8-638
-ã
+ô
 synthesizing module '%s'638*oasys2
-upcnt_n2default:default2ù
-Üc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/upcnt_n.vhd2default:default2
+upcnt_n2default:default2´
+îc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/upcnt_n.vhd2default:default2
 1262default:default8@Z8-638
 R
 %s*synth2C
 /	Parameter C_SIZE bound to: 6 - type: integer 
 2default:default
-«
+’
 %done synthesizing module '%s' (%s#%s)256*oasys2
 upcnt_n2default:default2
 132default:default2
-12default:default2ù
-Üc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/upcnt_n.vhd2default:default2
+12default:default2´
+îc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/upcnt_n.vhd2default:default2
 1262default:default8@Z8-256
-…
+◊
 %done synthesizing module '%s' (%s#%s)256*oasys2
 sequence2default:default2
 142default:default2
-12default:default2û
-ác:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
+12default:default2¨
+ïc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
 1462default:default8@Z8-256
-Â
+Û
 %done synthesizing module '%s' (%s#%s)256*oasys22
 proc_sys_reset__parameterized02default:default2
 152default:default2
-12default:default2§
-çc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
+12default:default2≤
+õc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/proc_sys_reset.vhd2default:default2
 1992default:default8@Z8-256
-Œ
+›
 %done synthesizing module '%s' (%s#%s)256*oasys2-
 zynq_1_proc_sys_reset_1_02default:default2
 162default:default2
-12default:default2ì
-}c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/synth/zynq_1_proc_sys_reset_1_0.vhd2default:default2
+12default:default2¢
+ãc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/synth/zynq_1_proc_sys_reset_1_0.vhd2default:default2
 712default:default8@Z8-256
-‚
+
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2$
 proc_sys_reset_12default:default2-
 zynq_1_proc_sys_reset_1_02default:default2
 102default:default2
-72default:default2_
-IC:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/hdl/zynq_1.v2default:default2
+72default:default2m
+WC:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/hdl/zynq_1.v2default:default2
 4562default:default8@Z8-350
-ù
+´
 synthesizing module '%s'638*oasys21
-zynq_1_processing_system7_1_02default:default2ö
-Éc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/synth/zynq_1_processing_system7_1_0.v2default:default2
+zynq_1_processing_system7_1_02default:default2®
+ëc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/synth/zynq_1_processing_system7_1_0.v2default:default2
 572default:default8@Z8-638
-æ
+Ã
 synthesizing module '%s'638*oasys2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 1532default:default8@Z8-638
 f
 %s*synth2W
@@ -1044,9 +1032,9 @@ V
 12default:default2K
 5C:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 6122default:default8@Z8-256
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21712default:default8@Z8-4446
 ∂
 synthesizing module '%s'638*oasys2
@@ -1060,401 +1048,401 @@ Fall outputs are unconnected for this instance and logic may be removed3605*
 12default:default2K
 5C:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 2682default:default8@Z8-256
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21722default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21732default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21742default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21752default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21762default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21772default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21782default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21792default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21802default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21812default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21822default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21832default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21842default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21892default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21952default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21952default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 21952default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22012default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22072default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22072default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22072default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22072default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
-Ø
-Fall outputs are unconnected for this instance and logic may be removed3605*oasys2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+Ω
+Fall outputs are unconnected for this instance and logic may be removed3605*oasys2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 22132default:default8@Z8-4446
 ‘
 ÅMessage '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
@@ -1473,161 +1461,161 @@ Fall outputs are unconnected for this instance and logic may be removed3605*
 12default:default2K
 5C:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 267372default:default8@Z8-256
-˛
+å
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_TX_EN2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2102default:default8@Z8-3848
-˛
+å
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_TX_ER2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2112default:default8@Z8-3848
-¸
+ä
 0Net %s in module/entity %s does not have driver.3422*oasys2"
 ENET0_GMII_TXD2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2272default:default8@Z8-3848
-˛
+å
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET1_GMII_TX_EN2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2412default:default8@Z8-3848
-˛
+å
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET1_GMII_TX_ER2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2422default:default8@Z8-3848
-¸
+ä
 0Net %s in module/entity %s does not have driver.3422*oasys2"
 ENET1_GMII_TXD2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2562default:default8@Z8-3848
-ˇ
+ç
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_COL_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10332default:default8@Z8-3848
-ˇ
+ç
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_CRS_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10342default:default8@Z8-3848
-ˇ
+ç
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_RXD_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10372default:default8@Z8-3848
-Å
+è
 0Net %s in module/entity %s does not have driver.3422*oasys2&
 ENET0_GMII_RX_DV_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10352default:default8@Z8-3848
-Å
+è
 0Net %s in module/entity %s does not have driver.3422*oasys2&
 ENET0_GMII_RX_ER_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10362default:default8@Z8-3848
-ˇ
+ç
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET1_GMII_COL_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10422default:default8@Z8-3848
-ˇ
+ç
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET1_GMII_CRS_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10432default:default8@Z8-3848
-ˇ
+ç
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET1_GMII_RXD_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10462default:default8@Z8-3848
-Å
+è
 0Net %s in module/entity %s does not have driver.3422*oasys2&
 ENET1_GMII_RX_DV_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10442default:default8@Z8-3848
-Å
+è
 0Net %s in module/entity %s does not have driver.3422*oasys2&
 ENET1_GMII_RX_ER_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10452default:default8@Z8-3848
-Ç
+ê
 0Net %s in module/entity %s does not have driver.3422*oasys2'
 FTMD_TRACEIN_ATID_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10552default:default8@Z8-3848
-Ç
+ê
 0Net %s in module/entity %s does not have driver.3422*oasys2'
 FTMD_TRACEIN_DATA_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10532default:default8@Z8-3848
-É
+ë
 0Net %s in module/entity %s does not have driver.3422*oasys2(
 FTMD_TRACEIN_VALID_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10542default:default8@Z8-3848
-˙
+à
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *processing_system7_v5_3_processing_system72default:default2
 202default:default2
-12default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+12default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 1532default:default8@Z8-256
-¶
+¥
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2
 inst2default:default2>
 *processing_system7_v5_3_processing_system72default:default2
 6732default:default2
-6602default:default2ö
-Éc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/synth/zynq_1_processing_system7_1_0.v2default:default2
+6602default:default2®
+ëc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/synth/zynq_1_processing_system7_1_0.v2default:default2
 2882default:default8@Z8-350
-Ÿ
+Á
 %done synthesizing module '%s' (%s#%s)256*oasys21
 zynq_1_processing_system7_1_02default:default2
 212default:default2
-12default:default2ö
-Éc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/synth/zynq_1_processing_system7_1_0.v2default:default2
+12default:default2®
+ëc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/synth/zynq_1_processing_system7_1_0.v2default:default2
 572default:default8@Z8-256
-Ì
+˚
 synthesizing module '%s'638*oasys2<
-(zynq_1_processing_system7_1_axi_periph_02default:default2_
-IC:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/hdl/zynq_1.v2default:default2
+(zynq_1_processing_system7_1_axi_periph_02default:default2m
+WC:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/hdl/zynq_1.v2default:default2
 5912default:default8@Z8-638
-⁄
+Ë
 synthesizing module '%s'638*oasys2+
-s00_couplers_imp_DV8YS42default:default2_
-IC:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/hdl/zynq_1.v2default:default2
+s00_couplers_imp_DV8YS42default:default2m
+WC:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/hdl/zynq_1.v2default:default2
 32default:default8@Z8-638
-Ù
+É
 synthesizing module '%s'638*oasys2$
-zynq_1_auto_pc_22default:default2
-ic:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/synth/zynq_1_auto_pc_2.v2default:default2
+zynq_1_auto_pc_92default:default2ç
+wc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/synth/zynq_1_auto_pc_9.v2default:default2
 572default:default8@Z8-638
-‹
+Í
 synthesizing module '%s'638*oasys2F
-2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2ƒ
-≠c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2“
+ªc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -1729,10 +1717,10 @@ X
 %s*synth2I
 5	Parameter P_CONVERSION bound to: 2 - type: integer 
 2default:default
-∂
+ƒ
 synthesizing module '%s'638*oasys23
-axi_protocol_converter_v2_1_b2s2default:default2±
-öc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
+axi_protocol_converter_v2_1_b2s2default:default2ø
+®c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-638
 \
 %s*synth2M
@@ -1758,10 +1746,10 @@ _
 %s*synth2P
 <	Parameter C_AXI_SUPPORTS_READ bound to: 1 - type: integer 
 2default:default
-»
+÷
 synthesizing module '%s'638*oasys2>
-*axi_register_slice_v2_1_axi_register_slice2default:default2∏
-°c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+*axi_register_slice_v2_1_axi_register_slice2default:default2∆
+Øc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-638
 Y
 %s*synth2J
@@ -2131,10 +2119,10 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
 2default:default
-∏
+∆
 synthesizing module '%s'638*oasys26
-"axi_infrastructure_v1_1_axi2vector2default:default2∞
-ôc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+"axi_infrastructure_v1_1_axi2vector2default:default2æ
+ßc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -2500,17 +2488,17 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
 2default:default
-Ù
+Ç
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_infrastructure_v1_1_axi2vector2default:default2
 222default:default2
-12default:default2∞
-ôc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+12default:default2æ
+ßc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
- 
+ÿ
 synthesizing module '%s'638*oasys2?
-+axi_register_slice_v2_1_axic_register_slice2default:default2π
-¢c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
++axi_register_slice_v2_1_axic_register_slice2default:default2«
+∞c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -2524,17 +2512,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 1 - type: integer 
 2default:default
-Ü
+î
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_register_slice_v2_1_axic_register_slice2default:default2
 232default:default2
-12default:default2π
-¢c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2«
+∞c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-⁄
+Ë
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized02default:default2π
-¢c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized02default:default2«
+∞c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -2548,17 +2536,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-ñ
+§
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized02default:default2
 232default:default2
-12default:default2π
-¢c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2«
+∞c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-⁄
+Ë
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized12default:default2π
-¢c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized12default:default2«
+∞c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -2572,17 +2560,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 1 - type: integer 
 2default:default
-ñ
+§
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized12default:default2
 232default:default2
-12default:default2π
-¢c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2«
+∞c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-⁄
+Ë
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized22default:default2π
-¢c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized22default:default2«
+∞c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -2596,17 +2584,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 1 - type: integer 
 2default:default
-ñ
+§
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized22default:default2
 232default:default2
-12default:default2π
-¢c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2«
+∞c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-∏
+∆
 synthesizing module '%s'638*oasys26
-"axi_infrastructure_v1_1_vector2axi2default:default2∞
-ôc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+"axi_infrastructure_v1_1_vector2axi2default:default2æ
+ßc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -2972,24 +2960,24 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
 2default:default
-Ù
+Ç
 %done synthesizing module '%s' (%s#%s)256*oasys26
 "axi_infrastructure_v1_1_vector2axi2default:default2
 242default:default2
-12default:default2∞
-ôc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+12default:default2æ
+ßc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
-Ñ
+í
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_register_slice_v2_1_axi_register_slice2default:default2
 252default:default2
-12default:default2∏
-°c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+12default:default2∆
+Øc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
-À
+Ÿ
 synthesizing module '%s'638*oasys2>
-*axi_protocol_converter_v2_1_b2s_aw_channel2default:default2º
-•c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
+*axi_protocol_converter_v2_1_b2s_aw_channel2default:default2 
+≥c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-638
 W
 %s*synth2H
@@ -2999,10 +2987,10 @@ W
 %s*synth2N
 :	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 2default:default
-‘
+‚
 synthesizing module '%s'638*oasys2B
-.axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2¿
-©c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
+.axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2Œ
+∑c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-638
 ]
 %s*synth2N
@@ -3020,10 +3008,10 @@ N
 %s*synth2?
 +	Parameter P_AXBURST_WRAP bound to: 2'b10 
 2default:default
-»
+÷
 synthesizing module '%s'638*oasys2<
-(axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2∫
-£c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
+(axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2»
+±c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-638
 ]
 %s*synth2N
@@ -3033,17 +3021,17 @@ _
 %s*synth2P
 <	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
 2default:default
-Ñ
+í
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2
 262default:default2
-12default:default2∫
-£c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
+12default:default2»
+±c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-256
-»
+÷
 synthesizing module '%s'638*oasys2<
-(axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2∫
-£c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
+(axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2»
+±c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-638
 ]
 %s*synth2N
@@ -3053,24 +3041,24 @@ _
 %s*synth2P
 <	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
 2default:default
-Ñ
+í
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2
 272default:default2
-12default:default2∫
-£c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
+12default:default2»
+±c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-256
-ê
+û
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2
 282default:default2
-12default:default2¿
-©c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
+12default:default2Œ
+∑c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-256
-Ã
+⁄
 synthesizing module '%s'638*oasys2>
-*axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2º
-•c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+*axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2 
+≥c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-638
 G
 %s*synth28
@@ -3088,28 +3076,28 @@ L
 %s*synth2=
 )	Parameter SM_DONE_WAIT bound to: 2'b11 
 2default:default
-è
-default block is never used226*oasys2º
-•c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+ù
+default block is never used226*oasys2 
+≥c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 642default:default8@Z8-226
-à
+ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2
 292default:default2
-12default:default2º
-•c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+12default:default2 
+≥c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-256
-á
+ï
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_aw_channel2default:default2
 302default:default2
-12default:default2º
-•c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
+12default:default2 
+≥c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-256
- 
+ÿ
 synthesizing module '%s'638*oasys2=
-)axi_protocol_converter_v2_1_b2s_b_channel2default:default2ª
-§c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
+)axi_protocol_converter_v2_1_b2s_b_channel2default:default2…
+≤c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-638
 W
 %s*synth2H
@@ -3155,10 +3143,10 @@ U
 %s*synth2F
 2	Parameter P_RAWIDTH bound to: 2 - type: integer 
 2default:default
-Õ
+€
 synthesizing module '%s'638*oasys2?
-+axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2Ω
-¶c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
++axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2À
+¥c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -3188,17 +3176,17 @@ J
 %s*synth2;
 '	Parameter C_FULL_PRE bound to: 2'b01 
 2default:default
-â
+ó
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2
 312default:default2
-12default:default2Ω
-¶c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+12default:default2À
+¥c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
-›
+Î
 synthesizing module '%s'638*oasys2O
-;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2Ω
-¶c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2À
+¥c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 S
 %s*synth2D
@@ -3228,24 +3216,24 @@ J
 %s*synth2;
 '	Parameter C_FULL_PRE bound to: 2'b01 
 2default:default
-ô
+ß
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2
 312default:default2
-12default:default2Ω
-¶c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+12default:default2À
+¥c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
-Ü
+î
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_b_channel2default:default2
 322default:default2
-12default:default2ª
-§c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
+12default:default2…
+≤c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-256
-À
+Ÿ
 synthesizing module '%s'638*oasys2>
-*axi_protocol_converter_v2_1_b2s_ar_channel2default:default2º
-•c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
+*axi_protocol_converter_v2_1_b2s_ar_channel2default:default2 
+≥c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-638
 W
 %s*synth2H
@@ -3255,10 +3243,10 @@ W
 %s*synth2N
 :	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 2default:default
-Ã
+⁄
 synthesizing module '%s'638*oasys2>
-*axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2º
-•c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+*axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2 
+≥c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-638
 G
 %s*synth28
@@ -3276,28 +3264,28 @@ G
 %s*synth28
 $	Parameter SM_DONE bound to: 2'b11 
 2default:default
-è
-default block is never used226*oasys2º
-•c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+ù
+default block is never used226*oasys2 
+≥c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 722default:default8@Z8-226
-à
+ñ
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2
 332default:default2
-12default:default2º
-•c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+12default:default2 
+≥c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-256
-á
+ï
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_ar_channel2default:default2
 342default:default2
-12default:default2º
-•c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
+12default:default2 
+≥c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-256
- 
+ÿ
 synthesizing module '%s'638*oasys2=
-)axi_protocol_converter_v2_1_b2s_r_channel2default:default2ª
-§c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
+)axi_protocol_converter_v2_1_b2s_r_channel2default:default2…
+≤c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-638
 W
 %s*synth2H
@@ -3331,10 +3319,10 @@ V
 %s*synth2G
 3	Parameter P_D_AWIDTH bound to: 5 - type: integer 
 2default:default
-›
+Î
 synthesizing module '%s'638*oasys2O
-;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2Ω
-¶c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2À
+¥c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -3364,17 +3352,17 @@ M
 %s*synth2>
 *	Parameter C_FULL_PRE bound to: 5'b11010 
 2default:default
-ô
+ß
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2
 342default:default2
-12default:default2Ω
-¶c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+12default:default2À
+¥c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
-›
+Î
 synthesizing module '%s'638*oasys2O
-;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2Ω
-¶c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2À
+¥c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -3404,24 +3392,24 @@ M
 %s*synth2>
 *	Parameter C_FULL_PRE bound to: 5'b11010 
 2default:default
-ô
+ß
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2
 342default:default2
-12default:default2Ω
-¶c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+12default:default2À
+¥c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
-Ü
+î
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_r_channel2default:default2
 352default:default2
-12default:default2ª
-§c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
+12default:default2…
+≤c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-256
-ÿ
+Ê
 synthesizing module '%s'638*oasys2N
-:axi_register_slice_v2_1_axi_register_slice__parameterized02default:default2∏
-°c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+:axi_register_slice_v2_1_axi_register_slice__parameterized02default:default2∆
+Øc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-638
 Y
 %s*synth2J
@@ -3791,10 +3779,10 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
 2default:default
-»
+÷
 synthesizing module '%s'638*oasys2F
-2axi_infrastructure_v1_1_axi2vector__parameterized02default:default2∞
-ôc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+2axi_infrastructure_v1_1_axi2vector__parameterized02default:default2æ
+ßc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -4160,17 +4148,17 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
 2default:default
-Ñ
+í
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_axi2vector__parameterized02default:default2
 352default:default2
-12default:default2∞
-ôc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
+12default:default2æ
+ßc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_axi2vector.v2default:default2
 602default:default8@Z8-256
-⁄
+Ë
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized32default:default2π
-¢c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized32default:default2«
+∞c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -4184,17 +4172,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-ñ
+§
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized32default:default2
 352default:default2
-12default:default2π
-¢c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2«
+∞c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-⁄
+Ë
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized42default:default2π
-¢c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized42default:default2«
+∞c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -4208,17 +4196,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-ñ
+§
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized42default:default2
 352default:default2
-12default:default2π
-¢c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2«
+∞c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-⁄
+Ë
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized52default:default2π
-¢c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized52default:default2«
+∞c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -4232,17 +4220,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-ñ
+§
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized52default:default2
 352default:default2
-12default:default2π
-¢c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2«
+∞c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-⁄
+Ë
 synthesizing module '%s'638*oasys2O
-;axi_register_slice_v2_1_axic_register_slice__parameterized62default:default2π
-¢c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+;axi_register_slice_v2_1_axic_register_slice__parameterized62default:default2«
+∞c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-638
 Y
 %s*synth2J
@@ -4256,17 +4244,17 @@ X
 %s*synth2I
 5	Parameter C_REG_CONFIG bound to: 0 - type: integer 
 2default:default
-ñ
+§
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_register_slice_v2_1_axic_register_slice__parameterized62default:default2
 352default:default2
-12default:default2π
-¢c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+12default:default2«
+∞c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 622default:default8@Z8-256
-»
+÷
 synthesizing module '%s'638*oasys2F
-2axi_infrastructure_v1_1_vector2axi__parameterized02default:default2∞
-ôc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+2axi_infrastructure_v1_1_vector2axi__parameterized02default:default2æ
+ßc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-638
 Z
 %s*synth2K
@@ -4632,84 +4620,84 @@ a
 %s*synth2R
 >	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
 2default:default
-Ñ
+í
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_infrastructure_v1_1_vector2axi__parameterized02default:default2
 352default:default2
-12default:default2∞
-ôc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
+12default:default2æ
+ßc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v2default:default2
 602default:default8@Z8-256
-î
+¢
 %done synthesizing module '%s' (%s#%s)256*oasys2N
 :axi_register_slice_v2_1_axi_register_slice__parameterized02default:default2
 352default:default2
-12default:default2∏
-°c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
+12default:default2∆
+Øc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
-Ú
+Ä
 %done synthesizing module '%s' (%s#%s)256*oasys23
 axi_protocol_converter_v2_1_b2s2default:default2
 362default:default2
-12default:default2±
-öc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
+12default:default2ø
+®c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-256
-ò
+¶
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2
 372default:default2
-12default:default2ƒ
-≠c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+12default:default2“
+ªc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-256
-∞
+ø
 %done synthesizing module '%s' (%s#%s)256*oasys2$
-zynq_1_auto_pc_22default:default2
+zynq_1_auto_pc_92default:default2
 382default:default2
-12default:default2
-ic:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/synth/zynq_1_auto_pc_2.v2default:default2
+12default:default2ç
+wc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/synth/zynq_1_auto_pc_9.v2default:default2
 572default:default8@Z8-256
-—
+ﬂ
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2
 auto_pc2default:default2$
-zynq_1_auto_pc_22default:default2
+zynq_1_auto_pc_92default:default2
 592default:default2
-572default:default2_
-IC:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/hdl/zynq_1.v2default:default2
+572default:default2m
+WC:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/hdl/zynq_1.v2default:default2
 2382default:default8@Z8-350
-ñ
+§
 %done synthesizing module '%s' (%s#%s)256*oasys2+
 s00_couplers_imp_DV8YS42default:default2
 392default:default2
-12default:default2_
-IC:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/hdl/zynq_1.v2default:default2
+12default:default2m
+WC:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/hdl/zynq_1.v2default:default2
 32default:default8@Z8-256
-©
+∑
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (zynq_1_processing_system7_1_axi_periph_02default:default2
 402default:default2
-12default:default2_
-IC:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/hdl/zynq_1.v2default:default2
+12default:default2m
+WC:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/hdl/zynq_1.v2default:default2
 5912default:default8@Z8-256
-á
+ï
 %done synthesizing module '%s' (%s#%s)256*oasys2
 zynq_12default:default2
 412default:default2
-12default:default2_
-IC:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/hdl/zynq_1.v2default:default2
+12default:default2m
+WC:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/hdl/zynq_1.v2default:default2
 2992default:default8@Z8-256
-ì
+°
 %done synthesizing module '%s' (%s#%s)256*oasys2"
 zynq_1_wrapper2default:default2
 422default:default2
-12default:default2e
-OC:/vivado/oled_project/oled_project.srcs/sources_1/imports/hdl/zynq_1_wrapper.v2default:default2
+12default:default2s
+]C:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/imports/hdl/zynq_1_wrapper.v2default:default2
 32default:default8@Z8-256
-Ω
+À
 Ginstance '%s' of module '%s' requires %s connections, but only %s given350*oasys2
 cpu2default:default2"
 zynq_1_wrapper2default:default2
 222default:default2
-12default:default2S
-=C:/vivado/oled_project/oled_project.srcs/sources_1/new/main.v2default:default2
+12default:default2a
+KC:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/new/main.v2default:default2
 592default:default8@Z8-350
 ∏
 synthesizing module '%s'638*oasys2
@@ -4739,16 +4727,16 @@ Z
 12default:default2K
 5C:/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 109512default:default8@Z8-256
-¯
+Ü
 %done synthesizing module '%s' (%s#%s)256*oasys2
 main2default:default2
 442default:default2
-12default:default2S
-=C:/vivado/oled_project/oled_project.srcs/sources_1/new/main.v2default:default2
+12default:default2a
+KC:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/new/main.v2default:default2
 232default:default8@Z8-256
 ú
 %s*synth2å
-xFinished RTL Elaboration : Time (s): cpu = 00:01:10 ; elapsed = 00:01:18 . Memory (MB): peak = 355.168 ; gain = 202.293
+xFinished RTL Elaboration : Time (s): cpu = 00:01:09 ; elapsed = 00:01:18 . Memory (MB): peak = 355.133 ; gain = 202.199
 2default:default
 ;
 %s*synth2,
@@ -4811,725 +4799,716 @@ NC:/Xilinx/Vivado/2013.4/data\parts/xilinx/zynq/zynq/xc7z020/clg484/Package.xml2
 
 Processing XDC Constraints
 244*projectZ1-262
-î
+£
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2ì
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2:
+848*designutils2¢
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2:
 &cpu/zynq_1_i/processing_system7_1/inst2default:defaultZ20-848
-Á
+ˆ
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 
 iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 302default:default8@Z29-160
-·
+
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 322default:default8@Z29-160
-‚
+Ò
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 drive2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 332default:default8@Z29-160
-Í
+Ú
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+pullup2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+342default:default8@Z29-160
+˘
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
 PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-342default:default8@Z29-160
-Á
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+352default:default8@Z29-160
+ˆ
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 
 iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-362default:default8@Z29-160
-·
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+372default:default8@Z29-160
+
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-382default:default8@Z29-160
-‚
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+392default:default8@Z29-160
+Ò
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 drive2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-392default:default8@Z29-160
-Í
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 402default:default8@Z29-160
-Á
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ú
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+pullup2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 412default:default8@Z29-160
-·
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-432default:default8@Z29-160
-Í
+˘
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
 PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+422default:default8@Z29-160
+ˆ
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+
+iostandard2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 442default:default8@Z29-160
-Á
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-452default:default8@Z29-160
-·
+
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+462default:default8@Z29-160
+Ò
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+drive2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 472default:default8@Z29-160
-Í
+˘
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
 PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 482default:default8@Z29-160
-Á
+ˆ
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 
 iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-492default:default8@Z29-160
-·
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+502default:default8@Z29-160
+
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-512default:default8@Z29-160
-Í
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 522default:default8@Z29-160
-Á
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ò
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+drive2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 532default:default8@Z29-160
-·
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-552default:default8@Z29-160
-Í
+˘
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
 PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+542default:default8@Z29-160
+ˆ
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+
+iostandard2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 562default:default8@Z29-160
-Á
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-572default:default8@Z29-160
-·
+
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+582default:default8@Z29-160
+Ò
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+drive2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 592default:default8@Z29-160
-Í
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ú
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+pullup2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 602default:default8@Z29-160
-Á
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+˘
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
+PIO_DIRECTION2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 612default:default8@Z29-160
-·
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+ˆ
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+
+iostandard2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 632default:default8@Z29-160
-Í
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-642default:default8@Z29-160
-Á
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+slew2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 652default:default8@Z29-160
-·
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ò
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+drive2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+662default:default8@Z29-160
+Ú
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+pullup2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 672default:default8@Z29-160
-Í
+˘
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
 PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 682default:default8@Z29-160
-Á
+ˆ
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 
 iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-692default:default8@Z29-160
-·
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+702default:default8@Z29-160
+
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-712default:default8@Z29-160
-Í
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 722default:default8@Z29-160
-Á
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ò
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+drive2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 732default:default8@Z29-160
-·
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ú
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+pullup2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+742default:default8@Z29-160
+˘
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
+PIO_DIRECTION2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 752default:default8@Z29-160
-Í
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-762default:default8@Z29-160
-Á
+ˆ
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 
 iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 772default:default8@Z29-160
-·
+
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 792default:default8@Z29-160
-Í
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ò
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+drive2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 802default:default8@Z29-160
-Á
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ú
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+pullup2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 812default:default8@Z29-160
-·
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-832default:default8@Z29-160
-Í
+˘
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
 PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+822default:default8@Z29-160
+ˆ
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+
+iostandard2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 842default:default8@Z29-160
-Á
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-852default:default8@Z29-160
-·
+
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+862default:default8@Z29-160
+Ò
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+drive2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 872default:default8@Z29-160
-Í
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ú
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+pullup2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 882default:default8@Z29-160
-Á
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+˘
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
+PIO_DIRECTION2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 892default:default8@Z29-160
-·
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+ˆ
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+
+iostandard2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 912default:default8@Z29-160
-Í
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-922default:default8@Z29-160
-Á
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+slew2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 932default:default8@Z29-160
-·
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ò
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+drive2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+942default:default8@Z29-160
+Ú
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+pullup2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 952default:default8@Z29-160
-Í
+˘
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
 PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 962default:default8@Z29-160
-Á
+ˆ
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 
 iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-972default:default8@Z29-160
-·
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+982default:default8@Z29-160
+Ò
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-992default:default8@Z29-160
-Î
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1002default:default8@Z29-160
-Ë
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ú
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+drive2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1012default:default8@Z29-160
-‚
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Û
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+pullup2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+1022default:default8@Z29-160
+˙
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
+PIO_DIRECTION2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1032default:default8@Z29-160
-Î
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-1042default:default8@Z29-160
-Ë
+˜
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 
 iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1052default:default8@Z29-160
-‚
+Ò
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1072default:default8@Z29-160
-Î
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ú
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+drive2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1082default:default8@Z29-160
-Ë
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Û
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+pullup2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1092default:default8@Z29-160
-‚
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-1112default:default8@Z29-160
-Î
+˙
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
 PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+1102default:default8@Z29-160
+˜
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+
+iostandard2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1122default:default8@Z29-160
-Ë
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-1132default:default8@Z29-160
-‚
+Ò
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+1142default:default8@Z29-160
+Ú
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+drive2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1152default:default8@Z29-160
-Î
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Û
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+pullup2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1162default:default8@Z29-160
-Ë
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+˙
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
+PIO_DIRECTION2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1172default:default8@Z29-160
-‚
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+˜
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+
+iostandard2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1192default:default8@Z29-160
-Î
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-1202default:default8@Z29-160
-Ë
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ò
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+slew2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1212default:default8@Z29-160
-‚
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ú
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+drive2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+1222default:default8@Z29-160
+Û
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+pullup2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1232default:default8@Z29-160
-Î
+˙
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
 PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1242default:default8@Z29-160
-Ë
+˜
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 
 iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-1252default:default8@Z29-160
-‚
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+1262default:default8@Z29-160
+Ò
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-1272default:default8@Z29-160
-Î
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1282default:default8@Z29-160
-Ë
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ú
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+drive2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1292default:default8@Z29-160
-‚
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Û
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+pullup2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+1302default:default8@Z29-160
+˙
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
+PIO_DIRECTION2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1312default:default8@Z29-160
-Î
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-1322default:default8@Z29-160
-Ë
+˜
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 
 iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1332default:default8@Z29-160
-‚
+Ò
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1352default:default8@Z29-160
-Î
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ú
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+drive2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1362default:default8@Z29-160
-Ë
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Û
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+pullup2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1372default:default8@Z29-160
-‚
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+˙
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
+PIO_DIRECTION2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+1382default:default8@Z29-160
+˜
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+
+iostandard2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1392default:default8@Z29-160
-Î
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-1402default:default8@Z29-160
-Ë
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ò
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+slew2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1412default:default8@Z29-160
-‚
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+˙
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
+PIO_DIRECTION2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+1422default:default8@Z29-160
+˜
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+
+iostandard2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1432default:default8@Z29-160
-Î
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-1442default:default8@Z29-160
-Ë
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ò
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+slew2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1452default:default8@Z29-160
-‚
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+˙
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
+PIO_DIRECTION2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+1462default:default8@Z29-160
+˜
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+
+iostandard2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1472default:default8@Z29-160
-Î
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-1482default:default8@Z29-160
-Ë
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ò
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+slew2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1492default:default8@Z29-160
-‚
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+˙
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
+PIO_DIRECTION2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+1502default:default8@Z29-160
+˜
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+
+iostandard2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1512default:default8@Z29-160
-Î
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-1522default:default8@Z29-160
-Ë
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ò
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+slew2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1532default:default8@Z29-160
-‚
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+˙
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
+PIO_DIRECTION2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+1542default:default8@Z29-160
+˜
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+
+iostandard2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1552default:default8@Z29-160
-Î
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
-PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-1562default:default8@Z29-160
-Ë
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-
-iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+Ò
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+slew2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1572default:default8@Z29-160
-‚
-^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
-slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-1592default:default8@Z29-160
-Î
+˙
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
 PIO_DIRECTION2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-1602default:default8@Z29-160
-Ë
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+1582default:default8@Z29-160
+˜
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 
 iostandard2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
-1612default:default8@Z29-160
-‚
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+1592default:default8@Z29-160
+Ò
 ^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
 slew2default:default2
-pin2default:default2ï
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+1612default:default8@Z29-160
+˙
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
+PIO_DIRECTION2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+1622default:default8@Z29-160
+˜
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+
+iostandard2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
 1632default:default8@Z29-160
+Ò
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+slew2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+1652default:default8@Z29-160
+˙
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2!
+PIO_DIRECTION2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+1662default:default8@Z29-160
+˜
+^Cannot set scoped property '%s', because the property does not exist for objects of type '%s'.335*netlist2
+
+iostandard2default:default2
+pin2default:default2§
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2
+1672default:default8@Z29-160
 ÷
 ÅMessage '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
 14*common2"
 Netlist 29-1602default:default2
 1002default:defaultZ17-14
-ù
+¨
+-Finished Parsing XDC File [%s] for cell '%s'
+847*designutils2¢
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2:
+&cpu/zynq_1_i/processing_system7_1/inst2default:defaultZ20-847
+É
+ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
+233*project2¢
+çc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2i
+UC:/Users/dgronlund/fpga/oled_project/oled_project.runs/synth_1/.Xil/main_propImpl.xdc2default:defaultZ1-236
+ï
+$Parsing XDC File [%s] for cell '%s'
+848*designutils2ö
+Öc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/zynq_1_proc_sys_reset_1_0.xdc2default:default24
+ cpu/zynq_1_i/proc_sys_reset_1/U02default:defaultZ20-848
+û
+-Finished Parsing XDC File [%s] for cell '%s'
+847*designutils2ö
+Öc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/zynq_1_proc_sys_reset_1_0.xdc2default:default24
+ cpu/zynq_1_i/proc_sys_reset_1/U02default:defaultZ20-847
+õ
+$Parsing XDC File [%s] for cell '%s'
+848*designutils2†
+ãc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/zynq_1_proc_sys_reset_1_0_board.xdc2default:default24
+ cpu/zynq_1_i/proc_sys_reset_1/U02default:defaultZ20-848
+§
+-Finished Parsing XDC File [%s] for cell '%s'
+847*designutils2†
+ãc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/zynq_1_proc_sys_reset_1_0_board.xdc2default:default24
+ cpu/zynq_1_i/proc_sys_reset_1/U02default:defaultZ20-847
+Ç
+$Parsing XDC File [%s] for cell '%s'
+848*designutils2ç
+yc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/zynq_1_axi_gpio_0_0.xdc2default:default2.
+cpu/zynq_1_i/axi_gpio_0/U02default:defaultZ20-848
+ã
+-Finished Parsing XDC File [%s] for cell '%s'
+847*designutils2ç
+yc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/zynq_1_axi_gpio_0_0.xdc2default:default2.
+cpu/zynq_1_i/axi_gpio_0/U02default:defaultZ20-847
+à
+$Parsing XDC File [%s] for cell '%s'
+848*designutils2ì
+c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/zynq_1_axi_gpio_0_0_board.xdc2default:default2.
+cpu/zynq_1_i/axi_gpio_0/U02default:defaultZ20-848
+ë
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2ì
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2:
-&cpu/zynq_1_i/processing_system7_1/inst2default:defaultZ20-847
-Ê
-ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2ì
-c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc2default:default2[
-GC:/vivado/oled_project/oled_project.runs/synth_1/.Xil/main_propImpl.xdc2default:defaultZ1-236
-Ü
-$Parsing XDC File [%s] for cell '%s'
-848*designutils2ã
-wc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/zynq_1_proc_sys_reset_1_0.xdc2default:default24
- cpu/zynq_1_i/proc_sys_reset_1/U02default:defaultZ20-848
-è
--Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2ã
-wc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/zynq_1_proc_sys_reset_1_0.xdc2default:default24
- cpu/zynq_1_i/proc_sys_reset_1/U02default:defaultZ20-847
-å
-$Parsing XDC File [%s] for cell '%s'
-848*designutils2ë
-}c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/zynq_1_proc_sys_reset_1_0_board.xdc2default:default24
- cpu/zynq_1_i/proc_sys_reset_1/U02default:defaultZ20-848
-ï
--Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2ë
-}c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/zynq_1_proc_sys_reset_1_0_board.xdc2default:default24
- cpu/zynq_1_i/proc_sys_reset_1/U02default:defaultZ20-847
-Û
-$Parsing XDC File [%s] for cell '%s'
-848*designutils2
-kc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/zynq_1_axi_gpio_0_0.xdc2default:default2.
-cpu/zynq_1_i/axi_gpio_0/U02default:defaultZ20-848
-¸
--Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2
-kc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/zynq_1_axi_gpio_0_0.xdc2default:default2.
+c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/zynq_1_axi_gpio_0_0_board.xdc2default:default2.
 cpu/zynq_1_i/axi_gpio_0/U02default:defaultZ20-847
-˙
-$Parsing XDC File [%s] for cell '%s'
-848*designutils2Ö
-qc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/zynq_1_axi_gpio_0_0_board.xdc2default:default2.
-cpu/zynq_1_i/axi_gpio_0/U02default:defaultZ20-848
-É
--Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2Ö
-qc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/zynq_1_axi_gpio_0_0_board.xdc2default:default2.
-cpu/zynq_1_i/axi_gpio_0/U02default:defaultZ20-847
-ã
+ô
 Parsing XDC File [%s]
-179*designutils2U
-AC:/vivado/oled_project/oled_project.srcs/constrs_1/new/contrs.xdc2default:defaultZ20-179
-î
+179*designutils2c
+OC:/Users/dgronlund/fpga/oled_project/oled_project.srcs/constrs_1/new/contrs.xdc2default:defaultZ20-179
+¢
 Finished Parsing XDC File [%s]
-178*designutils2U
-AC:/vivado/oled_project/oled_project.srcs/constrs_1/new/contrs.xdc2default:defaultZ20-178
-ß
+178*designutils2c
+OC:/Users/dgronlund/fpga/oled_project/oled_project.srcs/constrs_1/new/contrs.xdc2default:defaultZ20-178
+√
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2U
-AC:/vivado/oled_project/oled_project.srcs/constrs_1/new/contrs.xdc2default:default2[
-GC:/vivado/oled_project/oled_project.runs/synth_1/.Xil/main_propImpl.xdc2default:defaultZ1-236
-â
+233*project2c
+OC:/Users/dgronlund/fpga/oled_project/oled_project.srcs/constrs_1/new/contrs.xdc2default:default2i
+UC:/Users/dgronlund/fpga/oled_project/oled_project.runs/synth_1/.Xil/main_propImpl.xdc2default:defaultZ1-236
+ó
 Parsing XDC File [%s]
-179*designutils2S
-?C:/vivado/oled_project/oled_project.runs/synth_1/dont_touch.xdc2default:defaultZ20-179
-í
+179*designutils2a
+MC:/Users/dgronlund/fpga/oled_project/oled_project.runs/synth_1/dont_touch.xdc2default:defaultZ20-179
+†
 Finished Parsing XDC File [%s]
-178*designutils2S
-?C:/vivado/oled_project/oled_project.runs/synth_1/dont_touch.xdc2default:defaultZ20-178
-•
+178*designutils2a
+MC:/Users/dgronlund/fpga/oled_project/oled_project.runs/synth_1/dont_touch.xdc2default:defaultZ20-178
+¡
 ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2S
-?C:/vivado/oled_project/oled_project.runs/synth_1/dont_touch.xdc2default:default2[
-GC:/vivado/oled_project/oled_project.runs/synth_1/.Xil/main_propImpl.xdc2default:defaultZ1-236
+233*project2a
+MC:/Users/dgronlund/fpga/oled_project/oled_project.runs/synth_1/dont_touch.xdc2default:default2i
+UC:/Users/dgronlund/fpga/oled_project/oled_project.runs/synth_1/.Xil/main_propImpl.xdc2default:defaultZ1-236
 ?
 &Completed Processing XDC Constraints
 
@@ -5546,131 +5525,131 @@ g  A total of 2 instances were transformed.
 2default:defaultZ1-111
 µ
 %s*synth2•
-êFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:19 ; elapsed = 00:01:29 . Memory (MB): peak = 554.867 ; gain = 401.992
+êFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:18 ; elapsed = 00:01:28 . Memory (MB): peak = 554.801 ; gain = 401.867
 2default:default
 ù
 %s*synth2ç
-yFinished RTL Optimization : Time (s): cpu = 00:01:19 ; elapsed = 00:01:29 . Memory (MB): peak = 554.867 ; gain = 401.992
+yFinished RTL Optimization : Time (s): cpu = 00:01:18 ; elapsed = 00:01:28 . Memory (MB): peak = 554.801 ; gain = 401.867
 2default:default
-æ
+Ã
 merging register '%s' into '%s'3619*oasys2"
 seq_cnt_en_reg2default:default2 
-from_sys_reg2default:default2û
-ác:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
+from_sys_reg2default:default2¨
+ïc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_proc_sys_reset_1_0/proc_sys_reset_v5_0/hdl/src/vhdl/sequence.vhd2default:default2
 2222default:default8@Z8-4471
-˛
+å
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_TX_EN2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2102default:default8@Z8-3848
-˛
+å
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_TX_ER2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2112default:default8@Z8-3848
-¸
+ä
 0Net %s in module/entity %s does not have driver.3422*oasys2"
 ENET0_GMII_TXD2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2272default:default8@Z8-3848
-˛
+å
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET1_GMII_TX_EN2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2412default:default8@Z8-3848
-˛
+å
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET1_GMII_TX_ER2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2422default:default8@Z8-3848
-¸
+ä
 0Net %s in module/entity %s does not have driver.3422*oasys2"
 ENET1_GMII_TXD2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 2562default:default8@Z8-3848
-ˇ
+ç
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_COL_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10332default:default8@Z8-3848
-ˇ
+ç
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_CRS_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10342default:default8@Z8-3848
-ˇ
+ç
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET0_GMII_RXD_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10372default:default8@Z8-3848
-Å
+è
 0Net %s in module/entity %s does not have driver.3422*oasys2&
 ENET0_GMII_RX_DV_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10352default:default8@Z8-3848
-Å
+è
 0Net %s in module/entity %s does not have driver.3422*oasys2&
 ENET0_GMII_RX_ER_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10362default:default8@Z8-3848
-ˇ
+ç
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET1_GMII_COL_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10422default:default8@Z8-3848
-ˇ
+ç
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET1_GMII_CRS_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10432default:default8@Z8-3848
-ˇ
+ç
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 ENET1_GMII_RXD_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10462default:default8@Z8-3848
-Å
+è
 0Net %s in module/entity %s does not have driver.3422*oasys2&
 ENET1_GMII_RX_DV_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10442default:default8@Z8-3848
-Å
+è
 0Net %s in module/entity %s does not have driver.3422*oasys2&
 ENET1_GMII_RX_ER_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10452default:default8@Z8-3848
-Ç
+ê
 0Net %s in module/entity %s does not have driver.3422*oasys2'
 FTMD_TRACEIN_ATID_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10552default:default8@Z8-3848
-Ç
+ê
 0Net %s in module/entity %s does not have driver.3422*oasys2'
 FTMD_TRACEIN_DATA_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10532default:default8@Z8-3848
-É
+ë
 0Net %s in module/entity %s does not have driver.3422*oasys2(
 FTMD_TRACEIN_VALID_i2default:default2>
-*processing_system7_v5_3_processing_system72default:default2≠
-ñc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
+*processing_system7_v5_3_processing_system72default:default2ª
+§c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_processing_system7_1_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 10542default:default8@Z8-3848
 <
 %s*synth2-
@@ -5701,7 +5680,7 @@ BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 2default:default
 ±
 %s*synth2°
-åFinished Loading Part and Timing Information : Time (s): cpu = 00:01:27 ; elapsed = 00:01:37 . Memory (MB): peak = 606.832 ; gain = 453.957
+åFinished Loading Part and Timing Information : Time (s): cpu = 00:01:26 ; elapsed = 00:01:37 . Memory (MB): peak = 606.727 ; gain = 453.793
 2default:default
 B
 %s*synth23
@@ -6825,7 +6804,7 @@ B
 2default:default
 <
 %s*synth2-
-Module zynq_1_auto_pc_2 
+Module zynq_1_auto_pc_9 
 2default:default
 B
 %s*synth23
@@ -6883,349 +6862,349 @@ X\AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[1].ce_out_
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2l
 X\AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[0].ce_out_i_reg[0] 2default:default2,
 axi_gpio__parameterized02default:defaultZ8-3332
-ﬂ
+Ì
 merging register '%s' into '%s'3619*oasys2>
 *AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst_reg2default:default2$
-bus2ip_reset_reg2default:default2ü
-àc:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_lite_ipif_v2_0/hdl/src/vhdl/slave_attachment.vhd2default:default2
+bus2ip_reset_reg2default:default2≠
+ñc:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_axi_gpio_0_0/axi_lite_ipif_v2_0/hdl/src/vhdl/slave_attachment.vhd2default:default2
 3862default:default8@Z8-4471
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[65] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[64] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[63] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[62] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[49] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[48] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[43] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[42] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[41] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[40] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[37] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[65] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[64] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[63] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[62] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[49] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[48] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[43] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[42] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[41] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[40] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[37] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[65] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[64] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[63] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[62] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[49] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[48] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[43] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[42] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[41] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[40] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[37] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[65] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[64] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[63] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[62] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[49] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[48] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[43] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[42] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[41] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[40] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[37] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
-‘
+zynq_1_auto_pc_92default:defaultZ8-3332
+‚
 RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bits.3455*oasys2\
 Hinst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg2default:default2
 662default:default2
-622default:default2π
-¢c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+622default:default2«
+∞c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 1212default:default8@Z8-3936
-‘
+‚
 RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bits.3455*oasys2\
 Hinst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg2default:default2
 662default:default2
-622default:default2π
-¢c:/vivado/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_2/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
+622default:default2«
+∞c:/Users/dgronlund/fpga/oled_project/oled_project.srcs/sources_1/bd/zynq_1/ip/zynq_1_auto_pc_9/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v2default:default2
 1212default:default8@Z8-3936
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[49] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[48] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[43] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[42] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[41] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[40] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[37] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[49] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[48] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[43] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[42] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[41] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[40] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[37] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[65] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[64] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[63] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[62] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[49] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[48] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[43] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[42] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[41] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[40] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[37] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[65] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[64] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[63] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[62] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[49] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[48] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[43] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[42] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[41] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[40] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[37] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 ©
 %s*synth2ô
-ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:01:27 ; elapsed = 00:01:37 . Memory (MB): peak = 617.508 ; gain = 464.633
+ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:01:26 ; elapsed = 00:01:37 . Memory (MB): peak = 617.371 ; gain = 464.438
 2default:default
 ¢
 %s*synth2í
@@ -7247,7 +7226,7 @@ R-------------------------------------------------------------------------------
 2default:default
 û
 %s*synth2é
-zFinished Area Optimization : Time (s): cpu = 00:01:28 ; elapsed = 00:01:39 . Memory (MB): peak = 642.223 ; gain = 489.348
+zFinished Area Optimization : Time (s): cpu = 00:01:27 ; elapsed = 00:01:38 . Memory (MB): peak = 642.078 ; gain = 489.145
 2default:default
 {
 %s*synth2l
@@ -7255,11 +7234,11 @@ XINFO: Moved 1 constraints on hierarchical pins to their respective driving/load
 2default:default
 ≠
 %s*synth2ù
-àFinished Applying XDC Timing Constraints : Time (s): cpu = 00:01:28 ; elapsed = 00:01:39 . Memory (MB): peak = 789.559 ; gain = 636.684
+àFinished Applying XDC Timing Constraints : Time (s): cpu = 00:01:28 ; elapsed = 00:01:38 . Memory (MB): peak = 789.500 ; gain = 636.566
 2default:default
 †
 %s*synth2ê
-|Finished Timing Optimization : Time (s): cpu = 00:01:29 ; elapsed = 00:01:39 . Memory (MB): peak = 805.352 ; gain = 652.477
+|Finished Timing Optimization : Time (s): cpu = 00:01:28 ; elapsed = 00:01:39 . Memory (MB): peak = 805.422 ; gain = 652.488
 2default:default
 €
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2M
@@ -7280,26 +7259,26 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 Ç
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2|
 h\inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/cmd_translator_0/incr_cmd_0/axlen_cnt_reg[8] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ç
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2|
 h\inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/cmd_translator_0/wrap_cmd_0/axlen_cnt_reg[4] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ç
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2|
 h\inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/cmd_translator_0/incr_cmd_0/axlen_cnt_reg[8] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 Ç
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2|
 h\inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/cmd_translator_0/wrap_cmd_0/axlen_cnt_reg[4] 2default:default2$
-zynq_1_auto_pc_22default:defaultZ8-3332
+zynq_1_auto_pc_92default:defaultZ8-3332
 ü
 %s*synth2è
-{Finished Technology Mapping : Time (s): cpu = 00:01:30 ; elapsed = 00:01:41 . Memory (MB): peak = 813.738 ; gain = 660.863
+{Finished Technology Mapping : Time (s): cpu = 00:01:29 ; elapsed = 00:01:40 . Memory (MB): peak = 813.676 ; gain = 660.742
 2default:default
 k
 %s*synth2\
-Hdesign zynq_1_auto_pc_2 has 4 max_fanout violations cannot be satisfied
+Hdesign zynq_1_auto_pc_9 has 4 max_fanout violations cannot be satisfied
 2default:default
 D
 %s*synth25
@@ -7307,7 +7286,7 @@ D
 2default:default
 ô
 %s*synth2â
-uFinished IO Insertion : Time (s): cpu = 00:01:32 ; elapsed = 00:01:42 . Memory (MB): peak = 813.738 ; gain = 660.863
+uFinished IO Insertion : Time (s): cpu = 00:01:31 ; elapsed = 00:01:42 . Memory (MB): peak = 813.676 ; gain = 660.742
 2default:default
 ;
 %s*synth2,
@@ -7336,11 +7315,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ™
 %s*synth2ö
-ÖFinished Renaming Generated Instances : Time (s): cpu = 00:01:32 ; elapsed = 00:01:42 . Memory (MB): peak = 813.738 ; gain = 660.863
+ÖFinished Renaming Generated Instances : Time (s): cpu = 00:01:31 ; elapsed = 00:01:42 . Memory (MB): peak = 813.676 ; gain = 660.742
 2default:default
 ß
 %s*synth2ó
-ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:01:32 ; elapsed = 00:01:43 . Memory (MB): peak = 813.738 ; gain = 660.863
+ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:01:31 ; elapsed = 00:01:42 . Memory (MB): peak = 813.676 ; gain = 660.742
 2default:default
 ¢
 %s*synth2í
@@ -7575,7 +7554,7 @@ c|10    |      processing_system7_1_axi_periph |zynq_1_processing_system7_1_axi_
 2default:default
 Ü
 %s*synth2w
-c|11    |        \s00_couplers/auto_pc         |zynq_1_auto_pc_2                           |  1276|
+c|11    |        \s00_couplers/auto_pc         |zynq_1_auto_pc_9                           |  1276|
 2default:default
 Ü
 %s*synth2w
@@ -7583,7 +7562,7 @@ c+------+--------------------------------------+--------------------------------
 2default:default
 ¶
 %s*synth2ñ
-ÅFinished Writing Synthesis Report : Time (s): cpu = 00:01:32 ; elapsed = 00:01:43 . Memory (MB): peak = 813.738 ; gain = 660.863
+ÅFinished Writing Synthesis Report : Time (s): cpu = 00:01:31 ; elapsed = 00:01:42 . Memory (MB): peak = 813.676 ; gain = 660.742
 2default:default
 j
 %s*synth2[
@@ -7591,7 +7570,7 @@ GSynthesis finished with 0 errors, 0 critical warnings and 21 warnings.
 2default:default
 £
 %s*synth2ì
-Synthesis Optimization Complete : Time (s): cpu = 00:01:32 ; elapsed = 00:01:43 . Memory (MB): peak = 813.738 ; gain = 660.863
+Synthesis Optimization Complete : Time (s): cpu = 00:01:31 ; elapsed = 00:01:42 . Memory (MB): peak = 813.676 ; gain = 660.742
 2default:default
 \
 -Analyzing %s Unisim elements for replacement
@@ -7629,7 +7608,7 @@ L
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
 2462default:default2
-1472default:default2
+1452default:default2
 1002default:default2
 02default:defaultZ4-41
 U
@@ -7640,18 +7619,18 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:01:392default:default2
-00:01:492default:default2
-1200.7382default:default2
-988.9222default:defaultZ17-268
+00:01:382default:default2
+00:01:482default:default2
+1200.6992default:default2
+987.4452default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
 Ä
-treport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1200.738 ; gain = 0.000
+treport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 1200.699 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Sun Jan 05 12:49:59 20142default:defaultZ17-206
+Thu Feb 20 18:14:51 20142default:defaultZ17-206

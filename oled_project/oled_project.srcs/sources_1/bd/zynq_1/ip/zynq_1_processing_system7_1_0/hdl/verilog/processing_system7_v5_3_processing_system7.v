@@ -149,7 +149,7 @@
 // CR #682573
 // Added BIBUF to fixed IO ports and IBUF to fixed input ports
 //------------------------------------------------------------------------------
-(*POWER= "<PROCESSOR name={system} numA9Cores={2} clockFreq={666.666667} load={0.5} /><MEMORY name={code} memType={DDR3} dataWidth={32} clockFreq={533.333313} readRate={0.5} writeRate={0.5} /><IO interface={UART} ioStandard={LVCMOS18} bidis={2} ioBank={Vcco_p1} clockFreq={50.000000} usageRate={0.5} /><IO interface={GigE} ioStandard={} bidis={2} ioBank={} clockFreq={125.000000} usageRate={0.5} /><PLL domain={Processor} vco={1333.333374} /><PLL domain={Memory} vco={1066.666748} /><PLL domain={IO} vco={1200.000000} /><AXI interface={M_AXI_GP0} dataWidth={32} clockFreq={100} usageRate={0.5} />/>" *) 
+(*POWER= "<PROCESSOR name={system} numA9Cores={2} clockFreq={666.666667} load={0.5} /><MEMORY name={code} memType={DDR3} dataWidth={32} clockFreq={533.333313} readRate={0.5} writeRate={0.5} /><IO interface={UART} ioStandard={LVCMOS18} bidis={2} ioBank={Vcco_p1} clockFreq={50.000000} usageRate={0.5} /><IO interface={GigE} ioStandard={LVCMOS18} bidis={14} ioBank={Vcco_p1} clockFreq={125.000000} usageRate={0.5} /><PLL domain={Processor} vco={1333.333374} /><PLL domain={Memory} vco={1066.666748} /><PLL domain={IO} vco={1200.000000} /><AXI interface={M_AXI_GP0} dataWidth={32} clockFreq={100} usageRate={0.5} />/>" *) 
 module processing_system7_v5_3_processing_system7
 
 #(

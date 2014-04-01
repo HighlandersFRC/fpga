@@ -329,3 +329,1583 @@ If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx 
 	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
 
 14:45:39.295 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+17:08:11.793 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:08:11.893 INFO  - PS initialization will be done as it is not done before. 
+17:08:11.893 INFO  - Running PS initialization.... 
+17:08:12.023 INFO  - ps7_init is completed. 
+17:08:12.123 INFO  - ps7_post_config is completed. 
+17:08:12.223 INFO  - PS Initialization is complete. 
+17:13:14.001 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:13:17.403 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:13:41.945 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:13:44.407 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:17:16.555 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:17:19.407 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:18:44.510 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:18:47.401 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:19:39.003 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:19:42.304 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:20:21.021 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:20:23.423 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:21:56.007 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:21:59.408 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:23:58.005 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:24:01.317 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:25:27.737 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:25:33.336 ERROR - Port COM3 is already in use. 
+17:25:34.016 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:25:36.007 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Failed to download ELF file
+
+
+    AP transaction timeout: ACK = 0x01, expected=0x02)
+    Error Address = 0x0010c000, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+17:25:52.607 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+17:26:08.676 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:26:49.608 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+17:27:06.107 ERROR - Port COM3 is already in use. 
+17:27:06.508 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+17:43:18.249 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:43:36.603 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+17:47:27.210 ERROR - Port COM3 is already in use. 
+17:47:27.601 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+17:49:31.200 ERROR - Port COM3 is already in use. 
+17:49:31.601 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+17:50:02.202 ERROR - Port COM3 is already in use. 
+17:50:02.603 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+17:50:46.218 ERROR - Port COM3 is already in use. 
+17:50:46.619 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+17:52:06.208 ERROR - Port COM3 is already in use. 
+17:52:06.609 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+17:52:40.252 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:55:50.666 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+17:57:05.241 ERROR - Port COM3 is already in use. 
+17:57:05.633 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+17:58:45.023 INFO  - Settings changed on project oled_sdk_bsp. Triggering a rebuild... 
+17:58:46.069 INFO  - Refreshed build settings on project oled_sdk 
+18:00:21.870 INFO  - Project oled_sdk_bsp was a BSP project. Please update references. 
+18:00:21.870 ERROR - SDK has detected that project oled_sdk_bsp has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references. 
+18:01:07.463 ERROR - SDK has detected that project hw_platform_0 has been deleted (or renamed).
+This project was referenced by a BSP project, which will now fail to compile properly.
+
+We recommend that you create a new BSP project pointing to a valid hardware project. Alternatively, you can fix the project references in the BSP, and update the path to the hardware specification file in 'libgen.options', and in ELF check options in dependant applications. 
+18:08:55.143 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+18:09:54.270 INFO  - Project 'hw_ps7' created. You can now create BSPs and application projects targeting this hardware platform. 
+18:15:45.448 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+18:15:45.558 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+18:16:20.237 ERROR - Port COM3 is already in use. 
+18:16:20.409 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+18:16:20.409 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+18:16:48.443 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+18:16:48.554 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+18:17:34.329 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+18:17:34.439 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+18:18:36.382 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+18:18:36.491 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:18:36.600 INFO  - PS initialization will be done as it is not done before. 
+18:18:36.600 INFO  - Running PS initialization.... 
+18:18:36.818 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+18:19:00.283 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+18:19:16.354 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+18:19:16.464 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:19:16.573 INFO  - PS initialization will be done as it is not done before. 
+18:19:16.573 INFO  - Running PS initialization.... 
+18:19:16.791 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+20:06:30.028 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+20:06:30.138 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:06:30.247 INFO  - PS initialization will be done as it is not done before. 
+20:06:30.247 INFO  - Running PS initialization.... 
+20:06:30.356 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+20:07:16.392 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+20:07:16.502 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:07:16.611 INFO  - PS initialization will be done as it is not done before. 
+20:07:16.611 INFO  - Running PS initialization.... 
+20:07:16.720 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+20:07:50.369 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+20:07:50.479 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:07:50.588 INFO  - PS initialization will be done as it is not done before. 
+20:07:50.588 INFO  - Running PS initialization.... 
+20:07:50.697 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+20:08:54.423 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+20:08:54.533 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:08:54.642 INFO  - PS initialization will be done as it is not done before. 
+20:08:54.642 INFO  - Running PS initialization.... 
+20:08:54.751 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+20:09:12.145 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+20:09:47.294 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+20:09:47.294 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:09:47.403 INFO  - PS initialization will be done as it is not done before. 
+20:09:47.403 INFO  - Running PS initialization.... 
+20:09:47.637 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+20:59:23.004 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:03:04.966 ERROR - Unexpected error while launching program. java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(Unknown Source)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(Unknown Source)
+
+17:03:23.452 INFO  - Settings changed on project standalone_bsp_0. Triggering a rebuild... 
+17:03:30.175 INFO  - Refreshed build settings on project oled_sdk 
+17:08:02.242 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:08:02.351 INFO  - PS initialization will be done as it is not done before. 
+17:08:02.351 INFO  - Running PS initialization.... 
+17:08:02.476 INFO  - ps7_init is completed. 
+17:08:02.585 INFO  - ps7_post_config is completed. 
+17:08:02.585 INFO  - PS Initialization is complete. 
+17:10:43.486 INFO  - Settings changed on project oled_project_bsp. Triggering a rebuild... 
+17:10:43.939 INFO  - Refreshed build settings on project oled_project 
+17:11:18.805 INFO  - Settings changed on project oled_project_bsp. Triggering a rebuild... 
+17:11:19.569 INFO  - Refreshed build settings on project oled_project 
+17:17:18.943 INFO  - Settings changed on project oled_project_bsp. Triggering a rebuild... 
+17:17:19.364 INFO  - Refreshed build settings on project oled_project 
+17:28:01.676 INFO  - Settings changed on project oled_project_bsp. Triggering a rebuild... 
+17:28:02.409 INFO  - Refreshed build settings on project oled_project 
+17:32:07.927 INFO  - Settings changed on project oled_project_bsp. Triggering a rebuild... 
+17:32:08.364 INFO  - Refreshed build settings on project oled_project 
+17:33:59.015 ERROR - Unexpected error while launching program. java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(Unknown Source)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(Unknown Source)
+
+17:34:47.172 ERROR - Unexpected error while launching program. java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(Unknown Source)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(Unknown Source)
+
+17:45:19.650 INFO  - Saving repository preferences. 
+17:45:19.666 INFO  - Reading in cores from local repositories: 
+		 C:\Users\dgronlund\fpga\oled_project\oled_project.sdk\SDK\SDK_Export\oled_project
+		 C:\Users\dgronlund\fpga\oled_project\oled_project.sdk\SDK\SDK_Export\oled_project_bsp 
+17:45:19.682 INFO  - Updating libgen.options on all BSP projects. 
+17:45:19.682 INFO  - Cleaning BSP projects in the workspace. 
+17:45:23.862 INFO  - Saving repository preferences. 
+17:48:08.723 INFO  - Settings changed on project oled_project_bsp. Triggering a rebuild... 
+17:48:08.817 INFO  - Refreshed build settings on project oled_project 
+17:48:28.208 INFO  - Settings changed on project oled_project_bsp. Triggering a rebuild... 
+17:48:28.286 INFO  - Refreshed build settings on project oled_project 
+17:49:29.632 INFO  - Saving repository preferences. 
+17:49:29.632 INFO  - Updating libgen.options on all BSP projects. 
+17:49:29.632 INFO  - Cleaning BSP projects in the workspace. 
+17:49:47.291 INFO  - Saving repository preferences. 
+17:56:16.255 INFO  - Project oled_project_bsp was a BSP project. Please update references. 
+17:56:16.255 ERROR - SDK has detected that project oled_project_bsp has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references. 
+17:58:26.873 INFO  - Successfully generated C:\Users\dgronlund\fpga\oled_project\oled_project.sdk\SDK\SDK_Export\oled_project\src\lscript.ld. 
+17:58:26.888 INFO  - Applying linker script to all configurations of project oled_project. 
+17:58:26.888 INFO  - Setting rebuild state to true for all configurations of project oled_project. 
+18:03:48.081 INFO  - Settings changed on project Ethernet_test_project_bsp. Triggering a rebuild... 
+18:03:48.596 INFO  - Refreshed build settings on project Ethernet_test_project 
+18:04:29.031 INFO  - Settings changed on project Ethernet_test_project_bsp. Triggering a rebuild... 
+18:04:29.858 INFO  - Refreshed build settings on project Ethernet_test_project 
+18:05:06.783 INFO  - Settings changed on project Ethernet_test_project_bsp. Triggering a rebuild... 
+18:05:07.563 INFO  - Refreshed build settings on project Ethernet_test_project 
+18:39:34.019 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:39:36.749 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+18:40:16.935 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:40:18.245 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+18:40:48.932 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:40:50.320 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+18:40:54.907 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+18:42:01.962 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:42:18.001 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:42:21.215 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:43:19.297 INFO  - Settings changed on project Ethernet_test_project_bsp. Triggering a rebuild... 
+18:43:20.733 INFO  - Refreshed build settings on project Ethernet_test_project 
+18:43:20.748 INFO  - Refreshed build settings on project ethernet_test_cpp 
+18:44:50.023 INFO  - Settings changed on project Ethernet_test_project_bsp. Triggering a rebuild... 
+18:44:50.819 INFO  - Refreshed build settings on project Ethernet_test_project 
+18:44:50.819 INFO  - Refreshed build settings on project ethernet_test_cpp 
+18:46:55.761 INFO  - Project Ethernet_test_project_bsp was a BSP project. Please update references. 
+18:46:55.761 ERROR - SDK has detected that project Ethernet_test_project_bsp has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references. 
+18:49:49.001 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:49:52.434 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:44:19.992 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+20:13:44.885 INFO  - Settings changed on project ethernet_test_bsp. Triggering a rebuild... 
+20:13:46.662 INFO  - Refreshed build settings on project ethernet_test_cpp 
+20:16:43.771 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:19:06.969 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:19:09.368 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:19:51.627 ERROR - Unexpected error while launching program. java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(Unknown Source)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(Unknown Source)
+
+20:48:00.838 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+19:19:44.809 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:19:44.918 INFO  - PS initialization will be done as it is not done before. 
+19:19:44.918 INFO  - Running PS initialization.... 
+19:19:45.027 INFO  - ps7_init is completed. 
+19:19:45.136 INFO  - ps7_post_config is completed. 
+19:19:45.245 INFO  - PS Initialization is complete. 
+19:20:18.898 INFO  - Settings changed on project ethernet_project_bsp. Triggering a rebuild... 
+19:20:19.382 INFO  - Refreshed build settings on project ethernet_project 
+19:21:19.041 INFO  - Settings changed on project ethernet_project_bsp. Triggering a rebuild... 
+19:21:19.822 INFO  - Refreshed build settings on project ethernet_project 
+19:22:16.501 INFO  - Settings changed on project ethernet_project_bsp. Triggering a rebuild... 
+19:22:17.344 INFO  - Refreshed build settings on project ethernet_project 
+19:24:37.614 INFO  - Settings changed on project ethernet_project_bsp. Triggering a rebuild... 
+19:24:38.440 INFO  - Refreshed build settings on project ethernet_project 
+19:25:20.391 INFO  - Settings changed on project ethernet_project_bsp. Triggering a rebuild... 
+19:25:21.156 INFO  - Refreshed build settings on project ethernet_project 
+19:55:12.417 INFO  - Settings changed on project ethernet_project_bsp. Triggering a rebuild... 
+19:55:14.127 INFO  - Refreshed build settings on project ethernet_project 
+20:02:52.357 INFO  - Settings changed on project ethernet_project_bsp. Triggering a rebuild... 
+20:02:53.027 INFO  - Refreshed build settings on project ethernet_project 
+20:04:36.787 INFO  - Settings changed on project ethernet_project_bsp. Triggering a rebuild... 
+20:04:37.607 INFO  - Refreshed build settings on project ethernet_project 
+20:08:45.497 INFO  - Settings changed on project ethernet_project_bsp. Triggering a rebuild... 
+20:08:45.947 INFO  - Refreshed build settings on project ethernet_project 
+20:09:48.978 ERROR - Unexpected error while obtaining referenced H/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:09:48.978 ERROR - Unexpected error while obtaining referenced H/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:09:54.138 ERROR - Unexpected error while obtaining referenced H/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:09:54.148 ERROR - Unexpected error while obtaining referenced H/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:10:14.428 INFO  - Settings changed on project ethernet_project_bsp. Triggering a rebuild... 
+20:10:33.678 INFO  - Settings changed on project ethernet_project_bsp. Triggering a rebuild... 
+20:14:25.468 INFO  - Settings changed on project ethernet_project_bsp. Triggering a rebuild... 
+20:14:26.238 INFO  - Refreshed build settings on project ethernet_project 
+20:15:46.229 INFO  - Settings changed on project ethernet_project_bsp. Triggering a rebuild... 
+20:15:47.019 INFO  - Refreshed build settings on project ethernet_project 
+20:16:21.721 INFO  - Settings changed on project ethernet_project_bsp. Triggering a rebuild... 
+20:16:22.671 INFO  - Refreshed build settings on project ethernet_project 
+20:43:36.179 INFO  - Project hw_ps7's source hardware specification located at C:\Users\dgronlund\fpga\oled_project\oled_project.sdk\SDK\SDK_Export\hw\zynq_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+20:43:42.909 INFO  - Copied contents of C:\Users\dgronlund\fpga\oled_project\oled_project.sdk\SDK\SDK_Export\hw\zynq_1.xml into \hw_ps7\system.xml. 
+20:43:42.969 INFO  - Copied contents of C:\Users\dgronlund\fpga\oled_project\oled_project.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_ps7\ps7_init.c. 
+20:43:42.969 INFO  - Copied contents of C:\Users\dgronlund\fpga\oled_project\oled_project.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_ps7\ps7_init.h. 
+20:43:42.969 INFO  - Copied contents of C:\Users\dgronlund\fpga\oled_project\oled_project.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_ps7\ps7_init.html. 
+20:43:42.979 INFO  - Copied contents of C:\Users\dgronlund\fpga\oled_project\oled_project.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_ps7\ps7_summary.html. 
+20:43:42.979 INFO  - Copied contents of C:\Users\dgronlund\fpga\oled_project\oled_project.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_ps7\ps7_init.tcl. 
+20:43:43.079 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+20:43:45.119 INFO  - Updating hardware inferred compiler options for ethernet_project. 
+20:43:45.119 INFO  - Clearing existing target manager status. 
+20:43:45.129 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/oled_project' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:521)
+
+20:43:45.129 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/oled_project_bsp_0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:521)
+
+20:43:46.129 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+20:44:36.270 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:41:25.918 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:41:26.028 INFO  - PS initialization will be done as it is not done before. 
+16:41:26.028 INFO  - Running PS initialization.... 
+16:41:26.152 INFO  - ps7_init is completed. 
+16:41:26.262 INFO  - ps7_post_config is completed. 
+16:41:26.371 INFO  - PS Initialization is complete. 
+17:07:27.682 INFO  - Settings changed on project ethernet_project_bsp. Triggering a rebuild... 
+17:07:29.445 INFO  - Refreshed build settings on project ethernet_project 
+17:09:33.680 INFO  - Settings changed on project ethernet_project_bsp. Triggering a rebuild... 
+17:09:34.492 INFO  - Refreshed build settings on project ethernet_project 
+17:36:27.797 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:36:30.201 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:37:48.375 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:37:50.343 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:39:40.060 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:39:41.809 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:40:05.491 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:40:07.786 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:40:21.453 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:40:23.421 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:06:51.613 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:06:54.345 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:09:35.509 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:09:37.758 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:35:47.807 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:35:53.269 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:39:49.290 INFO  - Settings changed on project ethernet_project_bsp. Triggering a rebuild... 
+17:39:55.599 INFO  - Refreshed build settings on project ethernet_project 
+19:19:41.187 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:19:41.287 INFO  - PS initialization will be done as it is not done before. 
+19:19:41.287 INFO  - Running PS initialization.... 
+19:19:41.417 INFO  - ps7_init is completed. 
+19:19:41.517 INFO  - ps7_post_config is completed. 
+19:19:41.617 INFO  - PS Initialization is complete. 
+19:33:57.652 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:33:59.404 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:34:12.075 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:34:15.377 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:34:39.688 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:34:41.190 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:36:29.812 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:36:31.414 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:37:29.788 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:46:22.816 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:47:20.329 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:47:39.901 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:47:41.223 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:52:26.304 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:52:27.816 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:54:39.497 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:54:41.299 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:55:01.890 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:55:05.092 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:56:11.673 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:56:12.935 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:58:24.316 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:58:25.878 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:59:32.259 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:59:33.461 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:00:00.632 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:00:02.134 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:00:11.885 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:00:13.427 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:01:23.478 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:01:25.680 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:02:31.661 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:02:33.823 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:04:50.224 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:04:52.226 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:06:02.097 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:06:04.699 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:06:19.292 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:06:36.538 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:08:07.220 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:08:09.222 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:09:50.803 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:09:52.605 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:35:54.386 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+20:35:57.475 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:50:37.844 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:50:37.875 INFO  - PS initialization will be done as it is not done before. 
+16:50:37.875 INFO  - Running PS initialization.... 
+16:50:38.000 INFO  - ps7_init is completed. 
+16:50:38.109 INFO  - ps7_post_config is completed. 
+16:50:38.218 INFO  - PS Initialization is complete. 
+16:51:00.161 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:51:02.175 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:51:38.275 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:51:40.024 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:52:38.182 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:52:40.259 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:57:07.106 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:57:08.527 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:58:23.036 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:58:24.567 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:37:06.547 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:37:06.647 INFO  - PS initialization will be done as it is not done before. 
+17:37:06.647 INFO  - Running PS initialization.... 
+17:37:06.767 INFO  - ps7_init is completed. 
+17:37:06.867 INFO  - ps7_post_config is completed. 
+17:37:06.967 INFO  - PS Initialization is complete. 
+17:37:49.788 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:37:51.731 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:38:52.571 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:38:53.963 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:39:28.089 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:39:29.251 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:39:51.056 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:39:52.459 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:49:57.711 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:49:59.613 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:51:12.713 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:51:15.164 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:52:12.543 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:52:53.058 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:53:00.309 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:53:01.910 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:54:42.562 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:55:01.268 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+17:55:01.268 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+17:56:09.719 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:56:47.326 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:58:20.137 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+17:58:20.138 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+17:58:49.301 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+17:59:07.361 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+17:59:59.181 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:00:43.377 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:01:20.849 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:01:22.751 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:02:22.862 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:02:24.864 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:06:44.434 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:06:46.236 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:08:05.189 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:09:21.403 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:36:36.671 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:36:49.764 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:38:50.288 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:55:54.681 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:42:14.561 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:42:36.986 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:42:55.608 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:42:57.611 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:43:26.142 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:43:28.344 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:19:34.007 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+13:47:17.187 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:47:17.297 INFO  - PS initialization will be done as it is not done before. 
+13:47:17.297 INFO  - Running PS initialization.... 
+13:47:17.421 INFO  - ps7_init is completed. 
+13:47:17.531 INFO  - ps7_post_config is completed. 
+13:47:17.640 INFO  - PS Initialization is complete. 
+13:48:12.497 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:49:18.458 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+13:49:18.458 ERROR - Timeout occured while waiting to get reply for command "xstop 64" 
+13:50:47.943 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:51:19.524 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:56:42.899 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:56:44.409 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:57:06.351 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:57:07.953 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:58:00.775 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:58:02.477 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:58:08.949 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:59:11.086 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:59:46.409 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:59:48.111 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:01:14.253 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:01:16.005 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:04:55.339 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:06:20.467 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:06:22.168 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:07:15.611 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:07:36.546 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:07:59.336 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:08:52.544 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:13:18.038 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+14:13:18.039 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+14:15:08.918 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:16:09.559 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+14:16:09.580 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+14:17:49.158 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:20:42.822 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:20:43.123 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot flush JTAG buffers
+    Error Address = 0x00109000, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+14:20:43.193 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+14:20:50.175 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+14:21:16.335 ERROR - Port COM3 is already in use. 
+14:21:18.975 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+14:21:33.886 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:22:00.240 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:22:31.251 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:22:33.253 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:22:45.787 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:22:47.690 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:25:38.345 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:25:40.048 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:27:21.684 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:27:23.286 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:28:31.922 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:28:33.824 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:30:05.270 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:30:07.593 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:30:19.305 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:32:31.914 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:32:41.037 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:40:30.569 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:41:47.732 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:52:46.963 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:54:29.614 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:54:31.516 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:55:17.736 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:55:19.538 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:55:29.819 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:55:31.521 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:57:52.459 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:57:54.061 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:58:16.364 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:58:18.077 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:59:39.286 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:59:41.288 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:00:42.526 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:00:44.028 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:02:09.467 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:02:11.369 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:04:13.685 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:04:15.287 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:04:55.152 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:05:15.874 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:05:17.476 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:07:47.562 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:07:49.164 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:11:05.660 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:11:07.302 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:11:23.243 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:11:24.755 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:27:26.175 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:27:28.677 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:27:53.508 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:27:56.110 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:42:16.855 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:42:19.057 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:42:41.378 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:42:43.390 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:42:53.551 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:42:55.553 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:43:09.274 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:43:11.676 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:43:39.497 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:43:41.649 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:43:55.970 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:43:58.772 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:07:50.997 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:11:41.889 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:12:48.924 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:12:49.024 INFO  - PS initialization will be done as it is not done before. 
+16:12:49.024 INFO  - Running PS initialization.... 
+16:12:49.144 INFO  - ps7_init is completed. 
+16:12:49.244 INFO  - ps7_post_config is completed. 
+16:12:49.344 INFO  - PS Initialization is complete. 
+16:13:26.526 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:13:28.228 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:14:21.309 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:14:23.511 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:14:44.783 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:14:46.785 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:15:38.756 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:15:40.858 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:16:25.471 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:16:25.571 INFO  - PS initialization will be done as it is not done before. 
+16:16:25.571 INFO  - Running PS initialization.... 
+16:16:25.701 INFO  - ps7_init is completed. 
+16:16:25.801 INFO  - ps7_post_config is completed. 
+16:16:25.901 INFO  - PS Initialization is complete. 
+16:16:59.873 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:17:01.675 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:17:14.826 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:17:16.428 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:17:49.741 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:17:49.841 INFO  - PS initialization will be done as it is not done before. 
+16:17:49.841 INFO  - Running PS initialization.... 
+16:17:49.961 INFO  - ps7_init is completed. 
+16:17:50.061 INFO  - ps7_post_config is completed. 
+16:17:50.161 INFO  - PS Initialization is complete. 
+16:18:21.843 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:18:23.465 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:23:53.812 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:23:53.913 INFO  - PS initialization will be done as it is not done before. 
+16:23:53.913 INFO  - Running PS initialization.... 
+16:23:54.043 INFO  - ps7_init is completed. 
+16:23:54.143 INFO  - ps7_post_config is completed. 
+16:23:54.243 INFO  - PS Initialization is complete. 
+16:24:12.828 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:24:33.189 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:24:59.364 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:28:36.468 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:31:05.112 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+16:31:30.515 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:31:30.615 INFO  - PS initialization will be done as it is not done before. 
+16:31:30.615 INFO  - Running PS initialization.... 
+16:31:30.745 INFO  - ps7_init is completed. 
+16:31:30.845 INFO  - ps7_post_config is completed. 
+16:31:30.945 INFO  - PS Initialization is complete. 
+16:31:39.729 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:32:57.364 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:32:57.464 INFO  - PS initialization will be done as it is not done before. 
+16:32:57.464 INFO  - Running PS initialization.... 
+16:32:57.584 INFO  - ps7_init is completed. 
+16:32:57.684 INFO  - ps7_post_config is completed. 
+16:32:57.784 INFO  - PS Initialization is complete. 
+16:33:09.558 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:39:35.195 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:39:36.997 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:39:52.318 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:39:53.920 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:40:50.001 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+16:40:50.001 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+16:41:09.503 ERROR - Checking FPGA configuration failed..Lost communication with jtag cable. Run "xdisconnect -cable"
+    and start over again
+
+ 
+16:41:19.203 ERROR - Checking FPGA configuration failed..Lost communication with jtag cable. Run "xdisconnect -cable"
+    and start over again
+
+ 
+16:41:58.713 ERROR - Checking FPGA configuration failed..Lost communication with jtag cable. Run "xdisconnect -cable"
+    and start over again
+
+ 
+16:42:44.813 ERROR - Checking FPGA configuration failed..Lost communication with jtag cable. Run "xdisconnect -cable"
+    and start over again
+
+ 
+16:42:51.833 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:43:14.186 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:43:14.286 INFO  - PS initialization will be done as it is not done before. 
+16:43:14.286 INFO  - Running PS initialization.... 
+16:43:14.416 INFO  - ps7_init is completed. 
+16:43:14.516 INFO  - ps7_post_config is completed. 
+16:43:14.616 INFO  - PS Initialization is complete. 
+16:45:10.720 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:45:57.692 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+16:45:57.692 ERROR - Timeout occured while waiting to get reply for command "xstop 64" 
+16:46:22.022 ERROR - Port COM3 is already in use. 
+16:46:22.322 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:46:22.623 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Invalid Target ID
+    Target '64' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+18:03:15.093 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+19:23:11.295 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:23:11.404 INFO  - PS initialization will be done as it is not done before. 
+19:23:11.404 INFO  - Running PS initialization.... 
+19:23:11.700 INFO  - ps7_init is completed. 
+19:23:11.810 INFO  - ps7_post_config is completed. 
+19:23:11.919 INFO  - PS Initialization is complete. 
+19:23:40.864 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:24:14.457 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:24:30.250 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:24:52.500 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:25:02.488 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:27:34.267 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:27:46.439 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:28:35.693 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:28:50.487 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:31:26.837 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:32:18.912 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:34:54.816 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:35:09.984 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:36:07.982 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:37:28.867 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:38:10.288 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:38:33.832 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:39:23.708 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:40:36.586 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:41:06.322 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:43:42.600 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:43:44.194 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:43:57.128 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:44:41.233 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:45:16.010 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:45:56.993 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:46:32.362 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:46:56.188 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:48:14.426 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:48:35.848 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:48:45.025 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:49:05.138 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:56:14.742 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:56:22.562 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:56:42.253 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:56:53.880 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:05:00.992 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:06:16.110 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:06:36.909 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:06:56.070 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:07:27.243 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:09:44.353 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:09:46.492 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:41:25.066 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:41:26.968 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:41:48.230 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:41:49.762 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:52:29.290 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+20:52:29.290 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:50:37.761 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:50:37.781 INFO  - PS initialization will be done as it is not done before. 
+17:50:37.781 INFO  - Running PS initialization.... 
+17:50:37.911 INFO  - ps7_init is completed. 
+17:50:38.011 INFO  - ps7_post_config is completed. 
+17:50:38.111 INFO  - PS Initialization is complete. 
+18:34:06.878 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:35:01.150 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:35:02.952 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:39:04.793 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:39:06.495 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:45:10.440 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:45:12.042 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:50:34.192 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:50:36.064 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:50:56.395 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:58:13.199 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:58:14.701 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:58:34.323 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:58:36.225 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:12:18.998 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:50:07.675 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:50:09.577 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:50:32.679 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:50:34.381 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:50:59.023 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:51:01.025 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:19:11.757 INFO  - Settings changed on project ethernet_project_bsp. Triggering a rebuild... 
+20:19:15.187 INFO  - Refreshed build settings on project ethernet_project 
+20:19:15.197 INFO  - Refreshed build settings on project raw_apps 
+20:21:52.885 ERROR - Unexpected error while launching program. java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(Unknown Source)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(Unknown Source)
+
+20:23:34.543 INFO  - Successfully generated C:\Users\dgronlund\fpga\oled_project\oled_project.sdk\SDK\SDK_Export\ethernet_project\src\lscript.ld. 
+20:23:34.546 INFO  - Applying linker script to all configurations of project ethernet_project. 
+20:23:34.547 INFO  - Setting rebuild state to true for all configurations of project ethernet_project. 
+20:25:28.869 INFO  - Settings changed on project ethernet_project_bsp. Triggering a rebuild... 
+20:25:29.712 INFO  - Refreshed build settings on project ethernet_project 
+20:25:29.719 INFO  - Refreshed build settings on project raw_apps 
+20:39:20.854 INFO  - Successfully generated C:\Users\dgronlund\Downloads\xapp1026\xapp1026\xapp1026_14_3\zc702_GigE\sw\raw_apps\src\lscript.ld. 
+20:39:20.854 INFO  - Applying linker script to all configurations of project raw_apps. 
+20:39:20.854 INFO  - Setting rebuild state to true for all configurations of project raw_apps. 
+20:39:33.934 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:39:35.234 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+20:40:21.194 INFO  - Successfully generated C:\Users\dgronlund\fpga\oled_project\oled_project.sdk\SDK\SDK_Export\ethernet_project\src\lscript.ld. 
+20:40:21.194 INFO  - Applying linker script to all configurations of project ethernet_project. 
+20:40:21.194 INFO  - Setting rebuild state to true for all configurations of project ethernet_project. 
+20:41:21.344 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:41:22.644 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+20:42:08.154 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:42:08.154 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:43:28.944 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:43:35.474 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+20:44:00.874 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:44:02.274 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+20:44:18.804 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+20:37:15.209 ERROR - Unable to determine the referenced BSP for application project linux_project. Please make sure that the project specified in the launch configuration has a referenced BSP project. 
+20:37:53.522 WARN  - The current launch is configured to reset the entire system. However, the design contains multiple processors, and resetting the system will reset the other processors as well. If you would like to avoid this, please update the launch configuration to reset the processor only. 
+20:38:04.115 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+20:38:05.269 INFO  - System reset is completed. 
+20:38:05.707 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Function "exit" not found in Elf file "C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_project/Debug/linux_project.elf"
+
+Symbol Not Found in Elf File
+    Symbol exit in Elf C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_project/Debug/linux_project.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+20:40:14.548 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+20:40:14.658 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:40:14.767 INFO  - PS initialization will be done as it is not done before. 
+20:40:14.767 INFO  - Running PS initialization.... 
+20:40:15.016 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+20:40:53.221 ERROR - Port COM3 is already in use. 
+20:40:53.283 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+20:40:53.392 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:40:53.502 INFO  - PS initialization will be done as it is not done before. 
+20:40:53.502 INFO  - Running PS initialization.... 
+20:40:53.611 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+20:41:19.732 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+20:41:43.400 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+20:41:43.509 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:41:43.619 INFO  - PS initialization will be done as it is not done before. 
+20:41:43.619 INFO  - Running PS initialization.... 
+20:41:43.868 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+20:42:00.716 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+18:19:50.195 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+18:23:17.047 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+18:26:14.829 ERROR - Unable to determine the referenced BSP for application project linux_project. Please make sure that the project specified in the launch configuration has a referenced BSP project. 
+18:26:33.329 WARN  - The current launch is configured to reset the entire system. However, the design contains multiple processors, and resetting the system will reset the other processors as well. If you would like to avoid this, please update the launch configuration to reset the processor only. 
+18:26:33.519 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+18:26:34.529 INFO  - System reset is completed. 
+18:26:34.930 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Function "exit" not found in Elf file "C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_project/Debug/linux_project.elf"
+
+Symbol Not Found in Elf File
+    Symbol exit in Elf C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_project/Debug/linux_project.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+18:44:56.082 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+18:44:56.182 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:44:56.182 INFO  - PS initialization will be done as it is not done before. 
+18:44:56.182 INFO  - Running PS initialization.... 
+18:44:56.422 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+18:45:40.253 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+18:45:40.353 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:45:40.453 INFO  - PS initialization will be done as it is not done before. 
+18:45:40.453 INFO  - Running PS initialization.... 
+18:45:40.453 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+18:46:14.754 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+18:46:14.854 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:46:14.954 INFO  - PS initialization will be done as it is not done before. 
+18:46:14.954 INFO  - Running PS initialization.... 
+18:46:15.054 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+18:46:35.254 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+18:47:00.768 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+18:47:00.868 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:47:00.968 INFO  - PS initialization will be done as it is not done before. 
+18:47:00.968 INFO  - Running PS initialization.... 
+18:47:01.228 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+18:55:12.213 ERROR - Port COM3 is already in use. 
+18:55:12.413 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+18:55:12.513 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:55:12.613 INFO  - PS initialization will be done as it is not done before. 
+18:55:12.613 INFO  - Running PS initialization.... 
+18:55:12.713 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+18:58:45.635 INFO  - FPGA configured successfully with bitstream "C:/Users/dgronlund/fpga/oled_project/oled_project.runs/impl_1/main.bit" 
+19:51:18.303 INFO  - Restarting XMD session... 
+19:51:18.342 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+19:51:18.371 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+19:51:30.814 INFO  - XMD session has been restarted. 
+19:52:58.675 ERROR - Port COM3 is already in use. 
+19:52:58.945 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+19:52:59.076 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:52:59.173 INFO  - PS initialization will be done as it is not done before. 
+19:52:59.174 INFO  - Running PS initialization.... 
+19:52:59.808 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+19:53:38.751 ERROR - Unexpected Error while writing user command to XMD stdin: {} java.io.IOException
+	at org.eclipse.debug.internal.core.StreamsProxy.write(StreamsProxy.java:129)
+	at com.xilinx.sdk.targetmanager.ui.xmd.XMDConsolePresenter.issueXMDConsoleCommand(Unknown Source)
+
+19:53:46.823 ERROR - Unexpected Error while writing user command to XMD stdin: {} java.io.IOException
+	at org.eclipse.debug.internal.core.StreamsProxy.write(StreamsProxy.java:129)
+	at com.xilinx.sdk.targetmanager.ui.xmd.XMDConsolePresenter.issueXMDConsoleCommand(Unknown Source)
+
+19:53:49.994 INFO  - Restarting XMD session... 
+19:53:50.012 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+19:54:03.915 INFO  - XMD session has been restarted. 
+19:55:14.795 ERROR - Unexpected Error while writing user command to XMD stdin: {} java.io.IOException
+	at org.eclipse.debug.internal.core.StreamsProxy.write(StreamsProxy.java:129)
+	at com.xilinx.sdk.targetmanager.ui.xmd.XMDConsolePresenter.issueXMDConsoleCommand(Unknown Source)
+
+19:55:28.243 ERROR - Port COM3 is already in use. 
+19:55:28.569 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+19:55:28.699 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:55:28.828 INFO  - PS initialization will be done as it is not done before. 
+19:55:28.829 INFO  - Running PS initialization.... 
+19:55:29.712 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+19:55:34.078 ERROR - Port COM3 is already in use. 
+19:55:34.395 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+19:55:34.466 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:55:34.570 INFO  - PS initialization will be done as it is not done before. 
+19:55:34.570 INFO  - Running PS initialization.... 
+19:55:34.671 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+19:55:48.226 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+19:58:18.460 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+19:58:18.591 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:58:18.688 INFO  - PS initialization will be done as it is not done before. 
+19:58:18.688 INFO  - Running PS initialization.... 
+19:58:19.295 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+20:00:43.645 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:00:43.647 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:00:43.791 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:00:43.792 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:00:47.868 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:00:47.869 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:00:48.014 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:00:48.016 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:00:49.533 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:00:51.030 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:00:51.031 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:00:51.031 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:00:51.032 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:00:52.350 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:00:52.351 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:00:58.200 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:00:58.201 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:00:58.202 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:00:58.202 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:01:02.070 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:01:02.072 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:01:05.756 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:01:11.202 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:01:11.203 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:01:11.235 ERROR - Unable to determine the referenced BSP for application project linux_project. Please make sure that the project specified in the launch configuration has a referenced BSP project. 
+20:01:16.589 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:01:16.590 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:01:16.602 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:01:16.603 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:01:57.833 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:01:57.834 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:01:58.009 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:01:58.010 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:01:58.966 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:02:00.503 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:02:00.503 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:02:00.504 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:02:00.504 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:02:37.205 ERROR - Port COM3 is already in use. 
+20:02:37.405 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+20:02:37.505 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:02:37.605 INFO  - PS initialization will be done as it is not done before. 
+20:02:37.605 INFO  - Running PS initialization.... 
+20:02:37.705 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+20:04:42.189 ERROR - Port COM3 is already in use. 
+20:04:42.477 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+20:04:42.547 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:04:42.676 INFO  - PS initialization will be done as it is not done before. 
+20:04:42.693 INFO  - Running PS initialization.... 
+20:04:42.776 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+20:06:23.358 ERROR - Port COM3 is already in use. 
+20:06:23.601 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+20:06:23.700 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:06:23.798 INFO  - PS initialization will be done as it is not done before. 
+20:06:23.798 INFO  - Running PS initialization.... 
+20:06:23.896 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+20:06:54.919 ERROR - Port COM3 is already in use. 
+20:06:55.106 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+20:06:55.219 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:06:55.318 INFO  - PS initialization will be done as it is not done before. 
+20:06:55.318 INFO  - Running PS initialization.... 
+20:06:55.417 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+invalid command name "ps7_init"
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+20:12:31.335 ERROR - Port COM3 is already in use. 
+20:12:31.732 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:12:31.829 INFO  - PS initialization will be done as it is not done before. 
+20:12:31.829 INFO  - Running PS initialization.... 
+20:12:32.060 INFO  - ps7_init is completed. 
+20:12:32.159 INFO  - ps7_post_config is completed. 
+20:12:32.257 INFO  - PS Initialization is complete. 
+20:12:33.164 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Function "exit" not found in Elf file "C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_project/Debug/linux_project.elf"
+
+Symbol Not Found in Elf File
+    Symbol exit in Elf C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_project/Debug/linux_project.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+20:16:31.260 ERROR - Port COM3 is already in use. 
+20:16:31.632 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:16:32.174 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Function "exit" not found in Elf file "C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_project/Debug/linux_project.elf"
+
+Symbol Not Found in Elf File
+    Symbol exit in Elf C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_project/Debug/linux_project.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+20:17:16.420 ERROR - Port COM3 is already in use. 
+20:17:16.872 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:17:17.351 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Function "exit" not found in Elf file "C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_project/Debug/linux_project.elf"
+
+Symbol Not Found in Elf File
+    Symbol exit in Elf C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_project/Debug/linux_project.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+20:17:34.455 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+20:20:53.109 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:20:53.586 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Function "exit" not found in Elf file "C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_project/Debug/linux_project.elf"
+
+Symbol Not Found in Elf File
+    Symbol exit in Elf C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_project/Debug/linux_project.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+20:22:29.807 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:22:30.435 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Function "exit" not found in Elf file "C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_project/Debug/linux_project.elf"
+
+Symbol Not Found in Elf File
+    Symbol exit in Elf C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_project/Debug/linux_project.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+20:23:35.373 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:23:35.397 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:23:35.398 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:23:35.399 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+20:23:53.308 ERROR - Unexpected error while launching program. java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(Unknown Source)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(Unknown Source)
+
+20:26:40.469 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:26:40.895 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Function "exit" not found in Elf file "C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_project/Debug/linux_project.elf"
+
+Symbol Not Found in Elf File
+    Symbol exit in Elf C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_project/Debug/linux_project.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+20:26:54.153 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+20:52:52.599 ERROR - Unexpected error while launching program. java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(Unknown Source)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(Unknown Source)
+
+20:53:20.870 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:53:21.418 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Function "exit" not found in Elf file "C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_project/Debug/linux_project.elf"
+
+Symbol Not Found in Elf File
+    Symbol exit in Elf C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_project/Debug/linux_project.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+20:53:53.011 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+20:57:53.548 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:57:53.657 INFO  - PS initialization will be done as it is not done before. 
+20:57:53.657 INFO  - Running PS initialization.... 
+20:57:53.798 INFO  - ps7_init is completed. 
+20:57:53.798 INFO  - ps7_post_config is completed. 
+20:57:53.907 INFO  - PS Initialization is complete. 
+20:57:54.891 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Function "exit" not found in Elf file "C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_project/Debug/linux_project.elf"
+
+Symbol Not Found in Elf File
+    Symbol exit in Elf C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_project/Debug/linux_project.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+20:59:20.939 WARN  - Unexpected exception while copying file C:\Xilinx\SDK\2013.4\sw\lib\hwplatform_templates\zed_hw_platform\ps7_summary.html: java.io.FileNotFoundException: C:\Xilinx\SDK\2013.4\sw\lib\hwplatform_templates\zed_hw_platform\ps7_summary.html (The system cannot find the file specified) 
+21:00:01.621 ERROR - Unable to determine the referenced BSP for application project linux_test. Please make sure that the project specified in the launch configuration has a referenced BSP project. 
+21:01:33.995 WARN  - The current launch is configured to reset the entire system. However, the design contains multiple processors, and resetting the system will reset the other processors as well. If you would like to avoid this, please update the launch configuration to reset the processor only. 
+21:01:34.213 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+21:01:35.227 INFO  - System reset is completed. 
+21:01:35.478 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Function "exit" not found in Elf file "C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_test/Debug/linux_test.elf"
+
+Symbol Not Found in Elf File
+    Symbol exit in Elf C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_test/Debug/linux_test.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+21:02:50.423 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+15:53:19.909 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+15:53:19.954 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+15:53:21.824 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+15:53:21.826 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/ethernet_project_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:584)
+
+15:56:13.312 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:56:13.421 INFO  - PS initialization will be done as it is not done before. 
+15:56:13.421 INFO  - Running PS initialization.... 
+15:56:13.562 INFO  - ps7_init is completed. 
+15:56:13.671 INFO  - ps7_post_config is completed. 
+15:56:13.780 INFO  - PS Initialization is complete. 
+15:56:32.801 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:56:47.901 WARN  - The current launch is configured to reset the entire system. However, the design contains multiple processors, and resetting the system will reset the other processors as well. If you would like to avoid this, please update the launch configuration to reset the processor only. 
+15:56:48.120 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+15:56:49.135 INFO  - System reset is completed. 
+15:56:49.573 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Function "exit" not found in Elf file "C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_test/Debug/linux_test.elf"
+
+Symbol Not Found in Elf File
+    Symbol exit in Elf C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_test/Debug/linux_test.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+15:57:33.186 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:57:33.296 INFO  - PS initialization will be done as it is not done before. 
+15:57:33.296 INFO  - Running PS initialization.... 
+15:57:33.436 INFO  - ps7_init is completed. 
+15:57:33.545 INFO  - ps7_post_config is completed. 
+15:57:33.655 INFO  - PS Initialization is complete. 
+15:58:01.871 WARN  - The current launch is configured to reset the entire system. However, the design contains multiple processors, and resetting the system will reset the other processors as well. If you would like to avoid this, please update the launch configuration to reset the processor only. 
+15:58:02.090 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+15:58:03.105 INFO  - System reset is completed. 
+15:58:03.434 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Function "exit" not found in Elf file "C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_test/Debug/linux_test.elf"
+
+Symbol Not Found in Elf File
+    Symbol exit in Elf C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_test/Debug/linux_test.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+16:07:15.988 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:16:01.674 WARN  - The current launch is configured to reset the entire system. However, the design contains multiple processors, and resetting the system will reset the other processors as well. If you would like to avoid this, please update the launch configuration to reset the processor only. 
+16:16:01.798 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+16:16:02.812 INFO  - System reset is completed. 
+16:16:03.250 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Function "exit" not found in Elf file "C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_test/Debug/linux_test.elf"
+
+Symbol Not Found in Elf File
+    Symbol exit in Elf C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_test/Debug/linux_test.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+16:19:30.395 WARN  - The current launch is configured to reset the entire system. However, the design contains multiple processors, and resetting the system will reset the other processors as well. If you would like to avoid this, please update the launch configuration to reset the processor only. 
+16:19:30.494 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+16:19:31.511 INFO  - System reset is completed. 
+16:20:08.075 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:20:10.031 WARN  - The current launch is configured to reset the entire system. However, the design contains multiple processors, and resetting the system will reset the other processors as well. If you would like to avoid this, please update the launch configuration to reset the processor only. 
+16:20:10.123 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+16:20:11.154 INFO  - System reset is completed. 
+16:21:46.488 WARN  - The current launch is configured to reset the entire system. However, the design contains multiple processors, and resetting the system will reset the other processors as well. If you would like to avoid this, please update the launch configuration to reset the processor only. 
+16:21:46.588 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+16:21:47.603 INFO  - System reset is completed. 
+16:24:57.426 WARN  - The current launch is configured to reset the entire system. However, the design contains multiple processors, and resetting the system will reset the other processors as well. If you would like to avoid this, please update the launch configuration to reset the processor only. 
+16:24:57.550 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+16:24:58.564 INFO  - System reset is completed. 
+16:24:59.002 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Function "exit" not found in Elf file "C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_test/Debug/linux_test.elf"
+
+Symbol Not Found in Elf File
+    Symbol exit in Elf C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_test/Debug/linux_test.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+16:25:57.038 ERROR - Port COM3 is already in use. 
+16:25:57.038 WARN  - The current launch is configured to reset the entire system. However, the design contains multiple processors, and resetting the system will reset the other processors as well. If you would like to avoid this, please update the launch configuration to reset the processor only. 
+16:25:57.209 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+16:25:58.223 INFO  - System reset is completed. 
+16:25:58.474 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Function "exit" not found in Elf file "C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_test/Debug/linux_test.elf"
+
+Symbol Not Found in Elf File
+    Symbol exit in Elf C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/linux_test/Debug/linux_test.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+16:26:31.173 INFO  - Successfully generated C:\Users\dgronlund\fpga\oled_project\oled_project.sdk\SDK\SDK_Export\linux_test\linux_test.ld. 
+16:26:31.173 INFO  - Applying linker script to all configurations of project linux_test. 
+16:26:31.189 INFO  - Setting rebuild state to true for all configurations of project linux_test. 
+16:27:18.382 ERROR - Unexpected error while launching program. java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(Unknown Source)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(Unknown Source)
+
+16:41:53.217 INFO  - Project 'linux_hw' created. You can now create BSPs and application projects targeting this hardware platform. 
+18:30:42.238 ERROR - Unable to determine the referenced BSP for application project linux_test. Please make sure that the project specified in the launch configuration has a referenced BSP project. 
+19:33:35.965 ERROR - Unable to determine the referenced BSP for application project fsbl. Please make sure that the project specified in the launch configuration has a referenced BSP project. 
+19:33:53.669 WARN  - The current launch is configured to reset the entire system. However, the design contains multiple processors, and resetting the system will reset the other processors as well. If you would like to avoid this, please update the launch configuration to reset the processor only. 
+19:33:53.866 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+19:34:03.894 INFO  - System reset is completed. 
+19:34:04.225 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Function "exit" not found in Elf file "C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/fsbl/Debug/fsbl.elf"
+
+Symbol Not Found in Elf File
+    Symbol exit in Elf C:/Users/dgronlund/fpga/oled_project/oled_project.sdk/SDK/SDK_Export/fsbl/Debug/fsbl.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setBreakPoint(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+20:18:50.378 ERROR - Unable to determine the referenced BSP for application project linux_test. Please make sure that the project specified in the launch configuration has a referenced BSP project. 
+20:19:29.084 WARN  - The current launch is configured to reset the entire system. However, the design contains multiple processors, and resetting the system will reset the other processors as well. If you would like to avoid this, please update the launch configuration to reset the processor only. 
+20:19:29.282 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+20:19:39.290 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doSystemReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+20:19:39.292 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+20:20:23.147 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Lost communication with jtag cable. Run "xdisconnect -cable"
+    and start over again
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+20:20:39.591 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+20:20:39.591 ERROR - Timeout occured while waiting to get reply for command "xdisconnect -cable" 
+20:22:43.904 ERROR - Unexpected error while opening JTAG UART:  java.lang.RuntimeException: Error while opening JTAG UART server: MDM Uart NOT Present in the System
+Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.startJTAGUARTServer(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.comm.JTAGUARTStreamsProxy.<init>(Unknown Source)
+
+20:22:44.104 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+20:22:44.204 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Failed to download ELF file
+
+
+    MMU page permission fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+20:44:34.001 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:20:16.159 INFO  - Invoking Bootgen:  
+16:20:17.309 INFO  - Bootgen command execution is done. 

@@ -18,8 +18,8 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zynq_1_processi
 # IP: bd/zynq_1/ip/zynq_1_axi_gpio_0_0/zynq_1_axi_gpio_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zynq_1_axi_gpio_0_0 || ORIG_REF_NAME==zynq_1_axi_gpio_0_0}]
 
-# IP: bd/zynq_1/ip/zynq_1_auto_pc_2/zynq_1_auto_pc_2.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zynq_1_auto_pc_2 || ORIG_REF_NAME==zynq_1_auto_pc_2}]
+# IP: bd/zynq_1/ip/zynq_1_auto_pc_9/zynq_1_auto_pc_9.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==zynq_1_auto_pc_9 || ORIG_REF_NAME==zynq_1_auto_pc_9}]
 
 # XDC: bd/zynq_1/ip/zynq_1_processing_system7_1_0/zynq_1_processing_system7_1_0.xdc
 set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==zynq_1_processing_system7_1_0 || ORIG_REF_NAME==zynq_1_processing_system7_1_0}] {/inst }]/inst ]]
@@ -40,6 +40,6 @@ set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {R
 # XDC: bd/zynq_1/ip/zynq_1_axi_gpio_0_0/zynq_1_axi_gpio_0_0_board.xdc
 #dup# set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==zynq_1_axi_gpio_0_0 || ORIG_REF_NAME==zynq_1_axi_gpio_0_0}] {/U0 }]/U0 ]]
 
-# XDC: bd/zynq_1/ip/zynq_1_auto_pc_2/zynq_1_auto_pc_2_ooc.xdc
+# XDC: bd/zynq_1/ip/zynq_1_auto_pc_9/zynq_1_auto_pc_9_ooc.xdc
 
 # XDC: bd/zynq_1/zynq_1_ooc.xdc

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Jan 05 16:52:31 2014" VIVADOVERSION="2013.4">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Jan 07 20:43:24 2014" VIVADOVERSION="2013.4">
 
   <SYSTEMINFO ARCH="zynq" BOARD="em.avnet.com:zynq:zed:d" DEVICE="7z020" NAME="zynq_1_imp" PACKAGE="clg484" SPEEDGRADE="-1"/>
 
@@ -25,6 +25,16 @@
     <PORT DIR="IO" NAME="FIXED_IO_ps_srstb" SIGIS="undef"/>
     <PORT DIR="IO" NAME="FIXED_IO_ps_clk" SIGIS="undef"/>
     <PORT DIR="IO" NAME="FIXED_IO_ps_porb" SIGIS="undef"/>
+    <PORT DIR="O" NAME="PTP_ETHERNET_0_delay_req_rx" SIGIS="undef"/>
+    <PORT DIR="O" NAME="PTP_ETHERNET_0_delay_req_tx" SIGIS="undef"/>
+    <PORT DIR="O" NAME="PTP_ETHERNET_0_pdelay_req_rx" SIGIS="undef"/>
+    <PORT DIR="O" NAME="PTP_ETHERNET_0_pdelay_req_tx" SIGIS="undef"/>
+    <PORT DIR="O" NAME="PTP_ETHERNET_0_pdelay_resp_rx" SIGIS="undef"/>
+    <PORT DIR="O" NAME="PTP_ETHERNET_0_pdelay_resp_tx" SIGIS="undef"/>
+    <PORT DIR="O" NAME="PTP_ETHERNET_0_sync_frame_rx" SIGIS="undef"/>
+    <PORT DIR="O" NAME="PTP_ETHERNET_0_sync_frame_tx" SIGIS="undef"/>
+    <PORT DIR="O" NAME="PTP_ETHERNET_0_sof_rx" SIGIS="undef"/>
+    <PORT DIR="O" NAME="PTP_ETHERNET_0_sof_tx" SIGIS="undef"/>
     <PORT DIR="O" NAME="gpio" SIGIS="undef" SIGNAME="axi_gpio_0_gpio_io_o">
       <CONNECTIONS>
         <CONNECTION INSTANCE="axi_gpio_0" PORT="gpio_io_o"/>
@@ -266,7 +276,7 @@
         <PARAMETER NAME="RUSER_WIDTH" VALUE="0"/>
         <PARAMETER NAME="WUSER_WIDTH" VALUE="0"/>
         <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
-        <PARAMETER NAME="Component_Name" VALUE="zynq_1_auto_pc_3"/>
+        <PARAMETER NAME="Component_Name" VALUE="zynq_1_auto_pc_7"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
@@ -2231,7 +2241,7 @@
         <PARAMETER NAME="C_ENET_SLCR_100Mbps_DIV1" VALUE="5"/>
         <PARAMETER NAME="C_ENET_SLCR_10Mbps_DIV0" VALUE="1"/>
         <PARAMETER NAME="C_ENET_SLCR_10Mbps_DIV1" VALUE="50"/>
-        <PARAMETER NAME="C_ETH_MODE" VALUE="0"/>
+        <PARAMETER NAME="C_ETH_MODE" VALUE="1"/>
         <PARAMETER NAME="C_HAS_MDIO" VALUE="1"/>
         <PARAMETER NAME="C_INTERCONNECT_S_AXI_MASTERS" VALUE="ps7_cortexa9_0.M_AXI_DP &amp; ps7_cortexa9_1.M_AXI_DP"/>
         <PARAMETER NAME="C_S_AXI_BASEADDR" VALUE="0xE000B000"/>
