@@ -1,0 +1,11 @@
+#!/bin/bash
+
+g++ -c -O2 -ggdb -std=c++0x -pthread -I"../netTablesTest/networktables" -I"../netTablesTest/networktables2" -I"../netTablesTest/networktablesshim" -I"../netTablesTest" boneCv.cpp -o boneCv.o
+
+g++ -O2 -ggdb boneCv.o `pkg-config --cflags --libs opencv` -lpthread "../netTablesTest/NetTables.so" -o boneCv
+
+# ORIG: g++ -O2 -ggdb -v `pkg-config --cflags --libs opencv` *.so -lopencv_core -pthread -I"../netTablesTest/networktables" -I"../netTablesTest/networktables2" -I"../netTablesTest/networktablesshim" -I"../netTablesTest" "../netTablesTest/NetTables.so" boneCv.cpp -o boneCv
+
+#echo g++ -O2 `pkg-config --cflags --libs opencv` captureManipTest.cpp -o captureManipTest
+
+#g++ -O2 `pkg-config --cflags --libs opencv` -pthread -I"../netTablesTest/networktables" -I"../netTablesTest/networktables2" -I"../netTablesTest/networktablesshim" -I"../netTablesTest" "../netTablesTest/NetTables.so" boneCv.cpp -o boneCv
