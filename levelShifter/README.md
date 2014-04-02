@@ -9,3 +9,7 @@ A schematic and 3D rendering of the PCB is shown below:
 ![Level Shifter Schematic](images/schematic.png)
 
 ![Level Shifter PCB](images/3d_render.png)
+
+![Front of PCB](images/front.jpg)
+
+![Back of PCB](images/back.jpg)
